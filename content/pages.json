@@ -1,0 +1,329 @@
+{
+  "about-us": {
+    "heroImage": "/images/gallery/gallery-03.jpg",
+    "heroBadge": "Licensed Nevada General Contractor",
+    "heroHeading": "About Butler's Construction",
+    "heroSubtitle": "At Butler's Construction, custom isn’t just a word—it’s a way of life. We specialize in high-quality residential, commercial, and restoration services across Las Vegas, NV. With decades of experience and a passion for craftsmanship, we turn dream spaces into reality. From new builds to major remodels, we believe every project deserves the same attention to detail, clear communication, and commitment to excellence. Whether it’s your home, your business, or your investment property—we build with your vision at the core.",
+    "breadcrumbLabel": "About",
+    "formSource": null,
+    "body": [
+      {
+        "type": "heading",
+        "text": "Our Story"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We understand that construction is personal. That’s why we tailor every project to reflect your goals, lifestyle, and future needs. With Butler, you’re not just hiring a contractor you’re gaining a partner."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We offer a full range of services including home remodeling, commercial renovation, new construction, stucco, window replacement, skylight installations, and more. If you’re looking for quality, reliability, and service that exceeds expectations let’s build something amazing together."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Butler’s Construction is proud to serve the Las Vegas community with custom home builds, renovations, and energy-efficient upgrades for your lifestyle. With a commitment to craftsmanship, transparent communication, and personalized service, our team transforms houses into dream homes. From kitchen and bathroom remodels to whole-home renovations, we’re here to bring your vision to life."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Accredited Company Fully licensed, bonded, and insured. We follow the highest standards in construction and safety."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "100% Guarantee We don’t stop until you’re completely satisfied every detail matters to us because it matters to you."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Licensing & Credentials"
+      },
+      {
+        "type": "list",
+        "items": [
+          [
+            {
+              "type": "strong",
+              "text": "General B Nevada State Contractors Board License #74507"
+            },
+            {
+              "type": "text",
+              "text": " bid limit $1,000,000"
+            }
+          ],
+          [
+            {
+              "type": "strong",
+              "text": "C-1 Plumbing Nevada State Contractors Board License #81481"
+            },
+            {
+              "type": "text",
+              "text": " bid limit $10,000"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Fully licensed, bonded, and insured"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Located at "
+            },
+            {
+              "type": "link",
+              "text": "3255 Pepper Lane, Suite 109, Las Vegas NV 89120",
+              "href": "https://share.google/RlTXsX9Mf2oKONxKG",
+              "external": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "What We Do"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "From kitchen remodels to full commercial build-outs, plumbing to new home construction Butler's brings 37+ services under one roof. One contractor, one point of contact, one team that takes pride in the outcome."
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Las Vegas General Contractor | Butler's Construction",
+      "description": "Learn about Butler's Construction, a licensed Las Vegas contractor offering custom builds, remodels, renovations, and restoration services.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "datePublished": "2026-05-06T11:27:01+00:00",
+      "dateModified": "2026-05-12T15:02:22+00:00"
+    }
+  },
+  "gallery": {
+    "heroImage": "/images/gallery/gallery-08.jpg",
+    "heroBadge": null,
+    "heroHeading": "Our Work",
+    "heroSubtitle": "A selection of projects we've completed across Las Vegas — kitchen remodels, bathrooms, commercial work, and more. Built by hand. Built to last.",
+    "breadcrumbLabel": "Gallery",
+    "formSource": null,
+    "body": [],
+    "seo": {
+      "title": "Project Gallery | Butler's Construction",
+      "description": "View completed Las Vegas construction projects, including kitchen remodels, bathrooms, commercial spaces, and custom renovation work.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "datePublished": "2026-05-06T11:59:48+00:00",
+      "dateModified": "2026-05-12T15:25:09+00:00"
+    }
+  },
+  "contact-us": {
+    "heroImage": "/images/gallery/gallery-01.jpg",
+    "heroBadge": "We respond within 24 hours",
+    "heroHeading": "Contact Butler's",
+    "heroSubtitle": "Whether you're planning a full remodel, a commercial upgrade, or a quick service call — our team is ready to help. Call, email, or send us a message below and we'll get back to you within 24 hours.",
+    "breadcrumbLabel": "Contact",
+    "formSource": "Contact Us Page",
+    "body": [],
+    "seo": {
+      "title": "Contact Las Vegas Contractors | Butler's Construction",
+      "description": "Contact Butler's Construction for Las Vegas remodeling, construction, plumbing, and commercial services. Get a free quote within 24 hours.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "datePublished": "2026-05-06T13:10:33+00:00",
+      "dateModified": "2026-05-12T15:12:55+00:00"
+    }
+  },
+  "privacy-policy": {
+    "heroImage": null,
+    "heroBadge": null,
+    "heroHeading": "Privacy Policy",
+    "heroSubtitle": null,
+    "breadcrumbLabel": "Privacy Policy",
+    "formSource": null,
+    "body": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "em",
+            "text": "Last updated: April 15, 2026"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "When visitors leave comments on the site, we collect the data shown in the comments form, along with the visitor’s IP address and browser user agent string to help detect spam."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "An anonymized string (hash) created from your email address may be sent to the Gravatar service to check if you use it. The Gravatar service privacy policy is available at https://automattic.com/privacy/ . After approval of your comment, your profile picture may be visible to the public in the context of your comment."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you upload images to the site, avoid uploading images with embedded location data (EXIF GPS). Visitors to the website can download and extract location data from images."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you request a password reset, your IP address will be included in the reset email to enhance security."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you leave a comment, both the comment and its metadata are retained indefinitely so follow-up comments can be recognized and approved automatically."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "For users who register on our site (if any), we store the personal information provided in their profile. All users can see, edit, or delete their personal information at any time (except usernames). Website administrators can also view and edit that information."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you have an account or have left comments, you can request an exported file of your personal data, including anything you’ve provided. You can also request that we erase your personal data. This does not include any data we’re required to retain for legal, administrative, or security purposes."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Visitor comments may be scanned using an automated spam detection service."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Contact Us About Privacy"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "If you have questions about this privacy policy or how your information is handled, contact us:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "items": [
+          [
+            {
+              "type": "text",
+              "text": "Email: "
+            },
+            {
+              "type": "link",
+              "text": "info@bcss702.com",
+              "href": "mailto:info@bcss702.com"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Phone: "
+            },
+            {
+              "type": "link",
+              "text": "(702) 575-0781",
+              "href": "tel:+17025750781"
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "Mail: Butler's Construction and Service Solutions, LLC, 3255 Pepper Lane, Suite 109, Las Vegas, NV 89120"
+            }
+          ]
+        ]
+      }
+    ],
+    "seo": {
+      "title": null,
+      "description": null,
+      "robots": null,
+      "datePublished": null,
+      "dateModified": null
+    }
+  },
+  "services": {
+    "heroImage": null,
+    "heroBadge": null,
+    "heroHeading": "All Services",
+    "heroSubtitle": null,
+    "breadcrumbLabel": null,
+    "formSource": null,
+    "body": [],
+    "seo": {
+      "title": "Services - bcs7022",
+      "description": null,
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "datePublished": "2026-05-13T18:51:29+00:00",
+      "dateModified": "2026-05-13T18:51:29+00:00"
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Las Vegas General Contractor | Butler’s Construction",
+      "description": "Butler’s Construction is a licensed Las Vegas general contractor for kitchen & bathroom remodeling, new home construction, plumbing, and commercial projects. Call today.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "datePublished": "2026-05-06T11:28:28+00:00",
+      "dateModified": "2026-07-03T20:50:05+00:00"
+    }
+  }
+}
