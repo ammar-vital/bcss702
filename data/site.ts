@@ -45,7 +45,12 @@ export const siteConfig = {
     schema: ['Mo-Fr 07:00-18:00', 'Sa 08:00-16:00'],
   },
 
-  googleBusinessProfile: 'https://share.google/RlTXsX9Mf2oKONxKG',
+  googleBusinessProfile: 'https://share.google/5Vn1WubALQ4ARLK3U',
+  social: {
+    facebook: 'https://www.facebook.com/BCSS702/',
+    instagram: 'https://www.instagram.com/bcss702',
+    linkedin: 'https://www.linkedin.com/company/bcss702/',
+  },
   googleMapsEmbed:
     'https://maps.google.com/maps?q=3255+Pepper+Lane+Suite+109A+Las+Vegas+NV+89120&output=embed',
   googleMapsDirections:

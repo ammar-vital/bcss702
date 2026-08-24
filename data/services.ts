@@ -13,12 +13,12 @@ const seoFallbacks: Record<string, Pick<PageSeo, 'title' | 'description'>> = {
   'custom-tile-stonework': {
     title: "Custom Tile & Stonework Las Vegas | Butler's Construction",
     description:
-      'Custom tile and stonework in Las Vegas — backsplashes, floors, showers, and feature walls installed by a licensed general contractor.',
+      'Custom tile and stonework in Las Vegas, backsplashes, floors, showers, and feature walls installed by a licensed general contractor.',
   },
   'accessibility-remodels': {
-    title: "Accessibility Remodels (ADA) Las Vegas | Butler's Construction",
+    title: "Accessibility Remodels Las Vegas | Butler's Construction",
     description:
-      'ADA and aging-in-place remodels in Las Vegas — walk-in tubs, curbless showers, grab bars, and wider doorways from a licensed contractor.',
+      'ADA and aging-in-place remodels in Las Vegas, walk-in tubs, curbless showers, grab bars, and wider doorways from a licensed contractor.',
   },
   'commercial-contractor-las-vegas': {
     title: "Commercial Contractor Las Vegas | Butler's Construction",
@@ -28,17 +28,17 @@ const seoFallbacks: Record<string, Pick<PageSeo, 'title' | 'description'>> = {
   'water-heater-replacement-las-vegas': {
     title: "Water Heater Replacement Las Vegas | Butler's Construction",
     description:
-      'Water heater replacement in Las Vegas — tank and tankless installation by a licensed C-1 plumbing contractor. Free estimates.',
+      'Water heater replacement in Las Vegas, tank and tankless installation by a licensed C-1 plumbing contractor. Free estimates.',
   },
   'emergency-water-heater-repair': {
-    title: "Emergency Water Heater Repair Las Vegas | Butler's Construction",
+    title: "Emergency Water Heater Repair | Butler's Construction",
     description:
-      'Emergency water heater repair in Las Vegas — fast diagnosis and repair of leaks, pilot failures, and no-hot-water calls.',
+      'Emergency water heater repair in Las Vegas, fast diagnosis and repair of leaks, pilot failures, and no-hot-water calls.',
   },
 };
 
 /**
- * Rank Math served the sewer-line description on the shower & tub page — a
+ * Rank Math served the sewer-line description on the shower & tub page, a
  * copy/paste slip that left two pages sharing one off-topic description. The
  * replacement below is written from that page's own copy. SEO_MIGRATION.md
  * records the original value.
@@ -46,7 +46,7 @@ const seoFallbacks: Record<string, Pick<PageSeo, 'title' | 'description'>> = {
 const seoCorrections: Record<string, Pick<PageSeo, 'description'>> = {
   'shower-tub-conversions': {
     description:
-      'Tub-to-shower and shower-to-tub conversions in Las Vegas — design guidance, plumbing updates, and seamless installation by a licensed contractor.',
+      'Tub-to-shower and shower-to-tub conversions in Las Vegas, design guidance, plumbing updates, and seamless installation by a licensed contractor.',
   },
 };
 

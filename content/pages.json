@@ -3,7 +3,7 @@
     "heroImage": "/images/gallery/gallery-03.jpg",
     "heroBadge": "Licensed Nevada General Contractor",
     "heroHeading": "About Butler's Construction",
-    "heroSubtitle": "At Butler's Construction, custom isn’t just a word—it’s a way of life. We specialize in high-quality residential, commercial, and restoration services across Las Vegas, NV. With decades of experience and a passion for craftsmanship, we turn dream spaces into reality. From new builds to major remodels, we believe every project deserves the same attention to detail, clear communication, and commitment to excellence. Whether it’s your home, your business, or your investment property—we build with your vision at the core.",
+    "heroSubtitle": "At Butler's Construction, custom isn’t just a word, it’s a way of life. We specialize in high-quality residential, commercial, and restoration services across Las Vegas, NV. With decades of experience and a passion for craftsmanship, we turn dream spaces into reality. From new builds to major remodels, we believe every project deserves the same attention to detail, clear communication, and commitment to excellence. Whether it’s your home, your business, or your investment property, we build with your vision at the core.",
     "breadcrumbLabel": "About",
     "formSource": null,
     "body": [
@@ -129,7 +129,7 @@
     "heroImage": "/images/gallery/gallery-08.jpg",
     "heroBadge": null,
     "heroHeading": "Our Work",
-    "heroSubtitle": "A selection of projects we've completed across Las Vegas — kitchen remodels, bathrooms, commercial work, and more. Built by hand. Built to last.",
+    "heroSubtitle": "A selection of projects we've completed across Las Vegas, kitchen remodels, bathrooms, commercial work, and more. Built by hand. Built to last.",
     "breadcrumbLabel": "Gallery",
     "formSource": null,
     "body": [],
@@ -145,7 +145,7 @@
     "heroImage": "/images/gallery/gallery-01.jpg",
     "heroBadge": "We respond within 24 hours",
     "heroHeading": "Contact Butler's",
-    "heroSubtitle": "Whether you're planning a full remodel, a commercial upgrade, or a quick service call — our team is ready to help. Call, email, or send us a message below and we'll get back to you within 24 hours.",
+    "heroSubtitle": "Whether you're planning a full remodel, a commercial upgrade, or a quick service call, our team is ready to help. Call, email, or send us a message below and we'll get back to you within 24 hours.",
     "breadcrumbLabel": "Contact",
     "formSource": "Contact Us Page",
     "body": [],
@@ -320,7 +320,7 @@
   "home": {
     "seo": {
       "title": "Las Vegas General Contractor | Butler’s Construction",
-      "description": "Butler’s Construction is a licensed Las Vegas general contractor for kitchen & bathroom remodeling, new home construction, plumbing, and commercial projects. Call today.",
+      "description": "Licensed Las Vegas general contractor for kitchen and bathroom remodeling, new home construction, plumbing, and commercial work. Call Butler’s today.",
       "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
       "datePublished": "2026-05-06T11:28:28+00:00",
       "dateModified": "2026-07-03T20:50:05+00:00"

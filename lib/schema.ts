@@ -35,7 +35,12 @@ export function organizationSchema(): JsonObject {
       containedInPlace: { '@type': 'State', name: 'Nevada' },
     })),
     openingHours: siteConfig.hours.schema,
-    sameAs: [siteConfig.googleBusinessProfile],
+    sameAs: [
+      siteConfig.googleBusinessProfile,
+      siteConfig.social.facebook,
+      siteConfig.social.instagram,
+      siteConfig.social.linkedin,
+    ],
   };
 }
 

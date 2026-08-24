@@ -32,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry(contactPage.seo, 0.8, 'monthly'),
     entry(galleryPage.seo, 0.7, 'monthly'),
     ...services.map((service) => entry(service.seo, 0.8, 'monthly')),
+    {
+      url: absoluteUrl('/site-map/'),
+      lastModified: new Date(FALLBACK_MODIFIED),
+      changeFrequency: 'monthly' as const,
+      priority: 0.3,
+    },
     entry(privacyPage.seo, 0.3, 'yearly'),
   ];
 }

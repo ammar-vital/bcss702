@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
     return [
       // WordPress 301'd the old /about/ slug to the published /about-us/ page.
       { source: '/about', destination: '/about-us/', statusCode: 301 },
+      // Canonicalise www to the bare apex so link equity consolidates on one host.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.bcss702.com' }],
+        destination: 'https://bcss702.com/:path*',
+        statusCode: 301,
+      },
     ];
   },
   async headers() {

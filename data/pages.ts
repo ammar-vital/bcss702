@@ -97,7 +97,7 @@ export const servicesIndexPage = {
     // matching the pattern used by every other page.
     title: "All Services | Butler's Construction",
     description:
-      "All 37 services from Butler's Construction — Las Vegas remodeling, new construction, commercial build-outs, plumbing, restoration, and property maintenance.",
+      "Butler's Construction offers 37 Las Vegas services: remodeling, new construction, commercial build-outs, plumbing, restoration, and property maintenance.",
   }),
 };
 
