@@ -25,7 +25,18 @@ interface SmtpConfig {
 
 export function readSmtpConfig(): SmtpConfig | null {
   const host = process.env.SMTP_HOST;
-  if (!host) return null;
+  if (!host) {
+    // SMTP2GO HTTP API path: return a sentinel so callers treat mail as configured.
+    if (process.env.SMTP2GO_API_KEY) {
+      return {
+        host: 'smtp2go-api',
+        port: 0,
+        secure: true,
+        from: process.env.MAIL_FROM ?? "Butler's Construction Website <noreply@baseagentai.com>",
+      };
+    }
+    return null;
+  }
   const port = Number(process.env.SMTP_PORT ?? 587);
   return {
     host,
@@ -53,7 +64,45 @@ function encodeSubject(subject: string): string {
  * keeps the same behaviour without pulling in a dependency, and is a no-op
  * (logging only) when no SMTP host is configured.
  */
+async function sendViaSmtp2go(message: MailMessage): Promise<void> {
+  const apiKey = process.env.SMTP2GO_API_KEY;
+  if (!apiKey) throw new Error('SMTP2GO_API_KEY is not set');
+  const sender =
+    process.env.MAIL_FROM ?? "Butler's Construction Website <noreply@baseagentai.com>";
+  const customHeaders = message.replyTo
+    ? [{ header: 'Reply-To', value: sanitizeHeaderValue(message.replyTo) }]
+    : [];
+  const response = await fetch('https://api.smtp2go.com/v3/email/send', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      api_key: apiKey,
+      sender,
+      to: message.to,
+      subject: message.subject,
+      text_body: message.text,
+      ...(customHeaders.length ? { custom_headers: customHeaders } : {}),
+    }),
+  });
+  const data = (await response.json().catch(() => ({}))) as {
+    data?: { succeeded?: number; failures?: unknown };
+  };
+  if (!response.ok || !data?.data?.succeeded) {
+    throw new Error(
+      `SMTP2GO send failed: ${response.status} ${JSON.stringify(data?.data?.failures ?? data)}`,
+    );
+  }
+}
+
 export async function sendMail(message: MailMessage): Promise<void> {
+  // Preferred transport on serverless: SMTP2GO's HTTPS API. Raw SMTP sockets are
+  // frequently blocked or throttled on serverless platforms, so use the API when
+  // its key is present and fall back to the raw SMTP client otherwise.
+  if (process.env.SMTP2GO_API_KEY) {
+    await sendViaSmtp2go(message);
+    return;
+  }
+
   const config = readSmtpConfig();
 
   if (!config) {
