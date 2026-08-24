@@ -28,14 +28,14 @@ export const siteConfig = {
   email: 'info@bcss702.com',
 
   address: {
-    street: '3255 Pepper Lane, Suite 109',
+    street: '3255 Pepper Lane, Suite 109A',
     locality: 'Las Vegas',
     region: 'NV',
     postalCode: '89120',
     country: 'US',
     /** Two-line form used inside the contact cards. */
-    lines: ['3255 Pepper Lane, Suite 109', 'Las Vegas, NV 89120'],
-    single: '3255 Pepper Lane, Suite 109 Las Vegas, NV 89120',
+    lines: ['3255 Pepper Lane, Suite 109A', 'Las Vegas, NV 89120'],
+    single: '3255 Pepper Lane, Suite 109A Las Vegas, NV 89120',
   },
 
   hours: {
@@ -47,9 +47,9 @@ export const siteConfig = {
 
   googleBusinessProfile: 'https://share.google/RlTXsX9Mf2oKONxKG',
   googleMapsEmbed:
-    'https://maps.google.com/maps?q=3255+Pepper+Lane+Suite+109+Las+Vegas+NV+89120&output=embed',
+    'https://maps.google.com/maps?q=3255+Pepper+Lane+Suite+109A+Las+Vegas+NV+89120&output=embed',
   googleMapsDirections:
-    'https://www.google.com/maps/dir/?api=1&destination=3255+Pepper+Lane+Suite+109+Las+Vegas+NV+89120',
+    'https://www.google.com/maps/dir/?api=1&destination=3255+Pepper+Lane+Suite+109A+Las+Vegas+NV+89120',
 
   licenses: [
     'General B Nevada State Contractors Board License #74507 bid limit $1,000,000',

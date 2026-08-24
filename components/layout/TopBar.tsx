@@ -20,7 +20,7 @@ export function TopBar({ variant }: { variant: Variant }) {
   if (variant === 'services') {
     return (
       <div className="top-bar">
-        Call Us Today: {phone} &nbsp;|&nbsp; 3255 Pepper Lane, Suite 109, Las Vegas NV
+        Call Us Today: {phone} &nbsp;|&nbsp; 3255 Pepper Lane, Suite 109A, Las Vegas NV
       </div>
     );
   }
@@ -28,7 +28,7 @@ export function TopBar({ variant }: { variant: Variant }) {
   return (
     <div className="top-bar">
       Call Us Today: {phone} &nbsp;|&nbsp; NV Licensed General Contractor &nbsp;|&nbsp; 3255 Pepper
-      Lane, Suite 109, Las Vegas
+      Lane, Suite 109A, Las Vegas
     </div>
   );
 }
