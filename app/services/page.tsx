@@ -9,7 +9,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { servicesIndexPage } from '@/data/pages';
 import { servicesAlphabetical } from '@/data/services';
 import { absoluteUrl } from '@/data/site';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata(servicesIndexPage.seo);
@@ -50,8 +50,7 @@ export default function ServicesIndexPage() {
       </main>
       <MinimalFooter />
       <JsonLd
-        json={graph([
-          webPageSchema(servicesIndexPage.seo),
+        json={pageGraph(servicesIndexPage.seo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: 'Services', path: '/services/' },

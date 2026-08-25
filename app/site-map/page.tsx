@@ -12,7 +12,7 @@ import {
   servicesIndexPage,
 } from '@/data/pages';
 import { services } from '@/data/services';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 import type { PageSeo } from '@/types/seo';
 
@@ -85,8 +85,7 @@ export default function SiteMapPage() {
       </section>
 
       <JsonLd
-        json={graph([
-          webPageSchema(sitemapSeo),
+        json={pageGraph(sitemapSeo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: 'Site Map', path: '/site-map/' },

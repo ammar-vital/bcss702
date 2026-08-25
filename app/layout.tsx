@@ -1,9 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 
-import { JsonLd } from '@/components/seo/JsonLd';
 import { SITE_URL, siteConfig } from '@/data/site';
-import { graph, organizationSchema, websiteSchema } from '@/lib/schema';
 
 import './globals.css';
 
@@ -42,7 +40,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         {children}
-        <JsonLd json={graph([organizationSchema(), websiteSchema()])} />
       </body>
     </html>
   );

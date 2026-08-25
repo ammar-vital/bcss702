@@ -11,8 +11,8 @@ export function TopBar({ variant }: { variant: Variant }) {
   if (variant === 'home') {
     return (
       <div className="top-bar">
-        Call Us Today: {phone} &nbsp;|&nbsp; Serving All of Las Vegas, NV &nbsp;|&nbsp; Licensed &amp;
-        Insured General Contractor
+        Call Us Today: {phone} &nbsp;|&nbsp; Licensed &amp; Insured General Contractor &nbsp;|&nbsp;{' '}
+        {siteConfig.licenseShort}
       </div>
     );
   }
@@ -20,15 +20,16 @@ export function TopBar({ variant }: { variant: Variant }) {
   if (variant === 'services') {
     return (
       <div className="top-bar">
-        Call Us Today: {phone} &nbsp;|&nbsp; 3255 Pepper Lane, Suite 109A, Las Vegas NV
+        Call Us Today: {phone} &nbsp;|&nbsp; {siteConfig.licenseShort} &nbsp;|&nbsp; 3255 Pepper Lane,
+        Suite 109A, Las Vegas NV
       </div>
     );
   }
 
   return (
     <div className="top-bar">
-      Call Us Today: {phone} &nbsp;|&nbsp; NV Licensed General Contractor &nbsp;|&nbsp; 3255 Pepper
-      Lane, Suite 109A, Las Vegas
+      Call Us Today: {phone} &nbsp;|&nbsp; NV Licensed General Contractor &nbsp;|&nbsp;{' '}
+      {siteConfig.licenseShort} &nbsp;|&nbsp; 3255 Pepper Lane, Suite 109A, Las Vegas
     </div>
   );
 }

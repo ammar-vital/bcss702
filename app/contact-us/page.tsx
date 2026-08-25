@@ -7,7 +7,7 @@ import { ContactDetails, contactPageItems } from '@/components/sections/ContactD
 import { InnerHero } from '@/components/sections/InnerHero';
 import { contactFormServiceOptions, contactPage } from '@/data/pages';
 import { siteConfig } from '@/data/site';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata(contactPage.seo);
@@ -65,8 +65,7 @@ export default function ContactUsPage() {
       </section>
 
       <JsonLd
-        json={graph([
-          webPageSchema(contactPage.seo),
+        json={pageGraph(contactPage.seo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: contactPage.breadcrumbLabel, path: contactPage.seo.path },

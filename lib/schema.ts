@@ -29,6 +29,13 @@ export function organizationSchema(): JsonObject {
       postalCode: siteConfig.address.postalCode,
       addressCountry: siteConfig.address.country,
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: siteConfig.geo.latitude,
+      longitude: siteConfig.geo.longitude,
+    },
+    hasMap: siteConfig.googleMapsDirections,
+    priceRange: siteConfig.priceRange,
     areaServed: siteConfig.serviceArea.map((name) => ({
       '@type': 'City',
       name,
@@ -108,4 +115,32 @@ export function serviceSchema(input: {
 
 export function graph(nodes: JsonObject[]): string {
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': nodes });
+}
+
+/** A Question/Answer pair rendered in a page's FAQ block and its FAQPage node. */
+export interface FaqEntry {
+  question: string;
+  answer: string;
+}
+
+export function faqPageSchema(entries: FaqEntry[]): JsonObject {
+  return {
+    '@type': 'FAQPage',
+    mainEntity: entries.map((entry) => ({
+      '@type': 'Question',
+      name: entry.question,
+      acceptedAnswer: { '@type': 'Answer', text: entry.answer },
+    })),
+  };
+}
+
+/**
+ * One consolidated graph per page, led by the Organization (GeneralContractor)
+ * node so search engines and inspectors read the business entity first, then
+ * the WebSite, the page itself, and any page-specific nodes (breadcrumb,
+ * service, FAQ). Replaces the old split of an org graph in the layout and a
+ * separate page graph led by the thin WebPage node.
+ */
+export function pageGraph(seo: PageSeo, extraNodes: JsonObject[] = []): string {
+  return graph([organizationSchema(), websiteSchema(), webPageSchema(seo), ...extraNodes]);
 }

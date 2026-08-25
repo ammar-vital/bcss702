@@ -5,7 +5,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { InnerHero } from '@/components/sections/InnerHero';
 import { RichText } from '@/components/ui/RichText';
 import { privacyPage } from '@/data/pages';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata(privacyPage.seo);
@@ -28,8 +28,7 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <JsonLd
-        json={graph([
-          webPageSchema(privacyPage.seo),
+        json={pageGraph(privacyPage.seo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: privacyPage.breadcrumbLabel, path: privacyPage.seo.path },

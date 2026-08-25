@@ -9,12 +9,7 @@ import { ServiceContact } from '@/components/sections/ServiceContact';
 import { RichText } from '@/components/ui/RichText';
 import { siteConfig } from '@/data/site';
 import { getService, serviceSlugs } from '@/data/services';
-import {
-  breadcrumbSchema,
-  graph,
-  serviceSchema,
-  webPageSchema,
-} from '@/lib/schema';
+import { breadcrumbSchema, pageGraph, serviceSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 interface Params {
@@ -94,8 +89,7 @@ export default async function ServicePage({ params }: Params) {
       />
 
       <JsonLd
-        json={graph([
-          webPageSchema(service.seo),
+        json={pageGraph(service.seo, [
           serviceSchema({
             name: service.name,
             description: service.seo.description,

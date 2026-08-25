@@ -45,6 +45,16 @@ export const siteConfig = {
     schema: ['Mo-Fr 07:00-18:00', 'Sa 08:00-16:00'],
   },
 
+  /** Coordinates for 3255 Pepper Lane, 89120 (LocalBusiness geo node). */
+  geo: {
+    latitude: 36.0761766,
+    longitude: -115.1041545,
+  },
+  /** Typical LocalBusiness price-band indicator, not a specific quote. */
+  priceRange: '$$',
+  /** Short form of the primary license for the top bar and hero badge. */
+  licenseShort: 'NV Lic. #74507',
+
   googleBusinessProfile: 'https://share.google/5Vn1WubALQ4ARLK3U',
   social: {
     facebook: 'https://www.facebook.com/BCSS702/',

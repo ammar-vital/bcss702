@@ -6,7 +6,7 @@
 
 export const homeHero = {
   backgroundImage: '/images/gallery/gallery-02.jpg',
-  badge: 'Licensed & Insured General Contractor',
+  badge: 'Licensed & Insured · NV Lic. #74507',
   headingHighlight: 'Las Vegas General Contractor',
   headingRest: 'Building One Project at a Time',
   subtitle:

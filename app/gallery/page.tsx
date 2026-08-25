@@ -7,7 +7,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { InnerHero } from '@/components/sections/InnerHero';
 import { galleryImages } from '@/data/gallery';
 import { galleryPage } from '@/data/pages';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata(galleryPage.seo);
@@ -53,8 +53,7 @@ export default function GalleryPage() {
       </section>
 
       <JsonLd
-        json={graph([
-          webPageSchema(galleryPage.seo),
+        json={pageGraph(galleryPage.seo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: galleryPage.breadcrumbLabel, path: galleryPage.seo.path },

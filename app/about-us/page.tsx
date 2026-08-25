@@ -7,7 +7,7 @@ import { InnerHero } from '@/components/sections/InnerHero';
 import { RichText } from '@/components/ui/RichText';
 import { aboutPage } from '@/data/pages';
 import { siteConfig } from '@/data/site';
-import { breadcrumbSchema, graph, webPageSchema } from '@/lib/schema';
+import { breadcrumbSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata(aboutPage.seo);
@@ -55,8 +55,7 @@ export default function AboutUsPage() {
       </section>
 
       <JsonLd
-        json={graph([
-          webPageSchema(aboutPage.seo),
+        json={pageGraph(aboutPage.seo, [
           breadcrumbSchema([
             { name: 'Home', path: '/' },
             { name: aboutPage.breadcrumbLabel, path: aboutPage.seo.path },
