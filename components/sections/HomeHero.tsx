@@ -11,7 +11,7 @@ export function HomeHero() {
         <div className="hero-left">
           <div className="hero-badge">{homeHero.badge}</div>
           <h1>
-            <span>{homeHero.headingHighlight}</span>
+            <span>{homeHero.headingHighlight}</span>{' '}
             <br />
             {homeHero.headingRest}
           </h1>

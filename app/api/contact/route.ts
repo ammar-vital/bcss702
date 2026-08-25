@@ -10,7 +10,35 @@ export const dynamic = 'force-dynamic';
 export const maxDuration = 30;
 
 /** Fields the form posts for bookkeeping rather than for the message body. */
-const IGNORED = new Set(['Website']);
+const IGNORED = new Set(['Website', 'Consent', 'elapsedMs']);
+
+/** Valid North American number: 10 digits, or 11 with a leading US country code. */
+function isValidUsPhone(input: string): boolean {
+  const digits = input.replace(/\D/g, '');
+  const local = digits.length === 11 && digits[0] === '1' ? digits.slice(1) : digits;
+  if (local.length !== 10) return false;
+  return /^[2-9]\d{2}[2-9]\d{6}$/.test(local);
+}
+
+/** Trips only on machine-like strings (no spaces, heavy case-flipping or long consonant runs). */
+function looksLikeGibberish(input: string): boolean {
+  const token = input.trim();
+  if (token.length < 10 || /\s/.test(token)) return false;
+  let caseFlips = 0;
+  for (let i = 1; i < token.length; i++) {
+    const a = token[i - 1];
+    const b = token[i];
+    if (a === undefined || b === undefined) continue;
+    if (/[a-z]/i.test(a) && /[a-z]/i.test(b) && (a === a.toUpperCase()) !== (b === b.toUpperCase())) {
+      caseFlips++;
+    }
+  }
+  const longestConsonantRun = (token.match(/[bcdfghjklmnpqrstvwxyz]+/gi) ?? []).reduce(
+    (max, run) => Math.max(max, run.length),
+    0,
+  );
+  return caseFlips >= 5 || longestConsonantRun >= 5;
+}
 
 /** Printed first, in this order, exactly as the WordPress handler did. */
 const PRIORITY = ['Source', 'Name', 'First Name', 'Last Name', 'Email', 'Phone', 'Service'];
@@ -49,9 +77,38 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false }, { status: 400 });
   }
 
+  const record = payload as Record<string, unknown>;
+
   // Honeypot: bots fill it in. Answer 200 so they do not learn they were caught.
-  const honeypot = (payload as Record<string, unknown>).Website;
+  const honeypot = record.Website;
   if (typeof honeypot === 'string' && honeypot.trim() !== '') {
+    return NextResponse.json({ ok: true });
+  }
+
+  // Timing gate: real people take longer than 3 seconds; bots submit instantly.
+  const elapsedMs = Number(record.elapsedMs);
+  if (Number.isFinite(elapsedMs) && elapsedMs < 3000) {
+    return NextResponse.json({ ok: true });
+  }
+
+  // Consent checkbox is mandatory; enforce server-side so a bypassed client can't skip it.
+  const consent = record.Consent;
+  if (typeof consent !== 'string' || consent.trim() === '') {
+    return NextResponse.json({ ok: false, reason: 'consent-required' }, { status: 400 });
+  }
+
+  // Require a valid US phone number, which blocks the overseas number spam.
+  const phoneRaw = (record.Phone ?? '').toString();
+  if (!isValidUsPhone(phoneRaw)) {
+    return NextResponse.json({ ok: false, reason: 'invalid-phone' }, { status: 400 });
+  }
+
+  // Gibberish backstop: drop silently only when BOTH name and message look machine-generated.
+  const nameStr =
+    [record.FirstName, record.LastName].filter((v) => typeof v === 'string').join(' ').trim() ||
+    (typeof record.Name === 'string' ? record.Name : '');
+  const messageStr = typeof record.Description === 'string' ? record.Description : '';
+  if (looksLikeGibberish(nameStr) && looksLikeGibberish(messageStr)) {
     return NextResponse.json({ ok: true });
   }
 

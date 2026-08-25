@@ -49,11 +49,16 @@ export function QuoteForm({
 }: Props) {
   const id = useId();
   const [status, setStatus] = useState<Status>('idle');
+  // Timestamp the render so the server can reject sub-3-second (bot) submissions.
+  const [loadedAt] = useState(() => Date.now());
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
-    const payload = Object.fromEntries(new FormData(form).entries());
+    const payload: Record<string, string> = Object.fromEntries(
+      Array.from(new FormData(form).entries(), ([key, value]) => [key, String(value)]),
+    );
+    payload.elapsedMs = String(Date.now() - loadedAt);
 
     setStatus('submitting');
     try {
@@ -191,6 +196,16 @@ export function QuoteForm({
           rows={textareaRows}
           placeholder={textareaPlaceholder}
         />
+      </div>
+
+      <div className="form-consent">
+        <label htmlFor={`${id}-consent`}>
+          <input type="checkbox" id={`${id}-consent`} name="Consent" value="yes" required />
+          <span>
+            I agree to be contacted by Butler&apos;s Construction &amp; Service Solutions about my
+            request. Your information is never shared or sold.
+          </span>
+        </label>
       </div>
 
       <button type="submit" className="form-submit" disabled={status === 'submitting'}>
