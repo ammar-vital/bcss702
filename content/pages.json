@@ -25,16 +25,25 @@
         "content": [
           {
             "type": "text",
-            "text": "We offer a full range of services including home "
+            "text": "We offer a full range of services including "
           },
           {
             "type": "link",
-            "text": "remodeling",
+            "text": "home remodeling",
             "href": "/home-remodeling/"
           },
           {
             "type": "text",
-            "text": ", commercial renovation, new construction, stucco, window replacement, skylight installations, and more. If you’re looking for quality, reliability, and service that exceeds expectations let’s build something amazing together."
+            "text": ", commercial renovation, "
+          },
+          {
+            "type": "link",
+            "text": "new construction",
+            "href": "/new-home-construction/"
+          },
+          {
+            "type": "text",
+            "text": ", stucco, window replacement, skylight installations, and more. If you’re looking for quality, reliability, and service that exceeds expectations let’s build something amazing together."
           }
         ]
       },
@@ -52,7 +61,16 @@
           },
           {
             "type": "text",
-            "text": " builds, renovations, and energy-efficient upgrades for your lifestyle. With a commitment to craftsmanship, transparent communication, and personalized service, our team transforms houses into dream homes. From kitchen and bathroom remodels to whole-home renovations, we’re here to bring your vision to life."
+            "text": " builds, renovations, and energy-efficient upgrades for your lifestyle. With a commitment to craftsmanship, transparent communication, and personalized service, our team transforms houses into dream homes. From "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " and bathroom remodels to whole-home renovations, we’re here to bring your vision to life."
           }
         ]
       },
@@ -130,16 +148,7 @@
         "content": [
           {
             "type": "text",
-            "text": "From kitchen remodels to full commercial build-outs, plumbing to "
-          },
-          {
-            "type": "link",
-            "text": "new home construction",
-            "href": "/new-home-construction/"
-          },
-          {
-            "type": "text",
-            "text": " Butler's brings 37+ services under one roof. One contractor, one point of contact, one team that takes pride in the outcome."
+            "text": "From kitchen remodels to full commercial build-outs, plumbing to new home construction Butler's brings 37+ services under one roof. One contractor, one point of contact, one team that takes pride in the outcome."
           }
         ]
       }

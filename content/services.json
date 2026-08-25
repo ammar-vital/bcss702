@@ -21,7 +21,16 @@
         "content": [
           {
             "type": "text",
-            "text": "From custom cabinetry and energy-efficient appliances to new lighting and open layouts, we create kitchens that match your aesthetic and elevate how you live. Our experienced team walks you through every step from design to completion ensuring the process is seamless and stress-free."
+            "text": "From custom "
+          },
+          {
+            "type": "link",
+            "text": "cabinetry",
+            "href": "/vanity-cabinet-installation/"
+          },
+          {
+            "type": "text",
+            "text": " and energy-efficient appliances to new lighting and open layouts, we create kitchens that match your aesthetic and elevate how you live. Our experienced team walks you through every step from design to completion ensuring the process is seamless and stress-free."
           }
         ]
       },
@@ -218,7 +227,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Discover the comfort, beauty, and value a custom bathroom remodel brings to your Las Vegas home."
+            "text": "Discover the comfort, beauty, and value a custom bathroom "
+          },
+          {
+            "type": "link",
+            "text": "remodel",
+            "href": "/home-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " brings to your Las Vegas home."
           }
         ]
       },
@@ -227,7 +245,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Increased Comfort Enjoy a bathroom that suits your changing needs. From walk-in tubs and curbless showers to grab bars and wider entryways, we help improve accessibility for aging-in-place or mobility concerns."
+            "text": "Increased Comfort Enjoy a bathroom that suits your changing needs. From "
+          },
+          {
+            "type": "link",
+            "text": "walk-in tubs",
+            "href": "/walk-in-bathtub-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " and curbless showers to grab bars and wider entryways, we help improve accessibility for aging-in-place or mobility concerns."
           }
         ]
       },
@@ -236,7 +263,25 @@
         "content": [
           {
             "type": "text",
-            "text": "Boosted Property Value A modern, updated bathroom is one of the top features buyers look for. Upgrades like dual vanities, luxury tile, and energy-efficient lighting can significantly increase your home’s resale value."
+            "text": "Boosted Property Value A modern, updated bathroom is one of the top features buyers look for. Upgrades like dual "
+          },
+          {
+            "type": "link",
+            "text": "vanities",
+            "href": "/vanity-cabinet-installation/"
+          },
+          {
+            "type": "text",
+            "text": ", luxury "
+          },
+          {
+            "type": "link",
+            "text": "tile",
+            "href": "/custom-tile-stonework/"
+          },
+          {
+            "type": "text",
+            "text": ", and energy-efficient lighting can significantly increase your home’s resale value."
           }
         ]
       },
@@ -320,51 +365,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "kitchen remodeling",
-            "href": "/kitchen-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "home remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "commercial remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "room additions",
-            "href": "/room-additions-las-vegas/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -397,7 +397,25 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction, we offer a wide range of popular remodeling services meant for your needs and lifestyle. Whether you're looking for whole-home remodeling, kitchen and bathroom upgrades, or converting your garage into livable space, our team is equipped to handle it all. We also specialize in "
+            "text": "At Butler’s Construction, we offer a wide range of popular remodeling services meant for your needs and lifestyle. Whether you're looking for whole-home remodeling, "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "link",
+            "text": "bathroom",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " upgrades, or converting your garage into livable space, our team is equipped to handle it all. We also specialize in "
           },
           {
             "type": "link",
@@ -415,16 +433,7 @@
           },
           {
             "type": "text",
-            "text": " and painting, window and door replacements, and custom carpentry for added storage solutions. If energy efficiency is your priority, we provide expert retrofits to help reduce your energy bills. And when it's time to extend your living space outdoors, we design and build stunning "
-          },
-          {
-            "type": "link",
-            "text": "outdoor living",
-            "href": "/outdoor-living-spaces/"
-          },
-          {
-            "type": "text",
-            "text": " areas perfect for relaxation or entertaining."
+            "text": " and painting, window and door replacements, and custom carpentry for added storage solutions. If energy efficiency is your priority, we provide expert retrofits to help reduce your energy bills. And when it's time to extend your living space outdoors, we design and build stunning outdoor living areas perfect for relaxation or entertaining."
           }
         ]
       },
@@ -626,7 +635,16 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction, we provide a full suite of commercial remodeling services tailored to meet the demands of your business operations and industry. Whether you're revitalizing an office, upgrading restrooms and breakrooms, or transforming an outdated layout into a functional, modern workspace, our skilled team has the expertise to bring your vision to life. We specialize in interior build-outs, lobby renovations, conference room upgrades, "
+            "text": "At Butler’s Construction, we provide a full suite of commercial remodeling services tailored to meet the demands of your business operations and industry. Whether you're revitalizing an office, upgrading restrooms and breakrooms, or transforming an outdated layout into a functional, modern workspace, our skilled team has the expertise to bring your vision to life. We specialize in interior build-outs, lobby "
+          },
+          {
+            "type": "link",
+            "text": "renovations",
+            "href": "/home-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": ", conference room upgrades, "
           },
           {
             "type": "link",
@@ -710,33 +728,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "kitchen remodeling",
-            "href": "/kitchen-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " and "
-          },
-          {
-            "type": "link",
-            "text": "bathroom remodeling",
-            "href": "/bathroom-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -805,43 +796,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -957,7 +912,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Expanding your outdoor area is more than just an upgrade. It’s an investment in comfort, lifestyle, and value. A well-designed patio, deck, or outdoor kitchen creates a perfect space for family gatherings, entertaining friends, or simply relaxing at the end of the day. Beyond enjoyment, outdoor living areas enhance curb appeal and can significantly increase your home’s resale value."
+            "text": "Expanding your outdoor area is more than just an upgrade. It’s an investment in comfort, lifestyle, and value. A well-designed patio, deck, or outdoor "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " creates a perfect space for family gatherings, entertaining friends, or simply relaxing at the end of the day. Beyond enjoyment, outdoor living areas enhance curb appeal and can significantly increase your home’s resale value."
           }
         ]
       },
@@ -993,43 +957,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -1145,7 +1073,25 @@
         "content": [
           {
             "type": "text",
-            "text": "Custom tile and stonework elevate your bathroom or kitchen from ordinary to extraordinary while providing lasting value to your home. Unlike mass-produced materials, custom installations reflect your personal style and complement Las Vegas’s diverse architectural landscape, from contemporary desert modern to classic Mediterranean. The investment in premium materials pays off through enhanced durability, easier maintenance, and timeless appeal that won’t go out of style. Quality tile and stone also perform exceptionally well in our desert climate, resisting heat and maintaining their beauty for decades. Whether you’re creating a spa-like retreat or a chef-inspired kitchen, custom tile and stonework delivers both immediate visual impact and long-term return on investment that standard materials simply cannot match."
+            "text": "Custom tile and stonework elevate your "
+          },
+          {
+            "type": "link",
+            "text": "bathroom",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " or "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " from ordinary to extraordinary while providing lasting value to your home. Unlike mass-produced materials, custom installations reflect your personal style and complement Las Vegas’s diverse architectural landscape, from contemporary desert modern to classic Mediterranean. The investment in premium materials pays off through enhanced durability, easier maintenance, and timeless appeal that won’t go out of style. Quality tile and stone also perform exceptionally well in our desert climate, resisting heat and maintaining their beauty for decades. Whether you’re creating a spa-like retreat or a chef-inspired kitchen, custom tile and stonework delivers both immediate visual impact and long-term return on investment that standard materials simply cannot match."
           }
         ]
       },
@@ -1172,43 +1118,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -1354,43 +1264,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -1500,7 +1374,34 @@
         "content": [
           {
             "type": "text",
-            "text": "Home renovations are one of the most powerful ways to increase property value. Updated kitchens, bathrooms, "
+            "text": "Home "
+          },
+          {
+            "type": "link",
+            "text": "renovations",
+            "href": "/home-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " are one of the most powerful ways to increase property value. Updated "
+          },
+          {
+            "type": "link",
+            "text": "kitchens",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "link",
+            "text": "bathrooms",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": ", "
           },
           {
             "type": "link",
@@ -1629,42 +1530,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "new home construction",
-            "href": "/new-home-construction/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "custom home builders",
-            "href": "/custom-home-builders-las-vegas/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "design-build services",
-            "href": "/design-build/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -1724,43 +1589,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -1921,43 +1750,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -2193,42 +1986,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "general contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "new home construction",
-            "href": "/new-home-construction/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "countertop installation",
-            "href": "/countertop-installation/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -2261,7 +2018,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Your countertops do more than provide a surface for cooking and they set the tone for your entire kitchen. From meal prep to family gatherings, the right countertop combines durability with style, making everyday tasks easier while enhancing the look of your space. Upgrading to premium materials not only boosts functionality but also adds long-term value to your home."
+            "text": "Your countertops do more than provide a surface for cooking and they set the tone for your entire "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": ". From meal prep to family gatherings, the right countertop combines durability with style, making everyday tasks easier while enhancing the look of your space. Upgrading to premium materials not only boosts functionality but also adds long-term value to your home."
           }
         ]
       },
@@ -2279,43 +2045,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -2430,8 +2160,22 @@
         "type": "paragraph",
         "content": [
           {
+            "type": "link",
+            "text": "Kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
             "type": "text",
-            "text": "Kitchen floors endure heavy foot traffic, spills, and daily wear. If your current flooring is outdated or showing signs of damage, it’s time for an upgrade.Our team installs tile, hardwood, and luxury vinyl flooring with precision and care. We help you choose the best option for durability, style, and maintenance to ensure a lasting foundation for your kitchen."
+            "text": " floors endure heavy foot traffic, spills, and daily wear. If your current flooring is outdated or showing signs of damage, it’s time for an upgrade.Our team installs "
+          },
+          {
+            "type": "link",
+            "text": "tile",
+            "href": "/custom-tile-stonework/"
+          },
+          {
+            "type": "text",
+            "text": ", hardwood, and luxury vinyl flooring with precision and care. We help you choose the best option for durability, style, and maintenance to ensure a lasting foundation for your kitchen."
           }
         ]
       },
@@ -2458,43 +2202,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -2748,33 +2456,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "general contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " and "
-          },
-          {
-            "type": "link",
-            "text": "new home construction",
-            "href": "/new-home-construction/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": null
@@ -2801,7 +2482,16 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction & Service Solutions , we deliver commercial contracting services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading tenant interiors, or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
+            "text": "At Butler’s Construction & Service Solutions , we deliver "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading tenant interiors, or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
           }
         ]
       },
@@ -2828,43 +2518,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -2980,7 +2634,25 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction & Service Solutions , we deliver commercial contracting services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading tenant interiors, or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
+            "text": "At Butler’s Construction & Service Solutions , we deliver "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading "
+          },
+          {
+            "type": "link",
+            "text": "tenant interiors",
+            "href": "/tenant-improvements/"
+          },
+          {
+            "type": "text",
+            "text": ", or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
           }
         ]
       },
@@ -3025,43 +2697,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -3168,7 +2804,25 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction & Service Solutions , we deliver commercial contracting services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading tenant interiors, or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
+            "text": "At Butler’s Construction & Service Solutions , we deliver "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading "
+          },
+          {
+            "type": "link",
+            "text": "tenant interiors",
+            "href": "/tenant-improvements/"
+          },
+          {
+            "type": "text",
+            "text": ", or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
           }
         ]
       },
@@ -3177,7 +2831,16 @@
         "content": [
           {
             "type": "text",
-            "text": "In Las Vegas’s competitive retail and dining landscape, your physical space is your most powerful marketing tool and often determines whether customers become loyal regulars or one-time visitors. A well-executed build-out creates an environment that reflects your brand identity while optimizing flow, comfort, and functionality. From the moment customers walk through your door, every design element ( lighting, layout, materials, acoustics ) shapes their perception and influences their spending behavior. Strategic build-outs address practical concerns like kitchen efficiency, seating capacity, and accessibility while creating the ambiance that makes your establishment memorable. In a city where visitors and locals have countless dining and shopping options, a thoughtfully designed space differentiates you from competitors and justifies premium pricing. Whether you’re launching a new concept or refreshing an established location, investing in a customer-centric build-out drives repeat business, positive reviews, and word-of-mouth recommendations that fuel sustainable growth in one of the world’s most demanding hospitality markets."
+            "text": "In Las Vegas’s competitive retail and dining landscape, your physical space is your most powerful marketing tool and often determines whether customers become loyal regulars or one-time visitors. A well-executed build-out creates an environment that reflects your brand identity while optimizing flow, comfort, and functionality. From the moment customers walk through your door, every design element ( lighting, layout, materials, acoustics ) shapes their perception and influences their spending behavior. Strategic build-outs address practical concerns like "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " efficiency, seating capacity, and accessibility while creating the ambiance that makes your establishment memorable. In a city where visitors and locals have countless dining and shopping options, a thoughtfully designed space differentiates you from competitors and justifies premium pricing. Whether you’re launching a new concept or refreshing an established location, investing in a customer-centric build-out drives repeat business, positive reviews, and word-of-mouth recommendations that fuel sustainable growth in one of the world’s most demanding hospitality markets."
           }
         ]
       },
@@ -3195,43 +2858,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -3347,7 +2974,25 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction & Service Solutions , we deliver commercial contracting services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading tenant interiors, or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
+            "text": "At Butler’s Construction & Service Solutions , we deliver "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading "
+          },
+          {
+            "type": "link",
+            "text": "tenant interiors",
+            "href": "/tenant-improvements/"
+          },
+          {
+            "type": "text",
+            "text": ", or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
           }
         ]
       },
@@ -3392,43 +3037,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -3580,7 +3189,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Trash Outs Fast removal of waste and debris to prepare for renovations or new tenants."
+            "text": "Trash Outs Fast removal of waste and debris to prepare for "
+          },
+          {
+            "type": "link",
+            "text": "renovations",
+            "href": "/home-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " or new tenants."
           }
         ]
       },
@@ -3653,51 +3271,6 @@
           {
             "type": "text",
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "tenant improvements",
-            "href": "/tenant-improvements/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "office build-outs",
-            "href": "/office-build-outs/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "retail & restaurant build-outs",
-            "href": "/retail-restaurant-build-outs/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "medical & healthcare facility construction",
-            "href": "/medical-healthcare-facility-construction/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
           }
         ]
       }
@@ -3777,7 +3350,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Trash Outs We offer fast and thorough trash removal services to help you reclaim your property and prepare it for the next tenant or renovation."
+            "text": "Trash Outs We offer fast and thorough trash removal services to help you reclaim your property and prepare it for the next tenant or "
+          },
+          {
+            "type": "link",
+            "text": "renovation",
+            "href": "/home-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": "."
           }
         ]
       },
@@ -3852,51 +3434,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "tenant improvements",
-            "href": "/tenant-improvements/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "office build-outs",
-            "href": "/office-build-outs/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "retail & restaurant build-outs",
-            "href": "/retail-restaurant-build-outs/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "medical & healthcare facility construction",
-            "href": "/medical-healthcare-facility-construction/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -3929,7 +3466,16 @@
         "content": [
           {
             "type": "text",
-            "text": "A shower or tub conversion can dramatically improve your bathroom’s functionality and appeal. Whether you’re replacing an underused tub with a spacious walk-in shower or adding a luxurious soaking tub where a cramped shower once stood, the right conversion transforms your daily routine. Las Vegas homeowners often discover that their bathroom layout no longer fits their lifestyle. Perhaps mobility has become a concern, or you simply want a more spa-like experience at home. Modern conversions offer opportunities to maximize space efficiency, incorporate universal design features, and update outdated fixtures with contemporary styles that enhance your home’s value. Our expert team ensures every conversion combines practical improvements with aesthetic upgrades that make your bathroom a true sanctuary."
+            "text": "A shower or tub conversion can dramatically improve your "
+          },
+          {
+            "type": "link",
+            "text": "bathroom",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": "’s functionality and appeal. Whether you’re replacing an underused tub with a spacious walk-in shower or adding a luxurious soaking tub where a cramped shower once stood, the right conversion transforms your daily routine. Las Vegas homeowners often discover that their bathroom layout no longer fits their lifestyle. Perhaps mobility has become a concern, or you simply want a more spa-like experience at home. Modern conversions offer opportunities to maximize space efficiency, incorporate universal design features, and update outdated fixtures with contemporary styles that enhance your home’s value. Our expert team ensures every conversion combines practical improvements with aesthetic upgrades that make your bathroom a true sanctuary."
           }
         ]
       },
@@ -3947,43 +3493,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -4144,7 +3654,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Transform your bathroom with a safe and stylish walk-in bathtub you’ll love for years to come. Get expert guidance, exceptional craftsmanship, and a result that enhances your comfort and confidence."
+            "text": "Transform your "
+          },
+          {
+            "type": "link",
+            "text": "bathroom",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " with a safe and stylish walk-in bathtub you’ll love for years to come. Get expert guidance, exceptional craftsmanship, and a result that enhances your comfort and confidence."
           }
         ]
       },
@@ -4153,34 +3672,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -4287,7 +3779,16 @@
         "content": [
           {
             "type": "text",
-            "text": "New vanities and bathroom cabinets deliver an instant transformation that combines style with superior functionality. Worn, dated cabinetry can make even a clean bathroom feel tired and cramped, while modern vanities provide the storage solutions and visual appeal that today’s homeowners demand. Whether you’re drawn to contemporary floating vanities that create an airy feel or prefer traditional freestanding designs with ample storage, the right cabinetry anchors your bathroom’s entire aesthetic. Quality materials stand up beautifully to Las Vegas’s dry climate while offering years of reliable performance. Beyond organization and style, upgraded vanities increase your home’s market value, potential buyers consistently rank updated bathrooms among their top priorities. From compact powder rooms to spacious primary suites, the right vanity transforms your bathroom into a polished, personalized space that elevates your daily routine."
+            "text": "New vanities and "
+          },
+          {
+            "type": "link",
+            "text": "bathroom",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " cabinets deliver an instant transformation that combines style with superior functionality. Worn, dated cabinetry can make even a clean bathroom feel tired and cramped, while modern vanities provide the storage solutions and visual appeal that today’s homeowners demand. Whether you’re drawn to contemporary floating vanities that create an airy feel or prefer traditional freestanding designs with ample storage, the right cabinetry anchors your bathroom’s entire aesthetic. Quality materials stand up beautifully to Las Vegas’s dry climate while offering years of reliable performance. Beyond organization and style, upgraded vanities increase your home’s market value, potential buyers consistently rank updated bathrooms among their top priorities. From compact powder rooms to spacious primary suites, the right vanity transforms your bathroom into a polished, personalized space that elevates your daily routine."
           }
         ]
       },
@@ -4305,43 +3806,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -4484,7 +3949,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Commercial & Residential Experience From office restrooms to home bathrooms, we’ve done it all."
+            "text": "Commercial & Residential Experience From office restrooms to home "
+          },
+          {
+            "type": "link",
+            "text": "bathrooms",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": ", we’ve done it all."
           }
         ]
       },
@@ -4511,34 +3985,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -4695,34 +4142,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -4949,51 +4369,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "plumbing services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "drain cleaning",
-            "href": "/drain-cleaning/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "sewer line services",
-            "href": "/sewer-line-services/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "leak detection",
-            "href": "/leak-detection/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -5035,7 +4410,25 @@
           },
           {
             "type": "text",
-            "text": ". Our expert plumbers use advanced tools and proven methods to clear clogs safely and effectively. We handle everything from kitchen sinks to main sewer lines, restoring your system’s reliability."
+            "text": ". Our expert plumbers use advanced tools and proven methods to clear clogs safely and effectively. We handle everything from "
+          },
+          {
+            "type": "link",
+            "text": "kitchen",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " sinks to main "
+          },
+          {
+            "type": "link",
+            "text": "sewer lines",
+            "href": "/sewer-line-services/"
+          },
+          {
+            "type": "text",
+            "text": ", restoring your system’s reliability."
           }
         ]
       },
@@ -5062,25 +4455,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -5223,34 +4598,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -5411,25 +4759,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -5563,7 +4893,16 @@
         "content": [
           {
             "type": "text",
-            "text": "Still unsure if you need a new water heater or just a quick fix? We’re here to help. Our licensed plumbers will assess your system and walk you through your options without pressure."
+            "text": "Still unsure if you need a new water heater or just a quick fix? We’re here to help. Our licensed "
+          },
+          {
+            "type": "link",
+            "text": "plumbers",
+            "href": "/plumbing-services/"
+          },
+          {
+            "type": "text",
+            "text": " will assess your system and walk you through your options without pressure."
           }
         ]
       },
@@ -5665,51 +5004,6 @@
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
           }
         ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "plumbing services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "water line repairs",
-            "href": "/water-line-repairs/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "drain cleaning",
-            "href": "/drain-cleaning/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "sewer line services",
-            "href": "/sewer-line-services/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
-          }
-        ]
       }
     ],
     "seo": {
@@ -5805,25 +5099,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -5969,16 +5245,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -6124,43 +5391,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -6312,43 +5543,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -6473,43 +5668,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Quick Links Privacy Policy Terms Of Service Our Service "
-          },
-          {
-            "type": "link",
-            "text": "Commercial Remodeling",
-            "href": "/commercial-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Home Remodeling",
-            "href": "/home-remodeling/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "General Contracting",
-            "href": "/general-contracting/"
-          },
-          {
-            "type": "text",
-            "text": " "
-          },
-          {
-            "type": "link",
-            "text": "Plumbing Services",
-            "href": "/plumbing-services/"
-          },
-          {
-            "type": "text",
-            "text": " Free Estimate Call Butler's for an estimate on your project!"
+            "text": "Quick Links Privacy Policy Terms Of Service Our Service Commercial Remodeling Home Remodeling General Contracting Plumbing Services Free Estimate Call Butler's for an estimate on your project!"
           }
         ]
       },
@@ -6752,42 +5911,6 @@
           {
             "type": "text",
             "text": "Butler's Construction serves homeowners and business owners across the entire Las Vegas Valley including Las Vegas, Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, Spring Valley, and surrounding communities. Our office is at 3255 Pepper Lane, Suite 109A, Las Vegas, NV 89120."
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "Butler's Construction also handles "
-          },
-          {
-            "type": "link",
-            "text": "water damage restoration",
-            "href": "/water-damage-restoration/"
-          },
-          {
-            "type": "text",
-            "text": ", "
-          },
-          {
-            "type": "link",
-            "text": "fire & smoke damage restoration",
-            "href": "/fire-smoke-damage-restoration/"
-          },
-          {
-            "type": "text",
-            "text": ", and "
-          },
-          {
-            "type": "link",
-            "text": "handyman services",
-            "href": "/handyman-services/"
-          },
-          {
-            "type": "text",
-            "text": " for homeowners and businesses across the Las Vegas Valley."
           }
         ]
       }
