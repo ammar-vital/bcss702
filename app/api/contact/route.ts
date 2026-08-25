@@ -12,17 +12,43 @@ export const maxDuration = 30;
 /** Fields the form posts for bookkeeping rather than for the message body. */
 const IGNORED = new Set(['Website', 'Consent', 'elapsedMs']);
 
+/**
+ * Best-effort throttle: drop an identical submission repeated within the
+ * window. Serverless containers are shared while warm, so this catches a bot
+ * hammering the same payload without needing an external store.
+ */
+const recentSubmissions = new Map<string, number>();
+const DEDUP_WINDOW_MS = 60_000;
+function isDuplicateSubmission(signature: string): boolean {
+  const now = Date.now();
+  for (const [key, timestamp] of recentSubmissions) {
+    if (now - timestamp > DEDUP_WINDOW_MS) recentSubmissions.delete(key);
+  }
+  if (recentSubmissions.has(signature)) return true;
+  recentSubmissions.set(signature, now);
+  return false;
+}
+
 /** Valid North American number: 10 digits, or 11 with a leading US country code. */
 function isValidUsPhone(input: string): boolean {
   const digits = input.replace(/\D/g, '');
   const local = digits.length === 11 && digits[0] === '1' ? digits.slice(1) : digits;
   if (local.length !== 10) return false;
-  return /^[2-9]\d{2}[2-9]\d{6}$/.test(local);
+  if (!/^[2-9]\d{2}[2-9]\d{6}$/.test(local)) return false;
+  // Reject obvious placeholder/fake numbers that pass the format check:
+  // too few distinct digits (5555555555, 5551115555) or a long same-digit run.
+  if (new Set(local).size <= 2) return false;
+  if (/(\d)\1{4,}/.test(local)) return false;
+  return true;
 }
 
-/** Trips only on machine-like strings (no spaces, heavy case-flipping or long consonant runs). */
+/** Trips on machine-like strings: very low character variety, heavy case-flipping, or long consonant runs. */
 function looksLikeGibberish(input: string): boolean {
   const token = input.trim();
+  // Low character diversity: real words and names use many letters, spam like
+  // "ddwdawadwwa" or "ddwadwadwa" recycles two or three characters.
+  const letters = token.toLowerCase().replace(/[^a-z]/g, '');
+  if (letters.length >= 8 && new Set(letters).size <= 3) return true;
   if (token.length < 10 || /\s/.test(token)) return false;
   let caseFlips = 0;
   for (let i = 1; i < token.length; i++) {
@@ -107,8 +133,17 @@ export async function POST(request: Request) {
   const nameStr =
     [record.FirstName, record.LastName].filter((v) => typeof v === 'string').join(' ').trim() ||
     (typeof record.Name === 'string' ? record.Name : '');
-  const messageStr = typeof record.Description === 'string' ? record.Description : '';
+  // The project-details field is "Description" on most forms and "Details" on the hero form.
+  const messageStr =
+    (typeof record.Description === 'string' ? record.Description : '') ||
+    (typeof record.Details === 'string' ? record.Details : '');
   if (looksLikeGibberish(nameStr) && looksLikeGibberish(messageStr)) {
+    return NextResponse.json({ ok: true });
+  }
+
+  // Drop an identical submission repeated within the window (silent 200).
+  const dedupeKey = `${(record.Email ?? '').toString().trim().toLowerCase()}|${phoneRaw.replace(/\D/g, '')}|${messageStr.trim().toLowerCase()}`;
+  if (isDuplicateSubmission(dedupeKey)) {
     return NextResponse.json({ ok: true });
   }
 
