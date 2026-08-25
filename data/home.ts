@@ -3,6 +3,8 @@
  * literal copy the WordPress template rendered (the ACF fields it read were
  * never populated, so the template fallbacks were always what shipped).
  */
+import { siteConfig } from '@/data/site';
+import type { FaqEntry } from '@/lib/schema';
 
 export const homeHero = {
   backgroundImage: '/images/gallery/gallery-02.jpg',
@@ -10,7 +12,7 @@ export const homeHero = {
   headingHighlight: 'Las Vegas General Contractor',
   headingRest: 'Building One Project at a Time',
   subtitle:
-    "From kitchen remodels to full commercial build-outs Butler's Construction brings decades of craftsmanship, integrity, and precision to every project across the Las Vegas Valley.",
+    "From kitchen remodels to full commercial build-outs Butler's Construction brings 15+ years of craftsmanship, integrity, and precision to every project across the Las Vegas Valley.",
   formSource: 'Homepage Hero Form',
 } as const;
 
@@ -45,7 +47,7 @@ export interface TrustItem {
 }
 
 export const trustItems: TrustItem[] = [
-  { icon: 'trophy', label: 'Decades of Experience', detail: 'Serving Las Vegas since day one' },
+  { icon: 'trophy', label: '15+ Years Experience', detail: 'Serving Las Vegas since 2009' },
   { icon: 'star', label: '5-Star Rated', detail: 'Google & Yelp verified reviews' },
   { icon: 'shield', label: 'Fully Licensed & Insured', detail: 'Nevada General Contractor' },
   { icon: 'clipboard', label: 'Free Estimates', detail: 'No obligation consultations' },
@@ -61,28 +63,28 @@ export interface Stat {
 export const stats: Stat[] = [
   { value: 500, suffix: '+', label: 'Projects Completed' },
   { value: 98, suffix: '%', label: 'Client Satisfaction' },
-  { value: 20, suffix: '+', label: 'Years Experience' },
+  { value: 15, suffix: '+', label: 'Years Experience' },
   { value: 17, suffix: '+', label: 'Service Categories' },
 ];
 
 export const aboutSection = {
   tag: "About Butler's",
-  headingLine1: 'Built on Integrity.',
-  headingLine2: 'Finished with Pride.',
+  headingLine1: 'Building Las Vegas',
+  headingLine2: 'Since 2009',
   paragraphs: [
-    "Butler's Construction & Service Solutions brings decades of trusted craftsmanship to Las Vegas homeowners and businesses. Your budget, your family, and your vision all part of our process from start to finish.",
-    'From retail build-outs to full home remodels, we combine precision and dependability to deliver results that exceed expectations every single time.',
+    "Butler's Construction & Service Solutions has served Las Vegas homeowners and businesses for more than 15 years. We are a licensed Nevada general contractor, which means one team and one point of contact handles your whole project, from the first estimate to the final walkthrough.",
+    'From kitchen and bathroom remodels to new construction, plumbing, and full commercial build-outs, we combine precision and dependability to deliver results that hold up. Your budget, your family, and your vision are part of the process from start to finish.',
   ],
   features: [
-    'Licensed & Bonded',
+    'Licensed & Insured',
     'On-Time Delivery',
     'Transparent Pricing',
     'Quality Materials',
     'Commercial & Residential',
-    '5-Star Rated',
+    'One Point of Contact',
   ],
-  cta: { label: 'Meet the Team →', href: '#contact' },
-  badge: { value: '20+', lines: ['Years in', 'Las Vegas'] },
+  cta: { label: 'Get a Free Quote →', href: '#contact' },
+  badge: { value: '15+', lines: ['Years in', 'Las Vegas'] },
   mainImage: {
     src: '/images/gallery/gallery-03.jpg',
     alt: "Butler's Construction & Service Solutions team on a Las Vegas job site",
@@ -173,7 +175,7 @@ export const specialtyLinks = [
 export const reasons = [
   {
     number: '01',
-    title: 'Decades of Proven Experience',
+    title: '15+ Years of Proven Experience',
     body: "We've seen every challenge Las Vegas construction can throw at a contractor. That experience means fewer surprises, better solutions, and a smoother process for you.",
   },
   {
@@ -286,5 +288,45 @@ export const reviews: Review[] = [
       "Butler's handled our complete kitchen and bathroom remodel and exceeded every expectation. On time, on budget, and the craftsmanship is outstanding. Will use them again for our commercial space.",
     author: 'Gabrielle Baker',
     platform: '★ Yelp Review Las Vegas, NV',
+  },
+];
+
+export const serviceAreaSection = {
+  tag: 'Where We Work',
+  heading: 'Serving the Entire Las Vegas Valley',
+  intro:
+    "Butler's Construction is proud to serve homeowners, property managers, and business owners across Southern Nevada. Our office is at 3255 Pepper Lane, Suite 109A, and we work throughout:",
+  cities: siteConfig.serviceArea,
+} as const;
+
+export const homeFaqs: FaqEntry[] = [
+  {
+    question: 'What does a general contractor do?',
+    answer:
+      'A general contractor manages your entire project from start to finish: planning, permits, scheduling, licensed trades, and the final walkthrough. With Butler’s you get one point of contact for the whole job instead of coordinating separate crews yourself.',
+  },
+  {
+    question: 'Is Butler’s Construction licensed and insured?',
+    answer:
+      'Yes. We hold Nevada State Contractors Board licenses (General B #74507 and C-1 Plumbing #81481) and carry full insurance, so your project is handled by a licensed Las Vegas contractor.',
+  },
+  {
+    question: 'Do you handle both residential and commercial projects?',
+    answer:
+      'Yes. We work with homeowners, property managers, and business owners across Las Vegas, from kitchen and bathroom remodels to commercial build-outs and tenant improvements.',
+  },
+  {
+    question: 'Do you offer free estimates?',
+    answer: `Yes, every estimate is free and no-obligation. Call ${siteConfig.phone.display} or request a quote online and we respond within 24 hours.`,
+  },
+  {
+    question: 'What areas around Las Vegas do you serve?',
+    answer:
+      'We serve the entire Las Vegas Valley, including Henderson, North Las Vegas, Summerlin, Paradise, Enterprise, and Spring Valley.',
+  },
+  {
+    question: 'How do I get started on my project?',
+    answer:
+      'Start with a free consultation. We talk through your project and budget, give you a written estimate, and once you approve we handle the permits, scheduling, and the build all the way through the final walkthrough.',
   },
 ];

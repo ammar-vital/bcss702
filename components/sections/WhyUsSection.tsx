@@ -7,7 +7,7 @@ export function WhyUsSection() {
       <div className="container">
         <div className="section-tag">Why Choose Us</div>
         <h2 className="section-title">
-          Six Reasons Las Vegas
+          Why Las Vegas
           <br />
           Trusts Butler&rsquo;s
         </h2>

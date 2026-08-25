@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { ServiceIcons } from '@/components/ui/Icons';
-import { featuredServices, specialtyLinks } from '@/data/home';
+import { featuredServices } from '@/data/home';
 
 export function ServicesSection() {
   return (
@@ -45,18 +45,6 @@ export function ServicesSection() {
               </Link>
             );
           })}
-        </div>
-
-        <div className="specialty-strip">
-          <div className="specialty-strip-title">We Also Specialize In</div>
-          <div className="specialty-links">
-            {specialtyLinks.map((link) => (
-              <Link href={link.href} key={link.href}>
-                • {link.label}
-              </Link>
-            ))}
-            <Link href="/services/">+ View All 37 →</Link>
-          </div>
         </div>
       </div>
     </section>
