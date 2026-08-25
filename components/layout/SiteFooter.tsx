@@ -72,10 +72,6 @@ function BottomBar() {
   return (
     <div className="footer-bottom">
       <span>{siteConfig.copyright}</span>
-      <span className="powered-by">
-        {siteConfig.poweredBy.prefix} <span>{siteConfig.poweredBy.name}</span>{' '}
-        {siteConfig.poweredBy.suffix}
-      </span>
     </div>
   );
 }

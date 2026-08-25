@@ -6,10 +6,13 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { CrossLinks } from '@/components/sections/CrossLinks';
 import { InnerHero } from '@/components/sections/InnerHero';
 import { ServiceContact } from '@/components/sections/ServiceContact';
+import { ServiceFaq } from '@/components/sections/ServiceFaq';
+import { ServiceProcess } from '@/components/sections/ServiceProcess';
 import { RichText } from '@/components/ui/RichText';
+import { serviceFaqs } from '@/data/faq';
 import { siteConfig } from '@/data/site';
 import { getService, serviceSlugs } from '@/data/services';
-import { breadcrumbSchema, pageGraph, serviceSchema } from '@/lib/schema';
+import { breadcrumbSchema, faqPageSchema, pageGraph, serviceSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 
 interface Params {
@@ -34,6 +37,8 @@ export default async function ServicePage({ params }: Params) {
   const { slug } = await params;
   const service = getService(slug);
   if (!service) notFound();
+
+  const faqs = serviceFaqs(service.name);
 
   return (
     <InnerPage>
@@ -80,6 +85,10 @@ export default async function ServicePage({ params }: Params) {
         </div>
       </section>
 
+      <ServiceProcess />
+
+      <ServiceFaq items={faqs} />
+
       <CrossLinks excludeSlug={service.slug} />
 
       <ServiceContact
@@ -100,6 +109,7 @@ export default async function ServicePage({ params }: Params) {
             { name: 'Services', path: '/services/' },
             { name: service.breadcrumbLabel, path: service.seo.path },
           ]),
+          faqPageSchema(faqs),
         ])}
       />
     </InnerPage>

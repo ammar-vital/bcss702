@@ -82,7 +82,6 @@ export const siteConfig = {
   ],
 
   copyright: "© 2026 Butler's Construction & Service Solutions, LLC. All rights reserved.",
-  poweredBy: { prefix: 'Optimized by', name: 'The Voice of Cash', suffix: 'AI Platform' },
 } as const;
 
 /** Build an absolute URL for canonicals, Open Graph and the sitemap. */
