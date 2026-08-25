@@ -35,9 +35,7 @@ export function AboutSection() {
           <FadeIn className="about-text">
             <div className="section-tag">{aboutSection.tag}</div>
             <h2 className="section-title">
-              {aboutSection.headingLine1}
-              <br />
-              {aboutSection.headingLine2}
+              {aboutSection.headingLine1} {aboutSection.headingLine2}
             </h2>
             {aboutSection.paragraphs.map((paragraph) => (
               <p className="section-sub" key={paragraph}>

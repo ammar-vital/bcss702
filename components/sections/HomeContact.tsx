@@ -9,11 +9,7 @@ export function HomeContact() {
         <div className="contact-inner">
           <div className="contact-info">
             <div className="section-tag">Contact Us</div>
-            <h2>
-              Let&rsquo;s Build
-              <br />
-              Something Together
-            </h2>
+            <h2>Let&rsquo;s Build Something Together</h2>
             <p>
               Whether you&rsquo;re planning a custom home, a major remodel, or a commercial upgrade
               our team is ready to help. Reach out and we&rsquo;ll guide you through the process.

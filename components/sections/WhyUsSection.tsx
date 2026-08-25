@@ -6,11 +6,7 @@ export function WhyUsSection() {
     <section className="why-us">
       <div className="container">
         <div className="section-tag">Why Choose Us</div>
-        <h2 className="section-title">
-          Why Las Vegas
-          <br />
-          Trusts Butler&rsquo;s
-        </h2>
+        <h2 className="section-title">Why Las Vegas Trusts Butler&rsquo;s</h2>
         <p className="section-sub">
           Not every contractor is created equal. Here&rsquo;s what makes Butler&rsquo;s the name
           people call first and call again.

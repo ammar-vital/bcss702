@@ -11,11 +11,7 @@ export function ServicesSection() {
         <div className="services-header">
           <div>
             <div className="section-tag">What We Do</div>
-            <h2 className="section-title">
-              Complete Property
-              <br />
-              Solutions Under One Roof
-            </h2>
+            <h2 className="section-title">Complete Property Solutions Under One Roof</h2>
           </div>
           <Link href="/services/" className="btn-primary">
             All Services →

@@ -7,11 +7,7 @@ export function HomeGallery() {
     <section id="gallery">
       <div className="container">
         <div className="section-tag">Our Work</div>
-        <h2 className="section-title">
-          Built by Hand.
-          <br />
-          Built to Last.
-        </h2>
+        <h2 className="section-title">Built by Hand. Built to Last.</h2>
         <div className="gallery-grid">
           {homeGallery.map((image) => (
             <div className="gallery-item" key={image.src}>

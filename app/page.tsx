@@ -33,8 +33,8 @@ export default function HomePage() {
       <main id="main">
         <HomeHero />
         <TrustBar />
-        <StatsBar />
         <AboutSection />
+        <StatsBar />
         <ServicesSection />
         <ServicesByCategory />
         <ServiceProcess />

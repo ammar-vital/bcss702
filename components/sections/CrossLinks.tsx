@@ -13,11 +13,7 @@ export function CrossLinks({ excludeSlug }: { excludeSlug: string }) {
     <section className="cross-links">
       <div className="container">
         <div className="section-tag">Browse All Services</div>
-        <h2>
-          Complete Property Solutions
-          <br />
-          Under One Roof
-        </h2>
+        <h2>Complete Property Solutions Under One Roof</h2>
         <p className="sub">
           From kitchen remodels to commercial build-outs, plumbing to full custom home construction
           we handle every service in-house.
