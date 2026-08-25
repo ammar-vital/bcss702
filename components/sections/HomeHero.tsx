@@ -30,14 +30,14 @@ export function HomeHero() {
           headingLevel="h2"
           source={homeHero.formSource}
           heading="Get a Free Inspection"
-          intro="Tell us about your project we'll get back to you within 24 hours."
+          intro="We respond within 24 hours."
           serviceOptions={heroFormServices}
           submitLabel="Request Free Quote →"
           noteVariant="hero"
           textareaLabel="Project Details"
           textareaName="Details"
           textareaPlaceholder="Briefly describe your project..."
-          textareaRows={3}
+          textareaRows={2}
         />
       </div>
     </section>
