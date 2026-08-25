@@ -1,12 +1,13 @@
 import { FadeIn } from '@/components/ui/FadeIn';
 import { reviews } from '@/data/home';
+import { siteConfig } from '@/data/site';
 
 export function Testimonials() {
   return (
     <section className="testimonials" id="reviews">
       <div className="container">
         <div className="testimonials-head">
-          <div className="section-tag">What People Say</div>
+          <div className="section-tag">Verified Google Reviews</div>
           <h2 className="section-title">People Say the Nicest Things</h2>
           <p className="section-sub">
             Don&rsquo;t take our word for it. Here&rsquo;s what real Las Vegas homeowners and
@@ -31,6 +32,16 @@ export function Testimonials() {
               </figcaption>
             </FadeIn>
           ))}
+        </div>
+        <div className="reviews-cta">
+          <a
+            className="reviews-google-link"
+            href={siteConfig.googleBusinessProfile}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read all our reviews on Google &rarr;
+          </a>
         </div>
       </div>
     </section>

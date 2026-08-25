@@ -1,3 +1,5 @@
+import { reviews } from '@/data/home';
+import { services } from '@/data/services';
 import { absoluteUrl, siteConfig } from '@/data/site';
 import type { PageSeo } from '@/types/seo';
 
@@ -16,6 +18,7 @@ export function organizationSchema(): JsonObject {
     '@id': ORGANIZATION_ID,
     name: siteConfig.name,
     legalName: siteConfig.legalName,
+    foundingDate: siteConfig.foundingYear,
     url: `${siteConfig.url}/`,
     telephone: siteConfig.phone.e164,
     email: siteConfig.email,
@@ -42,6 +45,38 @@ export function organizationSchema(): JsonObject {
       containedInPlace: { '@type': 'State', name: 'Nevada' },
     })),
     openingHours: siteConfig.hours.schema,
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '07:00',
+        closes: '18:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: 'Saturday',
+        opens: '08:00',
+        closes: '16:00',
+      },
+    ],
+    makesOffer: {
+      '@type': 'OfferCatalog',
+      name: 'Construction & Remodeling Services',
+      itemListElement: services.map((service) => ({
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: service.name,
+          url: absoluteUrl(service.seo.path),
+        },
+      })),
+    },
+    review: reviews.map((entry) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: entry.author },
+      reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5 },
+      reviewBody: entry.quote,
+    })),
     sameAs: [
       siteConfig.googleBusinessProfile,
       siteConfig.social.facebook,

@@ -54,6 +54,8 @@ export const siteConfig = {
   priceRange: '$$',
   /** Short form of the primary license for the top bar and hero badge. */
   licenseShort: 'NV Lic. #74507',
+  /** Year the business was established (schema foundingDate). */
+  foundingYear: '2009',
 
   googleBusinessProfile: 'https://share.google/5Vn1WubALQ4ARLK3U',
   social: {
