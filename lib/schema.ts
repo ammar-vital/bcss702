@@ -1,4 +1,3 @@
-import { reviews } from '@/data/home';
 import { services } from '@/data/services';
 import { absoluteUrl, siteConfig } from '@/data/site';
 import type { PageSeo } from '@/types/seo';
@@ -71,12 +70,6 @@ export function organizationSchema(): JsonObject {
         },
       })),
     },
-    review: reviews.map((entry) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: entry.author },
-      reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5 },
-      reviewBody: entry.quote,
-    })),
     sameAs: [
       siteConfig.googleBusinessProfile,
       siteConfig.social.facebook,
