@@ -575,7 +575,7 @@ img {
   margin-bottom: 14px;
 }
 .page-home .contact-info h2 {
-  font-size: 42px;
+  font-size: 34px;
   margin-bottom: 16px;
 }
 .contact-info > p {
@@ -860,9 +860,9 @@ img {
   margin: 0 auto;
   padding: 80px 32px;
   display: grid;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1fr 380px;
   gap: 60px;
-  align-items: center;
+  align-items: start;
   width: 100%;
 }
 .hero-badge {
@@ -928,23 +928,46 @@ img {
 }
 .hero-card {
   background: var(--white);
-  border-radius: 20px;
-  padding: 36px;
+  border-radius: 18px;
+  padding: 24px;
   box-shadow: 0 32px 80px rgba(0, 0, 0, 0.3);
 }
 .hero-card h2,
 .hero-card h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--dark);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   letter-spacing: -0.02em;
 }
 .page-home .hero-card p {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--gray);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   max-width: none;
+}
+/* Compact the hero form so it aligns with the height of the left content. */
+.hero-card .form-group {
+  margin-bottom: 10px;
+}
+.page-home .hero-card .form-group label {
+  margin-bottom: 3px;
+}
+.page-home .hero-card .form-group input,
+.page-home .hero-card .form-group select,
+.page-home .hero-card .form-group textarea {
+  padding: 9px 13px;
+  font-size: 13.5px;
+  border-radius: 8px;
+}
+.hero-card .form-consent {
+  margin: 6px 0;
+}
+.hero-card .form-consent label span {
+  font-size: 12px;
+}
+.hero-card .form-submit {
+  padding: 13px 24px;
 }
 
 /* Trust bar */
@@ -2703,4 +2726,13 @@ img {
   .svc-cats-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Section subtitles that should render on a single line on desktop (they wrap
+   naturally on narrow screens). Overrides the 580px cap on .section-sub. */
+.why-us .section-sub,
+.svc-cats-head .section-sub,
+.service-area-inner .section-sub,
+.testimonials-head .section-sub {
+  max-width: none;
 }

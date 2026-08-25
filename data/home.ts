@@ -295,7 +295,7 @@ export const serviceAreaSection = {
   tag: 'Where We Work',
   heading: 'Serving the Entire Las Vegas Valley',
   intro:
-    "Butler's Construction is proud to serve homeowners, property managers, and business owners across Southern Nevada. Our office is at 3255 Pepper Lane, Suite 109A, and we work throughout:",
+    "Butler's Construction is proud to serve homeowners, property managers, and business owners across Southern Nevada.",
   cities: siteConfig.serviceArea,
 } as const;
 
