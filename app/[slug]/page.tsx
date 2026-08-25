@@ -79,6 +79,20 @@ export default async function ServicePage({ params }: Params) {
                 <span className="side-phone">
                   or call <a href={siteConfig.phone.href}>{siteConfig.phone.display}</a>
                 </span>
+                <ul className="side-trust">
+                  <li>Licensed &amp; Insured &middot; {siteConfig.licenseShort}</li>
+                  <li>Serving Las Vegas since {siteConfig.foundingYear}</li>
+                  <li>Free, no-obligation estimates</li>
+                  <li>
+                    <a
+                      href={siteConfig.googleBusinessProfile}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Verified Google Reviews
+                    </a>
+                  </li>
+                </ul>
               </div>
             </aside>
           </div>

@@ -38,7 +38,10 @@ body {
   color: var(--dark);
   background: var(--white);
   line-height: 1.6;
-  overflow-x: hidden;
+  /* `clip` prevents horizontal scroll without making <body> a scroll
+     container, which would otherwise break `position: sticky` on the
+     service-page quote rail. */
+  overflow-x: clip;
 }
 
 body.nav-locked {
@@ -2551,5 +2554,40 @@ img {
   transition: border-color 0.2s ease;
 }
 .reviews-google-link:hover {
+  border-bottom-color: var(--red);
+}
+
+/* ─── SERVICE SIDEBAR TRUST LIST ─── */
+.side-trust {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.side-trust li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--mid);
+  font-weight: 600;
+}
+.side-trust li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  color: var(--red);
+  font-weight: 900;
+}
+.side-trust a {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.side-trust a:hover {
   border-bottom-color: var(--red);
 }
