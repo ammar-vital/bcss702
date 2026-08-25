@@ -8,7 +8,10 @@ import type { ServiceCategory } from '@/types/service';
 /** One representative photo per category, drawn from the gallery set. */
 const CATEGORY_IMAGES: Record<ServiceCategory, { src: string; alt: string }> = {
   Remodeling: { src: '/images/gallery/gallery-10.jpg', alt: 'Remodeled Las Vegas kitchen' },
-  Construction: { src: '/images/gallery/gallery-02.jpg', alt: 'New home construction in Las Vegas' },
+  Construction: {
+    src: '/images/gallery/gallery-08.jpg',
+    alt: 'New home construction in Las Vegas',
+  },
   Commercial: { src: '/images/gallery/gallery-14.jpg', alt: 'Commercial build-out in Las Vegas' },
   'Bathroom Specialty': {
     src: '/images/gallery/gallery-07.jpg',

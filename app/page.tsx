@@ -16,7 +16,6 @@ import { ServicesByCategory } from '@/components/sections/ServicesByCategory';
 import { ServicesSection } from '@/components/sections/ServicesSection';
 import { StatsBar } from '@/components/sections/StatsBar';
 import { Testimonials } from '@/components/sections/Testimonials';
-import { TrustBar } from '@/components/sections/TrustBar';
 import { WhyUsSection } from '@/components/sections/WhyUsSection';
 import { homeFaqs } from '@/data/home';
 import { homePage } from '@/data/pages';
@@ -32,7 +31,6 @@ export default function HomePage() {
       <SiteNav />
       <main id="main">
         <HomeHero />
-        <TrustBar />
         <AboutSection />
         <StatsBar />
         <ServicesSection />

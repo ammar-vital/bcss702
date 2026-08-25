@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { ServiceIcons } from '@/components/ui/Icons';
@@ -22,14 +21,7 @@ export function ServicesSection() {
           {featuredServices.map((service) => {
             const Icon = ServiceIcons[service.icon];
             return (
-              <Link className="service-card" href={service.href} key={service.href}>
-                <Image
-                  className="service-img"
-                  src={service.image}
-                  alt={service.imageAlt}
-                  width={420}
-                  height={220}
-                />
+              <Link className="service-card service-card-plain" href={service.href} key={service.href}>
                 <div className="service-body">
                   <div className="service-icon">
                     <Icon />

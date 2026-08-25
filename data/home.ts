@@ -10,7 +10,7 @@ export const homeHero = {
   backgroundImage: '/images/gallery/gallery-02.jpg',
   badge: 'Licensed & Insured · NV Lic. #74507',
   headingHighlightLines: ['Las Vegas', 'General Contractor'],
-  headingRestLines: ['Building One Project', 'at a Time'],
+  headingRestLines: ['Building One', 'Project at a Time'],
   subtitle:
     "From kitchen remodels to full commercial build-outs Butler's Construction brings 15+ years of craftsmanship, integrity, and precision to every project across the Las Vegas Valley.",
   formSource: 'Homepage Hero Form',
@@ -214,12 +214,6 @@ export interface GalleryTile {
 }
 
 export const homeGallery: GalleryTile[] = [
-  {
-    src: '/images/gallery/gallery-08.jpg',
-    alt: "Completed construction project in Las Vegas by Butler's Construction",
-    width: 960,
-    height: 720,
-  },
   {
     src: '/images/gallery/gallery-15.jpg',
     alt: 'Commercial build-out project in Las Vegas',

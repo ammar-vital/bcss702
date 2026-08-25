@@ -2740,3 +2740,14 @@ img {
 .testimonials-head .section-sub {
   max-width: none;
 }
+
+/* Featured service cards without a photo: give the icon more presence. */
+.service-card-plain .service-body {
+  padding: 30px 28px;
+}
+.service-card-plain .service-icon {
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
