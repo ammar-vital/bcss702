@@ -9,8 +9,8 @@ import type { FaqEntry } from '@/lib/schema';
 export const homeHero = {
   backgroundImage: '/images/gallery/gallery-02.jpg',
   badge: 'Licensed & Insured · NV Lic. #74507',
-  headingHighlight: 'Las Vegas General Contractor',
-  headingRest: 'Building One Project at a Time',
+  headingHighlightLines: ['Las Vegas', 'General Contractor'],
+  headingRestLines: ['Building One Project', 'at a Time'],
   subtitle:
     "From kitchen remodels to full commercial build-outs Butler's Construction brings 15+ years of craftsmanship, integrity, and precision to every project across the Las Vegas Valley.",
   formSource: 'Homepage Hero Form',

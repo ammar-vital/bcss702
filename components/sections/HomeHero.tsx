@@ -11,9 +11,15 @@ export function HomeHero() {
         <div className="hero-left">
           <div className="hero-badge">{homeHero.badge}</div>
           <h1>
-            <span>{homeHero.headingHighlight}</span>{' '}
+            <span>
+              {homeHero.headingHighlightLines[0]}
+              <br />
+              {homeHero.headingHighlightLines[1]}
+            </span>
             <br />
-            {homeHero.headingRest}
+            {homeHero.headingRestLines[0]}
+            <br />
+            {homeHero.headingRestLines[1]}
           </h1>
           <p>{homeHero.subtitle}</p>
           <div className="hero-btns">
