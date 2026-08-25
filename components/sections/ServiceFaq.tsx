@@ -13,7 +13,9 @@ export function ServiceFaq({ items }: { items: FaqEntry[] }) {
         <div className="faq-list">
           {items.map((item) => (
             <FadeIn className="faq-item" as="details" key={item.question}>
-              <summary className="faq-question">{item.question}</summary>
+              <summary className="faq-question">
+                <h3>{item.question}</h3>
+              </summary>
               <p className="faq-answer">{item.answer}</p>
             </FadeIn>
           ))}

@@ -2539,6 +2539,12 @@ img {
   font-weight: 700;
   color: var(--dark);
 }
+.faq-question h3 {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  display: inline;
+}
 .faq-question::-webkit-details-marker {
   display: none;
 }
@@ -2716,9 +2722,13 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 999px;
   padding: 10px 22px;
+}
+.area-city {
   font-size: 14px;
   font-weight: 700;
   color: var(--dark);
+  margin: 0;
+  letter-spacing: normal;
 }
 
 @media (max-width: 900px) {

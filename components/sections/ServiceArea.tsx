@@ -12,7 +12,9 @@ export function ServiceArea() {
           <p className="section-sub">{serviceAreaSection.intro}</p>
           <ul className="area-cities">
             {serviceAreaSection.cities.map((city) => (
-              <li key={city}>{city}</li>
+              <li key={city}>
+                <h3 className="area-city">{city}</h3>
+              </li>
             ))}
           </ul>
         </FadeIn>

@@ -38,9 +38,9 @@ export default function HomePage() {
         <ServiceProcess />
         <WhyUsSection />
         <ServiceArea />
-        <ServiceFaq items={homeFaqs} />
         <HomeGallery />
         <Testimonials />
+        <ServiceFaq items={homeFaqs} />
         <CtaBand />
         <HomeContact />
       </main>
