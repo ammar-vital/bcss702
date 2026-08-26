@@ -33,7 +33,7 @@ const seoFallbacks: Record<string, Pick<PageSeo, 'title' | 'description'>> = {
   'emergency-water-heater-repair': {
     title: "Emergency Water Heater Repair | Butler's Construction",
     description:
-      'Emergency water heater repair in Las Vegas, fast diagnosis and repair of leaks, pilot failures, and no-hot-water calls.',
+      '24/7 emergency water heater repair in Las Vegas. Fast diagnosis and repair of leaks, pilot-light failures, and no-hot-water calls, often same day.',
   },
 };
 
