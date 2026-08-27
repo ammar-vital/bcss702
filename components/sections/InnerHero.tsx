@@ -13,6 +13,8 @@ interface Props {
    * `min-height: 0`, and the original's inline value deliberately outranked it.
    */
   minHeight?: string;
+  /** `blog` tightens the heading and subtitle to a single line each. */
+  variant?: 'blog';
   children?: React.ReactNode;
 }
 
@@ -23,10 +25,11 @@ export function InnerHero({
   subtitle,
   breadcrumbs,
   minHeight,
+  variant,
   children,
 }: Props) {
   return (
-    <section className="hero" style={minHeight ? { minHeight } : undefined}>
+    <section className={`hero${variant ? ` hero-${variant}` : ''}`} style={minHeight ? { minHeight } : undefined}>
       {image ? (
         <>
           <div className="hero-bg" style={{ backgroundImage: `url('${image}')` }} />

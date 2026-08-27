@@ -37,10 +37,11 @@ export default function BlogIndexPage() {
   return (
     <InnerPage>
       <InnerHero
+        variant="blog"
         image="/images/gallery/gallery-09.jpg"
         badge="Butler's Construction"
         heading="Remodeling & Construction Guides for Las Vegas"
-        subtitle="Straight answers on costs, planning, and hiring, from a licensed local general contractor."
+        subtitle="Straight answers on costs, planning, and hiring from a licensed local contractor."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Blog' }]}
       />
 

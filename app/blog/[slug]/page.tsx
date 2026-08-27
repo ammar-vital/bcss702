@@ -38,10 +38,11 @@ export default async function BlogPostPage({ params }: Params) {
   return (
     <InnerPage>
       <InnerHero
+        variant="blog"
         image={post.heroImage}
         badge={post.heroBadge}
         heading={post.title}
-        subtitle={post.excerpt}
+        subtitle={post.heroSubtitle}
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Blog', href: '/blog/' },

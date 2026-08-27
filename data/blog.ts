@@ -16,6 +16,7 @@ export interface BlogPost {
   heroImage: string;
   heroBadge: string;
   excerpt: string;
+  heroSubtitle: string;
   body: ContentBlock[];
   faqs: { question: string; answer: string }[];
   seo: PageSeo;
@@ -31,6 +32,7 @@ export const blogPosts: BlogPost[] = [
     heroBadge: 'Kitchen Remodeling',
     excerpt:
       'Real 2026 cost ranges for a Las Vegas kitchen remodel, what drives the price, where the budget goes, and how to get the most for your money.',
+    heroSubtitle: 'Real 2026 cost ranges and what drives the price.',
     body: [
       p(
         t('A kitchen remodel is one of the most rewarding home projects you can take on, and also one of the most misunderstood when it comes to cost. In Las Vegas, a '),
@@ -95,6 +97,7 @@ export const blogPosts: BlogPost[] = [
     heroBadge: 'Outdoor Living',
     excerpt:
       'How to design a backyard that works in the desert heat, from shade and covered patios to outdoor kitchens and materials built for Las Vegas summers.',
+    heroSubtitle: 'Design a backyard built for the desert heat.',
     body: [
       p(
         t('In Las Vegas, the backyard can be the best room in the house for much of the year, as long as it is built for the climate. A thoughtful '),
@@ -155,6 +158,7 @@ export const blogPosts: BlogPost[] = [
     heroBadge: 'Homeowner Guide',
     excerpt:
       'A step-by-step guide to hiring the right contractor in Las Vegas: how to verify a license, check insurance, compare bids, and spot the red flags.',
+    heroSubtitle: 'How to verify, compare, and hire with confidence.',
     body: [
       p(
         t('Choosing the right contractor is the most important decision in any construction or remodeling project. A good one protects your home, your budget, and your peace of mind, while the wrong one can cost you all three. Here is how to hire a '),
@@ -216,6 +220,7 @@ export const blogPosts: BlogPost[] = [
     heroBadge: 'Bathroom Remodeling',
     excerpt:
       'What a Las Vegas bathroom remodel really costs, the upgrades homeowners love most, how to plan for hard water and aging in place, and the permit basics.',
+    heroSubtitle: 'Costs, popular upgrades, and the permit basics.',
     body: [
       p(
         t('A bathroom remodel delivers some of the best return on a home improvement dollar, and it is one of the upgrades homeowners enjoy every single day. A '),
