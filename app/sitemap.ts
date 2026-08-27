@@ -8,6 +8,7 @@ import {
   privacyPage,
   servicesIndexPage,
 } from '@/data/pages';
+import { blogPosts } from '@/data/blog';
 import { services } from '@/data/services';
 import { absoluteUrl } from '@/data/site';
 import type { PageSeo } from '@/types/seo';
@@ -32,6 +33,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry(contactPage.seo, 0.8, 'monthly'),
     entry(galleryPage.seo, 0.7, 'monthly'),
     ...services.map((service) => entry(service.seo, 0.8, 'monthly')),
+    {
+      url: absoluteUrl('/blog/'),
+      lastModified: new Date(blogPosts[0]?.datePublished ?? FALLBACK_MODIFIED),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    ...blogPosts.map((post) => entry(post.seo, 0.7, 'monthly')),
     {
       url: absoluteUrl('/site-map/'),
       lastModified: new Date(FALLBACK_MODIFIED),

@@ -81,6 +81,7 @@ export const primaryNavigation: PrimaryNavItem[] = [
   { label: 'About', href: '/about-us/' },
   { label: 'Gallery', href: '/gallery/' },
   { label: 'Reviews', href: '/#reviews' },
+  { label: 'Blog', href: '/blog/' },
   { label: 'Contact', href: '/contact-us/' },
   { label: 'Free Quote', href: siteConfig.phone.href, cta: true },
 ];
@@ -141,6 +142,7 @@ export const innerFooterColumns: FooterColumn[] = [
     links: [
       { label: 'About Us', href: '/about-us/' },
       { label: 'Gallery', href: '/gallery/' },
+      { label: 'Blog', href: '/blog/' },
       { label: 'Contact Us', href: '/contact-us/' },
       { label: 'Privacy Policy', href: '/privacy-policy/' },
     ],

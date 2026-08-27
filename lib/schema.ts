@@ -145,6 +145,31 @@ export function graph(nodes: JsonObject[]): string {
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': nodes });
 }
 
+/** A blog post, matching a `/blog/<slug>/` page. Authored and dated by us. */
+export function blogPostingSchema(input: {
+  title: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  dateModified?: string;
+  image: string;
+}): JsonObject {
+  const url = absoluteUrl(input.path);
+  return {
+    '@type': 'BlogPosting',
+    '@id': `${url}#blogposting`,
+    headline: input.title,
+    description: input.description,
+    datePublished: input.datePublished,
+    dateModified: input.dateModified ?? input.datePublished,
+    image: input.image.startsWith('http') ? input.image : `${siteConfig.url}${input.image}`,
+    url,
+    mainEntityOfPage: url,
+    author: { '@id': ORGANIZATION_ID },
+    publisher: { '@id': ORGANIZATION_ID },
+  };
+}
+
 /** A Question/Answer pair rendered in a page's FAQ block and its FAQPage node. */
 export interface FaqEntry {
   question: string;
