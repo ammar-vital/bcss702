@@ -10,7 +10,26 @@ export const dynamic = 'force-dynamic';
 export const maxDuration = 30;
 
 /** Fields the form posts for bookkeeping rather than for the message body. */
-const IGNORED = new Set(['Website', 'Consent', 'elapsedMs']);
+const IGNORED = new Set(['Website', 'Consent', 'elapsedMs', 'turnstileToken']);
+
+/** Verify a Cloudflare Turnstile token. Returns true when no secret is set (feature off). */
+async function verifyTurnstile(token: string): Promise<boolean> {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) return true; // not configured; skip
+  if (!token) return false;
+  try {
+    const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ secret, response: token }),
+    });
+    const data = (await response.json()) as { success?: boolean };
+    return data.success === true;
+  } catch {
+    // If Cloudflare is unreachable, do not block a genuine submission.
+    return true;
+  }
+}
 
 /**
  * Best-effort throttle: drop an identical submission repeated within the
@@ -166,6 +185,13 @@ export async function POST(request: Request) {
   // Timing gate: real people take longer than 3 seconds; bots submit instantly.
   const elapsedMs = Number(record.elapsedMs);
   if (Number.isFinite(elapsedMs) && elapsedMs < 3000) {
+    return NextResponse.json({ ok: true });
+  }
+
+  // Cloudflare Turnstile: once keys are set, a missing or failed token is a bot.
+  // No-ops until TURNSTILE_SECRET_KEY is configured, so this is safe to ship now.
+  const turnstileToken = typeof record.turnstileToken === 'string' ? record.turnstileToken : '';
+  if (!(await verifyTurnstile(turnstileToken))) {
     return NextResponse.json({ ok: true });
   }
 

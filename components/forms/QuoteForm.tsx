@@ -1,8 +1,13 @@
 'use client';
 
+import Script from 'next/script';
 import { useId, useState } from 'react';
 
 import { siteConfig } from '@/data/site';
+
+/** Cloudflare Turnstile site key (public). When set, the form renders the widget
+ *  and posts its token; the API verifies it. Unset means the widget is skipped. */
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
 /** `hero` is the white card in the homepage hero; `full` is every other form. */
 type QuoteFormVariant = 'hero' | 'full';
@@ -59,6 +64,9 @@ export function QuoteForm({
       Array.from(new FormData(form).entries(), ([key, value]) => [key, String(value)]),
     );
     payload.elapsedMs = String(Date.now() - loadedAt);
+    const turnstileToken =
+      (form.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value ?? '';
+    if (turnstileToken) payload.turnstileToken = turnstileToken;
 
     setStatus('submitting');
     try {
@@ -70,6 +78,7 @@ export function QuoteForm({
       if (!response.ok) throw new Error(`Request failed with ${response.status}`);
       setStatus('success');
       form.reset();
+      (window as unknown as { turnstile?: { reset?: () => void } }).turnstile?.reset?.();
     } catch {
       setStatus('error');
     }
@@ -219,6 +228,21 @@ export function QuoteForm({
           </span>
         </label>
       </div>
+
+      {TURNSTILE_SITE_KEY && (
+        <>
+          <Script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+            strategy="afterInteractive"
+          />
+          <div
+            className="cf-turnstile"
+            data-sitekey={TURNSTILE_SITE_KEY}
+            data-theme="light"
+            style={{ marginBottom: '1rem' }}
+          />
+        </>
+      )}
 
       <button type="submit" className="form-submit" disabled={status === 'submitting'}>
         {status === 'submitting' ? 'Sending…' : submitLabel}
