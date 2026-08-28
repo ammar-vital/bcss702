@@ -176,6 +176,18 @@ export function QuoteForm({
         </>
       )}
 
+      <div className="form-group">
+        <label htmlFor={`${id}-location`}>Project City &amp; ZIP</label>
+        <input
+          type="text"
+          id={`${id}-location`}
+          name="Location"
+          placeholder="Las Vegas, 89101"
+          autoComplete="address-level2"
+          required
+        />
+      </div>
+
       {serviceOptions && (
         <div className="form-group">
           <label htmlFor={`${id}-service`}>Service Needed</label>

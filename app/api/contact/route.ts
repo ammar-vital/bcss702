@@ -67,7 +67,7 @@ function looksLikeGibberish(input: string): boolean {
 }
 
 /** Printed first, in this order, exactly as the WordPress handler did. */
-const PRIORITY = ['Source', 'Name', 'First Name', 'Last Name', 'Email', 'Phone', 'Service'];
+const PRIORITY = ['Source', 'Name', 'First Name', 'Last Name', 'Email', 'Phone', 'Location', 'Service'];
 
 const MAX_FIELD_LENGTH = 5000;
 const MAX_FIELDS = 40;
@@ -84,6 +84,58 @@ function humanise(key: string): string {
 
 function isEmail(value: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+/** A real remodeling request never pastes a link; solicitors always do. */
+function containsLink(value: string): boolean {
+  if (/https?:\/\//i.test(value) || /\bwww\.\w/i.test(value)) return true;
+  return /\b[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.(?:com|net|org|io|co|ai|biz|info|us|link|xyz|site|online|shop|dev)\b/i.test(
+    value,
+  );
+}
+
+/** The "reach out to my uncle at ___@___" redirect scam embeds a second address. */
+function containsEmailAddress(value: string): boolean {
+  return /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i.test(value);
+}
+
+/** Phrases a homeowner never writes, but B2B pitch spam always does. */
+const SOLICITATION_PATTERNS: RegExp[] = [
+  /\bai (employee|agent|assistant|receptionist|worker)\b/i,
+  /\bvirtual assistant/i,
+  /\bgrowth advisor\b/i,
+  /\bincrease (your )?leads?\b/i,
+  /\bour (ai )?agents?\b/i,
+  /\bschedule (a|your) (quick )?(demo|call|walkthrough|time)/i,
+  /\bthis is\s?n[o']?t a sales (call|pitch)/i,
+  /\bbook a (call|demo|time)\b/i,
+  /\breach out to (him|her|them) at\b/i,
+  /\blooking for a reliable\b/i,
+  /\bsave (you|our customers|your team) \d+\+? ?hours\b/i,
+  /\b(handle|answer) (texts|calls|phone|emails).{0,20}(after hours|for you|24\/7)\b/i,
+  /\bremove (bad|negative) reviews\b/i,
+  /\btrained (it |an ai )?on .{0,20}hours\b/i,
+];
+
+function emailDomain(email: string): string {
+  const at = email.lastIndexOf('@');
+  return at >= 0 ? email.slice(at + 1).trim().toLowerCase() : '';
+}
+
+/** Known solicitation senders; extend via env without a redeploy. */
+const BLOCKED_EMAIL_DOMAINS = new Set(
+  (process.env.BLOCKED_EMAIL_DOMAINS ?? 'getdandy.com,getdandynow.com,vettedvas.com,baseagentai.com')
+    .split(',')
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean),
+);
+
+/** Butler's serves the Las Vegas Valley; NV area codes. Out-of-area is flagged, not blocked. */
+const NV_AREA_CODES = new Set(['702', '725', '775']);
+function phoneAreaCode(phone: string): string {
+  const digits = phone.replace(/\D/g, '');
+  const local = digits.length === 11 && digits[0] === '1' ? digits.slice(1) : digits;
+  return local.length === 10 ? local.slice(0, 3) : '';
 }
 
 export async function POST(request: Request) {
@@ -141,6 +193,27 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
+  // Solicitation spam: pitches and redirect scams that pass the phone/gibberish
+  // gates because they use a real name and a valid US number. The tells are a
+  // link or a second email in the message, B2B pitch phrasing, or a known
+  // sender domain. Drop silently (200) so they do not learn they were filtered.
+  const emailForDomain = (record.Email ?? '').toString().trim().toLowerCase();
+  if (
+    containsLink(messageStr) ||
+    containsEmailAddress(messageStr) ||
+    SOLICITATION_PATTERNS.some((pattern) => pattern.test(messageStr)) ||
+    BLOCKED_EMAIL_DOMAINS.has(emailDomain(emailForDomain))
+  ) {
+    return NextResponse.json({ ok: true });
+  }
+
+  // A real quote needs a location. Requiring it also raises the bar on
+  // out-of-area solicitors who cannot name a plausible local job site.
+  const locationStr = (record.Location ?? '').toString().trim();
+  if (locationStr === '') {
+    return NextResponse.json({ ok: false, reason: 'location-required' }, { status: 400 });
+  }
+
   // Drop an identical submission repeated within the window (silent 200).
   const dedupeKey = `${(record.Email ?? '').toString().trim().toLowerCase()}|${phoneRaw.replace(/\D/g, '')}|${messageStr.trim().toLowerCase()}`;
   if (isDuplicateSubmission(dedupeKey)) {
@@ -177,6 +250,10 @@ export async function POST(request: Request) {
   }
   for (const [label, value] of fields) {
     if (!printed.has(label)) lines.push(`${label}: ${value}`);
+  }
+  const areaCode = phoneAreaCode(phoneRaw);
+  if (areaCode && !NV_AREA_CODES.has(areaCode)) {
+    lines.push('', `Note: phone area code ${areaCode} is outside the Nevada service area, verify before quoting.`);
   }
   lines.push('', `Submitted: ${new Date().toISOString()}`);
 
