@@ -28,3 +28,9 @@ export interface Service {
   body: ContentBlock[];
   seo: PageSeo;
 }
+
+/** A single "What's Included" scope card shown in the ServiceFeatures grid. */
+export interface ServiceFeature {
+  title: string;
+  detail: string;
+}

@@ -2,12 +2,17 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
 import { InnerPage } from '@/components/layout/InnerPage';
+import { MobileQuoteBar } from '@/components/layout/MobileQuoteBar';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { CrossLinks } from '@/components/sections/CrossLinks';
 import { InnerHero } from '@/components/sections/InnerHero';
 import { ServiceContact } from '@/components/sections/ServiceContact';
 import { ServiceFaq } from '@/components/sections/ServiceFaq';
+import { ServiceFeatures } from '@/components/sections/ServiceFeatures';
+import { ServiceGallery } from '@/components/sections/ServiceGallery';
 import { ServiceProcess } from '@/components/sections/ServiceProcess';
+import { Testimonials } from '@/components/sections/Testimonials';
+import { TrustBar } from '@/components/sections/TrustBar';
 import { RichText } from '@/components/ui/RichText';
 import { serviceFaqs } from '@/data/faq';
 import { siteConfig } from '@/data/site';
@@ -63,6 +68,10 @@ export default async function ServicePage({ params }: Params) {
         </div>
       </InnerHero>
 
+      <TrustBar />
+
+      <ServiceFeatures slug={service.slug} serviceName={service.name} />
+
       <section>
         <div className="container">
           <div className="content-layout">
@@ -99,6 +108,10 @@ export default async function ServicePage({ params }: Params) {
         </div>
       </section>
 
+      <ServiceGallery />
+
+      <Testimonials />
+
       <ServiceProcess />
 
       <ServiceFaq items={faqs} />
@@ -110,6 +123,8 @@ export default async function ServicePage({ params }: Params) {
         intro={service.contactIntro}
         formSource={service.formSource}
       />
+
+      <MobileQuoteBar />
 
       <JsonLd
         json={pageGraph(service.seo, [
