@@ -2949,3 +2949,25 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ============================================================
+   Kill residual mobile horizontal overflow (2026-08-29).
+   iOS Safari enables a full-page horizontal pan + rubber-band as soon as ANY
+   element pokes past the right edge, showing white negative space on swipe.
+   Sources: the hero's zooming background (transform: scale) bleeds ~2.5% each
+   side, and the decorative .about-img-float hangs off by 24px. Clip the hero,
+   pull the float in on phones, and guard at the document root. `overflow-x:
+   clip` (not hidden) does not create a scroll container, so the service-page
+   sticky quote rail is unaffected.
+   ============================================================ */
+html {
+  overflow-x: clip;
+}
+.hero {
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  .about-img-float {
+    right: 0;
+  }
+}
