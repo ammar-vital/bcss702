@@ -1,5 +1,7 @@
 import type { ServiceFeature } from '@/types/service';
 
+import generatedFeatures from './serviceFeatures.generated.json';
+
 /**
  * "What's Included" scope cards, shown high on each service page so visitors
  * see the full scope at a glance instead of reading through paragraphs.
@@ -26,6 +28,8 @@ export const serviceFeatures: Record<string, ServiceFeature[]> = {
     { title: 'Islands & Layouts', detail: 'Open-concept redesigns, islands, and a smarter kitchen work triangle.' },
     { title: 'Sink, Faucet & Appliances', detail: 'Plumbing and appliance hookups handled by our own licensed crew.' },
   ],
+  // Service-specific scope cards for the remaining 36 services.
+  ...(generatedFeatures as Record<string, ServiceFeature[]>),
 };
 
 export function getServiceFeatures(slug: string): ServiceFeature[] {

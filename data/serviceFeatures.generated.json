@@ -1,0 +1,290 @@
+{
+"bathroom-remodeling": [
+  {"title": "Showers & Tubs", "detail": "Tub to shower conversions, curbless showers, and walk in tub installation for daily comfort."},
+  {"title": "Vanities & Cabinets", "detail": "Custom vanities, cabinetry, and storage solutions built for your layout and style."},
+  {"title": "Tile & Flooring", "detail": "Ceramic, porcelain, and stone tile installed for lasting beauty and easy upkeep."},
+  {"title": "Lighting & Fixtures", "detail": "Updated lighting, faucets, and hardware that modernize the look and function of the room."},
+  {"title": "Layout & Accessibility", "detail": "Wider entryways, grab bars, and reworked layouts for aging in place and mobility needs."},
+  {"title": "Design Through Installation", "detail": "Design consultation through demolition and final installation, managed from start to finish."}
+],
+"home-remodeling": [
+  {"title": "Whole-Home Remodeling", "detail": "Full interior renovations that update layout, finishes, and flow throughout your house."},
+  {"title": "Garage Conversions", "detail": "Turning unused garage space into livable rooms, offices, or additional storage areas."},
+  {"title": "Flooring & Painting", "detail": "Fresh flooring and paint that refresh the look and feel of every room."},
+  {"title": "Windows & Doors", "detail": "Replacement windows and doors that improve comfort, security, and curb appeal."},
+  {"title": "Custom Storage & Carpentry", "detail": "Built ins, closets, and custom carpentry that add usable storage without losing space."},
+  {"title": "Exterior Upgrades", "detail": "Stone veneers, updated lighting, and landscaping that boost curb appeal and value."}
+],
+"commercial-remodeling": [
+  {"title": "Office & Conference Spaces", "detail": "Layouts that maximize flow, lighting, and comfort for daily business operations."},
+  {"title": "Retail & Hospitality Spaces", "detail": "Enhanced layouts and finishes that improve customer experience and curb appeal."},
+  {"title": "Medical & Professional Buildings", "detail": "Clean, code compliant upgrades built for healthcare and professional office standards."},
+  {"title": "Tenant Improvements", "detail": "Custom interior build outs that fit leased commercial space to your exact needs."},
+  {"title": "Lobbies & Interior Build-Outs", "detail": "Lobby renovations, millwork, and interior finishes for a strong professional first impression."},
+  {"title": "Energy Retrofits", "detail": "Lighting, insulation, and HVAC upgrades that reduce operating costs and improve comfort."}
+],
+"room-additions-las-vegas": [
+  {"title": "Bedrooms & Living Areas", "detail": "New bedrooms and living spaces designed to fit how your family actually lives."},
+  {"title": "Home Offices & Playrooms", "detail": "Dedicated rooms for work or play, built directly into your existing footprint."},
+  {"title": "Foundation to Framing", "detail": "Structural work from foundation through framing that ties the addition into your home."},
+  {"title": "Energy-Efficient Systems", "detail": "Modern insulation, windows, and mechanical systems installed to keep costs down long term."},
+  {"title": "Design & Permitting", "detail": "Design consultation and permitting handled from initial planning through final approval."},
+  {"title": "Finish & Walkthrough", "detail": "Interior finishes completed and a final walkthrough to confirm the addition meets expectations."}
+],
+"outdoor-living-spaces": [
+  {"title": "Patios & Pergolas", "detail": "Covered patios and shaded pergolas built for shade, comfort, and year round use."},
+  {"title": "Decks & Structures", "detail": "Custom decks constructed to extend your living space and hold up outdoors."},
+  {"title": "Outdoor Kitchens", "detail": "Built in cooking and entertaining areas designed for hosting family and friends."},
+  {"title": "Hardscaping & Layout", "detail": "Layout and hardscaping planned around how you will actually use the space."},
+  {"title": "Durable Materials", "detail": "Materials selected to handle the desert climate and hold up season after season."},
+  {"title": "Design to Completion", "detail": "Design and construction managed from initial concept through the final build out."}
+],
+"custom-tile-stonework": [
+  {"title": "Shower Surrounds", "detail": "Full shower surrounds installed with precise, watertight tile and stone work."},
+  {"title": "Accent Walls", "detail": "Decorative accent walls that add texture and a custom focal point to any room."},
+  {"title": "Material Selection", "detail": "Ceramic, porcelain, marble, granite, and natural stone sourced to match your design."},
+  {"title": "Flooring Installation", "detail": "Tile and stone flooring installed for durability in kitchens, baths, and living areas."},
+  {"title": "Custom Patterns & Layouts", "detail": "Personalized patterns, colors, and textures designed around your specific space and style."},
+  {"title": "Precision Craftsmanship", "detail": "Detailed installation work that keeps lines, grout, and seams clean and consistent."}
+],
+"accessibility-remodels": [
+  {"title": "Roll-In Showers", "detail": "Curbless, roll in showers built for wheelchair access and easier daily bathing."},
+  {"title": "Walk-In Tubs", "detail": "Low threshold walk in tubs with built in seating and secure, safe entry."},
+  {"title": "Grab Bars & Rails", "detail": "Grab bars and handrails installed at key points for stability and fall prevention."},
+  {"title": "Widened Doorways", "detail": "Doorways and entryways widened to accommodate wheelchairs and walkers throughout the home."},
+  {"title": "ADA-Compliant Design", "detail": "Layouts and fixtures designed to meet ADA accessibility standards without sacrificing style."},
+  {"title": "Aging-in-Place Planning", "detail": "Modifications planned around long term mobility needs so you can stay in your home."}
+],
+"general-contracting": [
+  {"title": "Project Consultation", "detail": "Initial consultation to define scope, budget, and timeline before any work begins."},
+  {"title": "Kitchen & Bath Upgrades", "detail": "Kitchen and bathroom renovations that raise both function and resale value."},
+  {"title": "Flooring & Exterior Work", "detail": "Flooring replacement and exterior improvements handled under a single contractor."},
+  {"title": "Permitting & Coordination", "detail": "Permits, subcontractors, and scheduling coordinated so the project stays on track."},
+  {"title": "Safety & Accessibility Upgrades", "detail": "Widened doorways, improved lighting, and walk in tubs for a safer home."},
+  {"title": "Full-Scale Transformations", "detail": "Whole property renovations managed from initial planning through final completion."}
+],
+"new-home-construction": [
+  {"title": "Design Consultation", "detail": "Initial design planning that turns your vision into a buildable, practical layout."},
+  {"title": "Permitting & Approvals", "detail": "Permitting handled from application through final approval before construction starts."},
+  {"title": "Site & Foundation Work", "detail": "Foundation and site work laid as the structural base of your new home."},
+  {"title": "Framing & Structure", "detail": "Framing and structural build out that shapes the layout of the finished home."},
+  {"title": "Energy-Efficient Systems", "detail": "Modern insulation, windows, and mechanical systems built in from the very start."},
+  {"title": "Final Finishes & Walkthrough", "detail": "Interior finishes completed and reviewed together with you at final walkthrough."}
+],
+"custom-home-builders-las-vegas": [
+  {"title": "Custom Layout & Design", "detail": "Floor plans and layouts designed around your household and daily routines."},
+  {"title": "Foundation to Framing", "detail": "Foundation and framing work that forms the structural base of the home."},
+  {"title": "Premium Materials & Finishes", "detail": "Material and finish selection matched to your style and long term durability needs."},
+  {"title": "Technology & Efficiency Integration", "detail": "Modern technology and energy efficient systems built into the home from the start."},
+  {"title": "Interior Finishing", "detail": "Finishing touches, from trim to fixtures, completed with craftsmanship and attention to detail."},
+  {"title": "Ongoing Communication", "detail": "Regular updates and coordination so you know where the project stands at every stage."}
+],
+"design-build": [
+  {"title": "Whole-House Systems Approach", "detail": "Windows, HVAC, lighting, and insulation designed to work together as one system."},
+  {"title": "Site & Climate Evaluation", "detail": "Site orientation and local climate factored in for natural light and airflow."},
+  {"title": "Energy Modeling", "detail": "Design software used to simulate materials and layouts before construction begins."},
+  {"title": "High-Performance Insulation", "detail": "Insulation and building envelope upgrades that reduce energy loss throughout the year."},
+  {"title": "Efficient Systems & Appliances", "detail": "Heating, cooling, and water systems selected for performance and lower operating costs."},
+  {"title": "Design Through Construction", "detail": "One team managing design and construction so plans and execution stay aligned."}
+],
+"countertop-installation": [
+  {"title": "Material Selection", "detail": "Granite, marble, and quartz options presented to match your kitchen's style and budget."},
+  {"title": "Template & Measurement", "detail": "Precise measurement and templating done to ensure an accurate, custom fit."},
+  {"title": "Cutting & Fabrication", "detail": "Countertops cut and fabricated to fit your exact layout and chosen edge style."},
+  {"title": "Professional Installation", "detail": "Careful installation that protects surrounding cabinetry and finishes throughout the process."},
+  {"title": "Sink & Fixture Integration", "detail": "Sinks, faucets, and fixtures fitted cleanly into the new countertop surface."},
+  {"title": "Sealing & Finishing", "detail": "Final sealing and finish work for a durable, low maintenance surface."}
+],
+"kitchen-flooring": [
+  {"title": "Tile Flooring", "detail": "Ceramic and porcelain tile installed for durability against spills and heavy foot traffic."},
+  {"title": "Hardwood Flooring", "detail": "Hardwood flooring installed and finished for warmth and lasting kitchen style."},
+  {"title": "Luxury Vinyl Flooring", "detail": "Luxury vinyl flooring installed for an affordable, water resistant kitchen surface."},
+  {"title": "Subfloor Preparation", "detail": "Subfloor inspection and prep work done to ensure a level, stable base."},
+  {"title": "Material Guidance", "detail": "Guidance on durability, style, and maintenance to help you pick the right flooring."},
+  {"title": "Finish & Transitions", "detail": "Clean transitions and finish work where new flooring meets adjoining rooms."}
+],
+"commercial-contractor-las-vegas": [
+  {"title": "Ground-Up Builds", "detail": "New commercial construction managed from site work through the completed structure."},
+  {"title": "Retail & Tenant Improvements", "detail": "Storefront and interior buildouts designed to attract customers and support operations."},
+  {"title": "Office Renovations", "detail": "Office space upgrades and interior finish outs built for growing businesses."},
+  {"title": "Medical & Healthcare Facilities", "detail": "Clean, compliant construction for clinics, offices, and specialized care facilities."},
+  {"title": "Industrial Facility Expansion", "detail": "Industrial space construction and expansion built around operational needs."},
+  {"title": "Design-Build Coordination", "detail": "Architects, engineers, and subcontractors coordinated under one design build process."}
+],
+"tenant-improvements": [
+  {"title": "Design & Permitting", "detail": "Space planning and permitting handled before construction begins on your leased space."},
+  {"title": "Layout Reconfiguration", "detail": "Interior layouts reworked to fit your business's workflow and space needs."},
+  {"title": "Finishes & Fixtures", "detail": "Updated finishes, lighting, and fixtures that modernize the tenant space."},
+  {"title": "HVAC & Systems Upgrades", "detail": "Mechanical and HVAC updates that improve comfort and reduce operating costs."},
+  {"title": "Code Compliance", "detail": "Work completed to meet property owner requirements and local building codes."},
+  {"title": "Property Owner Coordination", "detail": "Coordination with property owners and managers throughout the improvement process."}
+],
+"office-build-outs": [
+  {"title": "Custom Layouts & Partitioning", "detail": "Office layouts and partitions built to support how your team actually works."},
+  {"title": "Electrical & Lighting", "detail": "Electrical systems and lighting installed for function and everyday employee comfort."},
+  {"title": "Technology Infrastructure", "detail": "Wiring and infrastructure planned to support your office's technology needs."},
+  {"title": "Interior Finishes", "detail": "Flooring, paint, and finish work that complete the look of the space."},
+  {"title": "Collaboration & Workstations", "detail": "Layouts that balance private workstations with open, collaborative team areas."},
+  {"title": "Turnkey Project Management", "detail": "Project managed start to finish so the office is ready to move into."}
+],
+"retail-restaurant-build-outs": [
+  {"title": "Floor Plans & Layout", "detail": "Floor plans designed around customer flow and day to day operations."},
+  {"title": "Commercial Kitchens", "detail": "Kitchen build outs designed for efficiency and restaurant grade functionality."},
+  {"title": "Dining & Seating Areas", "detail": "Dining areas built out for comfort, capacity, and overall ambiance."},
+  {"title": "Storefront & Finishes", "detail": "Storefront and interior finishes that reflect your brand and draw customers in."},
+  {"title": "Lighting & Acoustics", "detail": "Lighting and acoustic considerations built directly into the space design."},
+  {"title": "Accessibility & Code Compliance", "detail": "Layouts built to meet accessibility requirements and local building code."}
+],
+"medical-healthcare-facility-construction": [
+  {"title": "Clinics & Medical Offices", "detail": "Construction for clinics and medical offices built to clinical operating standards."},
+  {"title": "Dental & Urgent Care", "detail": "Buildouts completed for dental practices and urgent care centers."},
+  {"title": "Compliance & Permitting", "detail": "Permitting and construction managed to meet healthcare building code requirements."},
+  {"title": "Specialized Ventilation", "detail": "Ventilation systems installed to meet infection control and air quality requirements."},
+  {"title": "Patient Flow Layouts", "detail": "Layouts designed around patient flow and day to day staff efficiency."},
+  {"title": "Accessibility Standards", "detail": "Facilities built to meet accessibility requirements for both patients and staff."}
+],
+"commercial-maintenance": [
+  {"title": "Preventive Maintenance", "detail": "Routine upkeep scheduled to catch problems before they become costly repairs."},
+  {"title": "Emergency Repairs", "detail": "Fast response repairs that minimize downtime for your commercial property."},
+  {"title": "Rent-Ready Turn Services", "detail": "Units cleaned, repaired, and prepped for occupancy between tenants."},
+  {"title": "Professional Cleaning", "detail": "Scheduled or one time cleaning that maintains a safe, welcoming property."},
+  {"title": "Trash Outs", "detail": "Waste and debris removal to prep spaces for renovation or new tenants."},
+  {"title": "System Inspections", "detail": "Ongoing inspections that check code compliance and extend the life of your systems."}
+],
+"property-maintenance-handyman": [
+  {"title": "General Repairs", "detail": "Common repairs handled quickly for homeowners, landlords, and business owners."},
+  {"title": "Rent-Ready Turn Services", "detail": "Repairs and deep cleaning that get units ready for the next tenant."},
+  {"title": "Cleaning Services", "detail": "Professional cleaning provided for move ins, move outs, and routine upkeep."},
+  {"title": "Trash Outs", "detail": "Fast removal of debris and unwanted items from the property."},
+  {"title": "Property Assessments", "detail": "On site assessment of your property's condition with practical recommendations."},
+  {"title": "Preventive Upkeep", "detail": "Ongoing maintenance that catches small issues before they turn into expensive ones."}
+],
+"shower-tub-conversions": [
+  {"title": "Tub-to-Shower Conversion", "detail": "Underused tubs replaced with spacious, walk in shower installations."},
+  {"title": "Shower-to-Tub Conversion", "detail": "Cramped showers converted into soaking tubs where the layout allows."},
+  {"title": "Plumbing Updates", "detail": "Plumbing reworked and updated to support the new fixture configuration."},
+  {"title": "Universal Design Features", "detail": "Curbless entries and built in seating incorporated for easier daily use."},
+  {"title": "Fixture & Finish Selection", "detail": "Updated fixtures and finishes selected to match your bathroom's overall style."},
+  {"title": "Design Consultation", "detail": "Guided design options that match the conversion to your layout and goals."}
+],
+"walk-in-bathtub-las-vegas": [
+  {"title": "Low-Threshold Entry", "detail": "Low step in entry designed for secure, independent bathing every day."},
+  {"title": "Built-In Seating", "detail": "Built in seating that adds comfort and stability while bathing."},
+  {"title": "Grab Bars & Rails", "detail": "Grab bars positioned for extra stability getting in and out of the tub."},
+  {"title": "Hydrotherapy Jets", "detail": "Hydrotherapy jet options available for a therapeutic soaking experience."},
+  {"title": "Plumbing & Electrical Work", "detail": "Plumbing and electrical connections handled as part of the full installation."},
+  {"title": "Finishing Touches", "detail": "Surrounding tile and finish work completed to match the new tub."}
+],
+"vanity-cabinet-installation": [
+  {"title": "Vanity Selection", "detail": "Floating, freestanding, and traditional vanity styles offered to fit your bathroom."},
+  {"title": "Custom Cabinetry", "detail": "Custom cabinets built for the specific storage needs of your space."},
+  {"title": "Countertop Integration", "detail": "Vanity countertops fitted and sealed to match your chosen material."},
+  {"title": "Sink & Faucet Fitting", "detail": "Sinks and faucets installed and connected as part of the vanity build."},
+  {"title": "Storage Optimization", "detail": "Layouts designed to maximize storage in compact or spacious bathrooms."},
+  {"title": "Style & Finish Matching", "detail": "Hardware and finishes coordinated to match your bathroom's overall design."}
+],
+"toilet-repair-las-vegas": [
+  {"title": "Leak Repair", "detail": "Leaks in the tank, bowl, or base diagnosed and repaired promptly."},
+  {"title": "Clog Clearing", "detail": "Clogs cleared with proper equipment to restore smooth flushing and drainage."},
+  {"title": "Running Toilet Fixes", "detail": "Running toilets repaired to stop wasted water and lower your utility bills."},
+  {"title": "Parts Replacement", "detail": "Handles, flappers, and fill valves replaced with reliable working parts."},
+  {"title": "Base Seal Replacement", "detail": "Wax rings and gaskets replaced for a watertight seal at the base."},
+  {"title": "Toilet Installation", "detail": "New, efficient toilet models installed for full replacements or upgrades."}
+],
+"plumbing-services": [
+  {"title": "Toilet Repair", "detail": "Toilet leaks, clogs, and running issues diagnosed and fixed correctly."},
+  {"title": "Faucet Replacement", "detail": "Worn or leaking faucets replaced with properly connected new fixtures."},
+  {"title": "Main Line Repair", "detail": "Main water line issues repaired to restore full service to the property."},
+  {"title": "Drain Clearing", "detail": "Clogged drains cleared using the proper tools and methods for the job."},
+  {"title": "Water Pressure Troubleshooting", "detail": "Low or inconsistent water pressure diagnosed and corrected at the source."},
+  {"title": "General Plumbing Repairs", "detail": "Everyday plumbing issues handled by licensed, experienced plumbing technicians."}
+],
+"water-line-repairs": [
+  {"title": "Main Line Repair", "detail": "Main water line breaks located and repaired to restore service quickly."},
+  {"title": "Branch Line Repair", "detail": "Branch lines serving individual fixtures repaired without disrupting the whole system."},
+  {"title": "Leak Location", "detail": "Water line leaks identified before they can spread further into the property."},
+  {"title": "Water Restoration", "detail": "Water flow restored safely once the line repair has been completed."},
+  {"title": "Damage Prevention", "detail": "Fast response work aimed at limiting water intrusion into floors and walls."},
+  {"title": "Emergency Response", "detail": "Urgent water line issues addressed with the tools and urgency they require."}
+],
+"drain-cleaning": [
+  {"title": "Kitchen Drain Cleaning", "detail": "Kitchen sink drains cleared of grease, soap, and food debris buildup."},
+  {"title": "Bathroom Drain Cleaning", "detail": "Bathroom drains cleared of hair and soap buildup for full water flow."},
+  {"title": "Main Line Clearing", "detail": "Main sewer line clogs cleared to restore drainage throughout the property."},
+  {"title": "Advanced Clearing Tools", "detail": "Professional grade tools used to clear clogs without damaging existing pipes."},
+  {"title": "Preventive Drain Maintenance", "detail": "Scheduled drain cleaning that helps prevent future clogs and backups."},
+  {"title": "Backup Prevention", "detail": "Clog removal aimed at stopping slow drains before they cause a backup."}
+],
+"sewer-line-services": [
+  {"title": "Sewer Line Cleaning", "detail": "Blockages cleared from sewer lines to restore normal drainage flow."},
+  {"title": "Root Intrusion Removal", "detail": "Root intrusion cleared and addressed to prevent recurring line blockages."},
+  {"title": "Trenchless Repairs", "detail": "Trenchless repair methods used to fix lines with minimal excavation."},
+  {"title": "Full Line Replacement", "detail": "Damaged sewer lines fully replaced when repair alone isn't enough."},
+  {"title": "Diagnostic Inspection", "detail": "Advanced diagnostic technology used to locate cracks and blockages accurately."},
+  {"title": "Backup Prevention", "detail": "Sewer line issues addressed before they cause backups or property damage."}
+],
+"leak-detection": [
+  {"title": "Hidden Leak Detection", "detail": "Modern equipment used to locate leaks hidden behind walls and floors."},
+  {"title": "Slab Leak Detection", "detail": "Slab leaks located and diagnosed without unnecessary demolition work."},
+  {"title": "Pipe Leak Repair", "detail": "Located pipe leaks repaired promptly to stop ongoing water loss."},
+  {"title": "Mold Prevention", "detail": "Early leak repair aimed at preventing mold growth from hidden moisture."},
+  {"title": "Structural Protection", "detail": "Leak repair work aimed at protecting your property's structural integrity."},
+  {"title": "Utility Bill Diagnosis", "detail": "Unexplained high water bills investigated for hidden leak sources."}
+],
+"water-heater-services": [
+  {"title": "Tank Water Heater Service", "detail": "Traditional tank water heaters repaired and serviced across major brands."},
+  {"title": "Tankless Water Heater Service", "detail": "Tankless systems repaired, serviced, and installed for on demand hot water."},
+  {"title": "Diagnosis & Repair", "detail": "System diagnostics used to identify the cause before recommending a repair."},
+  {"title": "Full Replacement", "detail": "Old or failing units removed and replaced with reliable new systems."},
+  {"title": "Transparent Recommendations", "detail": "Clear, no pressure recommendations offered on repair versus replacement."},
+  {"title": "Installation & Setup", "detail": "New water heaters installed and connected for reliable everyday performance."}
+],
+"water-heater-replacement-las-vegas": [
+  {"title": "Old Unit Removal", "detail": "Old water heaters safely removed and disposed of before installation."},
+  {"title": "Tank Water Heater Installation", "detail": "Traditional tank style water heaters installed and properly connected."},
+  {"title": "Tankless Water Heater Installation", "detail": "Modern tankless systems installed for improved efficiency and capacity."},
+  {"title": "Plumbing Connections", "detail": "Plumbing connections completed to code for reliable, leak free operation."},
+  {"title": "Ventilation & Safety Checks", "detail": "Proper ventilation and safety measures verified as part of every installation."},
+  {"title": "Commercial & Residential Service", "detail": "Replacement service provided for homes, restaurants, hotels, and office buildings."}
+],
+"emergency-water-heater-repair": [
+  {"title": "Rapid Response Diagnosis", "detail": "Technicians respond quickly to diagnose no hot water and leak issues on the spot."},
+  {"title": "Tank & Tankless Repair", "detail": "Both tank and tankless systems repaired under emergency conditions."},
+  {"title": "Leak Repair", "detail": "Active water heater leaks addressed quickly to limit water damage."},
+  {"title": "Noise & Performance Issues", "detail": "Strange noises or performance problems diagnosed and corrected on the spot."},
+  {"title": "Replacement Guidance", "detail": "Honest guidance given on repair versus replacement when a fix isn't enough."},
+  {"title": "Preventive Maintenance", "detail": "Maintenance recommendations offered to extend the life of your unit."}
+],
+"water-damage-restoration": [
+  {"title": "Water Extraction", "detail": "Standing water extracted quickly to limit further damage to the property."},
+  {"title": "Structural Drying", "detail": "Affected floors, walls, and framing dried thoroughly to prevent long term damage."},
+  {"title": "Mold Prevention", "detail": "Drying and treatment work aimed at stopping mold before it starts."},
+  {"title": "Damage Repairs", "detail": "Repairs made to flooring, drywall, and framing affected by water intrusion."},
+  {"title": "Source Identification", "detail": "The source of the leak, burst pipe, or flooding identified and addressed."},
+  {"title": "Restoration to Prior Condition", "detail": "Property restored step by step back toward its original condition."}
+],
+"fire-smoke-damage-restoration": [
+  {"title": "Debris Removal", "detail": "Fire debris cleared from the property to begin the restoration process."},
+  {"title": "Deep Cleaning", "detail": "Walls, furniture, and surfaces deep cleaned to remove soot and residue."},
+  {"title": "Odor Elimination", "detail": "Smoke odor treated and removed from affected materials and air systems."},
+  {"title": "Structural Repairs", "detail": "Fire damaged framing, walls, and structures repaired and rebuilt."},
+  {"title": "Air Duct Cleaning", "detail": "Ventilation systems cleaned to remove smoke residue from the ductwork."},
+  {"title": "Step-by-Step Guidance", "detail": "Guided support provided through each stage of the restoration process."}
+],
+"handyman-services": [
+  {"title": "Drywall Repair", "detail": "Drywall patched and repaired for a clean, finished wall surface."},
+  {"title": "Interior & Exterior Painting", "detail": "Interior and exterior painting completed for a refreshed, updated look."},
+  {"title": "Fixture Replacements", "detail": "Light fixtures, faucets, and hardware replaced and installed correctly."},
+  {"title": "Minor Carpentry", "detail": "Small carpentry projects handled with the same care as larger jobs."},
+  {"title": "General Home Upkeep", "detail": "Everyday maintenance tasks handled so small issues don't pile up."},
+  {"title": "Punch List Repairs", "detail": "Lists of smaller repairs completed together in a single, coordinated visit."}
+],
+"home-maintenance": [
+  {"title": "Drywall & Plumbing Fixes", "detail": "Common drywall and plumbing repairs handled promptly and correctly."},
+  {"title": "Seasonal Upkeep", "detail": "Seasonal maintenance tasks completed to keep the property in good condition year round."},
+  {"title": "Appliance Installation", "detail": "Appliances installed and connected as part of routine home upkeep."},
+  {"title": "Rent-Ready Turn Services", "detail": "Rental properties cleaned, repaired, and inspected before new tenants move in."},
+  {"title": "Professional Cleaning", "detail": "Deep cleaning provided for move ins, move outs, or regular home upkeep."},
+  {"title": "Trash Outs", "detail": "Debris and leftover items removed from the property quickly and thoroughly."}
+]
+}
