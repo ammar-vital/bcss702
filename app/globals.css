@@ -2023,13 +2023,22 @@ img {
     padding: 16px 20px 32px;
     margin: 0;
     overflow-y: auto;
-    transform: translateX(100%);
-    transition: transform 0.28s ease;
+    /* Closed state hides in place (no horizontal offset) so the menu can never
+       be revealed by swiping right, which was creating off-screen scroll. */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: opacity 0.24s ease, transform 0.24s ease, visibility 0s linear 0.24s;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
     z-index: 999;
   }
   .site-nav.nav-open .nav-links {
-    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition: opacity 0.24s ease, transform 0.24s ease, visibility 0s;
   }
   .nav-links li {
     width: 100%;
