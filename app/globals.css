@@ -2019,7 +2019,8 @@ img {
     top: var(--nav-bottom, 64px);
     left: 0;
     right: 0;
-    bottom: 0;
+    height: calc(100vh - var(--nav-bottom, 64px));
+    height: calc(100dvh - var(--nav-bottom, 64px));
     background: #fff;
     flex-direction: column;
     align-items: stretch;
