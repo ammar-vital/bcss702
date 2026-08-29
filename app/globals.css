@@ -45,7 +45,11 @@ body {
 }
 
 body.nav-locked {
-  overflow: hidden;
+  /* Do NOT use overflow:hidden here: it makes <body> a scroll container, which
+     breaks position:sticky on the header while the page is scrolled (the header
+     and the fixed menu jump off-screen). The fixed, full-height menu panel
+     covers the background instead, and overscroll-behavior stops scroll chaining. */
+  overscroll-behavior: none;
 }
 
 img {
@@ -2008,14 +2012,14 @@ img {
   }
 
   .nav-links {
-    /* Anchored to the nav, which is a containing block for fixed children
-       because of its backdrop-filter — so use absolute + explicit height. */
-    position: absolute;
-    top: 100%;
+    /* Fixed to the viewport (not absolute-anchored to the sticky nav): the panel
+       must stay put and cover the screen regardless of scroll position. Anchoring
+       to the sticky header broke when scrolled, dragging the menu off-screen. */
+    position: fixed;
+    top: var(--nav-bottom, 64px);
     left: 0;
     right: 0;
-    height: calc(100vh - var(--nav-bottom, 64px));
-    height: calc(100dvh - var(--nav-bottom, 64px));
+    bottom: 0;
     background: #fff;
     flex-direction: column;
     align-items: stretch;
@@ -2023,6 +2027,7 @@ img {
     padding: 16px 20px 32px;
     margin: 0;
     overflow-y: auto;
+    overscroll-behavior: contain;
     /* Closed state hides in place (no horizontal offset) so the menu can never
        be revealed by swiping right, which was creating off-screen scroll. */
     opacity: 0;
