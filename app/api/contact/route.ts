@@ -151,6 +151,31 @@ const BLOCKED_EMAIL_DOMAINS = new Set(
 
 /** Butler's serves the Las Vegas Valley; NV area codes. Out-of-area is flagged, not blocked. */
 const NV_AREA_CODES = new Set(['702', '725', '775']);
+
+/**
+ * The Project City field is a dropdown of Las Vegas Valley cities on the form,
+ * so a legitimate submission always carries one of these values. A POST with any
+ * other city is a bot bypassing the form (e.g. a "Dallas" solicitation) and is
+ * rejected as out of the service area.
+ */
+const ALLOWED_CITIES = new Set([
+  'Las Vegas',
+  'Henderson',
+  'North Las Vegas',
+  'Summerlin',
+  'Paradise',
+  'Enterprise',
+  'Spring Valley',
+  'Green Valley',
+  'Sunrise Manor',
+  'Winchester',
+  'Whitney',
+  "Mountain's Edge",
+  'Centennial Hills',
+  'Boulder City',
+  'Blue Diamond',
+  'Other (Las Vegas Valley)',
+]);
 function phoneAreaCode(phone: string): string {
   const digits = phone.replace(/\D/g, '');
   const local = digits.length === 11 && digits[0] === '1' ? digits.slice(1) : digits;
@@ -238,6 +263,10 @@ export async function POST(request: Request) {
   const locationStr = (record.Location ?? '').toString().trim();
   if (locationStr === '') {
     return NextResponse.json({ ok: false, reason: 'location-required' }, { status: 400 });
+  }
+  // The form only offers Las Vegas Valley cities; anything else is a bot bypassing it.
+  if (!ALLOWED_CITIES.has(locationStr)) {
+    return NextResponse.json({ ok: false, reason: 'out-of-area' }, { status: 400 });
   }
 
   // Drop an identical submission repeated within the window (silent 200).

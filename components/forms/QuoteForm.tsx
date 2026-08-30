@@ -186,15 +186,32 @@ export function QuoteForm({
       )}
 
       <div className="form-group">
-        <label htmlFor={`${id}-location`}>Project City &amp; ZIP</label>
-        <input
-          type="text"
-          id={`${id}-location`}
-          name="Location"
-          placeholder="Las Vegas, 89101"
-          autoComplete="address-level2"
-          required
-        />
+        <label htmlFor={`${id}-location`}>Project City</label>
+        <select id={`${id}-location`} name="Location" defaultValue="" required>
+          <option value="" disabled>Select your city...</option>
+          {[
+            'Las Vegas',
+            'Henderson',
+            'North Las Vegas',
+            'Summerlin',
+            'Paradise',
+            'Enterprise',
+            'Spring Valley',
+            'Green Valley',
+            'Sunrise Manor',
+            'Winchester',
+            'Whitney',
+            "Mountain's Edge",
+            'Centennial Hills',
+            'Boulder City',
+            'Blue Diamond',
+            'Other (Las Vegas Valley)',
+          ].map((city) => (
+            <option key={city} value={city}>
+              {city}
+            </option>
+          ))}
+        </select>
       </div>
 
       {serviceOptions && (
