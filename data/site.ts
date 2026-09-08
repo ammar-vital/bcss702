@@ -39,8 +39,8 @@ export const siteConfig = {
   },
 
   hours: {
-    summary: 'Mon–Fri: 7AM–6PM | Sat: 8AM–4PM',
-    lines: ['Mon–Fri: 7AM–6PM', 'Saturday: 8AM–4PM', 'Sunday: Closed'],
+    summary: 'Mon-Fri: 7AM-6PM | Sat: 8AM-4PM',
+    lines: ['Mon-Fri: 7AM-6PM', 'Saturday: 8AM-4PM', 'Sunday: Closed'],
     /** schema.org openingHours strings. */
     schema: ['Mo-Fr 07:00-18:00', 'Sa 08:00-16:00'],
   },

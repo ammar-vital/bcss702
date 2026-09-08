@@ -17,7 +17,7 @@ export function Testimonials() {
         <div className="reviews-grid">
           {reviews.map((review) => (
             <FadeIn className="review-card" as="figure" key={review.author}>
-              <div className="stars" aria-label="Rated 5 out of 5">
+              <div className="stars" role="img" aria-label="Rated 5 out of 5">
                 <span aria-hidden="true">★★★★★</span>
               </div>
               <blockquote className="review-text">&ldquo;{review.quote}&rdquo;</blockquote>

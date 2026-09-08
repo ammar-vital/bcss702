@@ -25,7 +25,7 @@ function SocialLinks() {
     { label: 'Google', href: siteConfig.googleBusinessProfile },
   ];
   return (
-    <div className="footer-social" aria-label="Butler's Construction on social media">
+    <div className="footer-social" role="group" aria-label="Butler's Construction on social media">
       {items.map((item) => (
         <a
           key={item.label}

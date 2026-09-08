@@ -24,6 +24,127 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ada-compliant-bathroom',
+    title: 'What Makes a Bathroom ADA-Compliant?',
+    date: 'September 8, 2026',
+    datePublished: '2026-09-08T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-05.jpg',
+    heroBadge: 'Accessibility Remodeling',
+    excerpt:
+      'A bathroom is ADA-compliant when its clearances, fixture heights, and grab bars let someone with limited mobility approach, transfer, and use every fixture safely. Here is what that takes.',
+    heroSubtitle: 'The clearances, heights, and grab bars that make a bathroom truly accessible.',
+    body: [
+      p(
+        t('A bathroom is ADA-compliant when it meets a specific set of clearances, fixture heights, and grab bar requirements that let a person using a wheelchair or with limited mobility approach, transfer onto, and use every fixture safely and independently. Those numbers come from the 2010 ADA Standards for Accessible Design, and getting them right is the difference between a bathroom that looks accessible and one that actually works. It is the heart of any '),
+        a('accessibility remodel', '/accessibility-remodels/'),
+        t('.'),
+      ),
+      p(
+        t('One thing to clear up first: the ADA is a civil-rights law for public and commercial spaces, so a private home is not legally required to meet it. But the ADA numbers are still the best blueprint for a home, because they are built around how a person actually moves, transfers, and reaches. When people ask for an ADA bathroom at home, what they really want is a '),
+        a('bathroom remodel', '/bathroom-remodeling/'),
+        t(' built to those proven standards.'),
+      ),
+      h('Doorway and Clear Floor Space'),
+      p(t('Access starts at the door and the room around each fixture.')),
+      ul(
+        'The doorway needs a clear opening of at least 32 inches so a wheelchair can pass through.',
+        'Each fixture needs a clear floor space of at least 30 by 48 inches so a person can pull up to it.',
+        'The room needs turning space: either a 60-inch-diameter circle or a T-shaped turning area so a wheelchair can reverse direction.',
+      ),
+      h('The Toilet'),
+      p(
+        t('The toilet seat should sit 17 to 19 inches above the floor, higher than a standard toilet, so transferring on and off is easier. The centerline of the toilet is set 16 to 18 inches from the side wall, which leaves room for the grab bars and for a safe transfer.'),
+      ),
+      h('Grab Bars'),
+      p(t('Grab bars are the single most important safety element, and they have real specifications, not just "put a bar somewhere."')),
+      ul(
+        'A grab bar on the wall behind the toilet must be at least 36 inches long.',
+        'A grab bar on the side wall must be at least 42 inches long and start no more than 12 inches from the rear wall.',
+        'Grab bars mount 33 to 36 inches above the floor.',
+        'They must be anchored into blocking or studs to hold at least 250 pounds. A bar screwed into drywall alone is worse than no bar, because people trust it.',
+      ),
+      h('The Sink and Vanity'),
+      p(t('The lavatory has to be usable from a seated position.')),
+      ul(
+        'The rim or counter sits no higher than 34 inches above the floor.',
+        'There is open knee and toe clearance underneath so a wheelchair can roll up to the sink.',
+        'Hot water and drain pipes are insulated or covered so legs are not burned.',
+        'Faucets are lever-style or touchless, operable with one hand and without tight grasping or twisting.',
+      ),
+      h('The Shower or Tub'),
+      p(
+        t('This is where most accessible bathrooms are won or lost. A roll-in shower is at least 60 by 30 inches with a threshold no taller than half an inch, so a wheelchair can roll straight in. It needs grab bars, a folding seat, and a handheld sprayer on a slide bar. A smaller transfer shower (36 by 36 inches) works when the person can move from a chair to a built-in seat.'),
+      ),
+      p(
+        t('For many homeowners the simplest path is to convert an old tub into a barrier-free shower with a '),
+        a('tub-to-shower conversion', '/shower-tub-conversions/'),
+        t(', or to install a '),
+        a('walk-in bathtub', '/walk-in-bathtub-las-vegas/'),
+        t(' with a low step-in door and a built-in seat for those who still want to bathe.'),
+      ),
+      h('Mirror, Controls, and Accessories'),
+      p(t('The finishing details matter for someone seated.')),
+      ul(
+        'The bottom edge of the mirror sits no higher than 40 inches above the floor so it is usable from a wheelchair.',
+        'Dispensers, switches, and controls fall within a comfortable reach range, roughly 15 to 48 inches off the floor.',
+        'Flooring is slip-resistant, which protects everyone, not just wheelchair users.',
+      ),
+      h('Does ADA Apply to My Home Bathroom?'),
+      p(
+        t('Legally, no. The ADA covers businesses and public buildings, not private residences. Homes that need accessibility follow guidelines like ANSI A117.1 or universal-design principles instead. In practice, though, building a home bathroom to the ADA numbers is exactly how you make it safe and future-proof, whether it is for aging in place, a mobility change, or simply a smarter design. The specs are the same either way.'),
+      ),
+      h('Planning an Accessible Bathroom in Las Vegas'),
+      p(
+        t('Whether it is a commercial restroom that has to meet code or a home bathroom built for aging in place, the details are what make it work, and small misses (a grab bar in the wrong spot, a threshold half an inch too tall) defeat the whole purpose. Butler’s Construction handles '),
+        a('accessibility remodels', '/accessibility-remodels/'),
+        t(' and '),
+        a('bathroom remodeling', '/bathroom-remodeling/'),
+        t(' across the Las Vegas valley, from a single grab-bar-and-seat upgrade to a full barrier-free build. '),
+        a('Contact us', '/contact-us/'),
+        t(' for a walk-through and a plan built around the person who will use it.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'Does my home bathroom legally have to be ADA-compliant?',
+        answer:
+          'No. The ADA applies to public and commercial buildings, not private homes. A homeowner is not required to meet it. That said, building to the ADA numbers is the best way to make a home bathroom genuinely accessible and safe, which is why most accessibility remodels use those standards as the blueprint.',
+      },
+      {
+        question: 'How high should grab bars be mounted?',
+        answer:
+          'Grab bars mount 33 to 36 inches above the floor. The bar behind the toilet should be at least 36 inches long, and the side-wall bar at least 42 inches long. Most importantly, they must be anchored into studs or blocking so they hold at least 250 pounds, not screwed into drywall alone.',
+      },
+      {
+        question: 'How wide does an ADA bathroom door need to be?',
+        answer:
+          'The doorway needs a clear opening of at least 32 inches so a wheelchair can pass through. Keep in mind that is the clear width with the door open, so the door itself is usually a bit wider than 32 inches.',
+      },
+      {
+        question: 'What is a roll-in shower?',
+        answer:
+          'A roll-in shower is a curbless shower at least 60 by 30 inches with a threshold no taller than half an inch, so a wheelchair can roll straight in with no step. It includes grab bars, a folding seat, and a handheld sprayer. It is the gold standard for an accessible bathroom.',
+      },
+      {
+        question: 'What height should an ADA toilet be?',
+        answer:
+          'The top of the toilet seat should sit 17 to 19 inches above the floor, which is higher than a standard toilet and makes transferring on and off much easier. The toilet is also set 16 to 18 inches from the side wall to leave room for grab bars and a safe transfer.',
+      },
+      {
+        question: 'Is a walk-in tub the same as an ADA bathroom?',
+        answer:
+          'Not by itself. A walk-in tub is one helpful fixture for someone who still wants to bathe, but an ADA-compliant bathroom is the whole room: the door width, floor clearances, grab bars, sink height, and shower or tub all working together. A walk-in tub or a tub-to-shower conversion is often one piece of that larger plan.',
+      },
+    ],
+    seo: {
+      title: "What Makes a Bathroom ADA-Compliant? | Butler's Construction",
+      description:
+        'What makes a bathroom ADA-compliant: door width, floor clearances, toilet and sink heights, grab bar specs, and roll-in showers, explained for Las Vegas remodels.',
+      path: '/blog/ada-compliant-bathroom/',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'kitchen-remodel-cost-las-vegas',
     title: 'How Much Does a Kitchen Remodel Cost in Las Vegas?',
     date: 'August 26, 2026',
