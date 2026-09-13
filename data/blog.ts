@@ -24,6 +24,129 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'design-build-vs-hiring-a-contractor',
+    title: 'What Is Design-Build, and How Is It Different From Hiring a Contractor?',
+    date: 'September 13, 2026',
+    datePublished: '2026-09-13T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-03.jpg',
+    heroBadge: 'Design-Build',
+    excerpt:
+      'Design-build is a project delivery method where one company handles both the design and the construction under a single contract. Instead of hiring a designer, taking those plans out to bid, and then hiring a separate builder, you work with one team and one point of accountability from the first sketch to the final walkthrough.',
+    heroSubtitle: 'One team, one contract, one point of accountability, from design through construction.',
+    body: [
+      p(
+        t('Design-build is a project delivery method where a single company handles both the design and the construction of your project under one contract. Instead of hiring an architect or designer, taking those finished plans out to bid, and then hiring a separate builder, you work with one team that owns the whole thing from the first sketch to the final walkthrough. The result is one point of contact, one point of accountability, and a design that is priced and built by the same people who drew it. It is the approach behind most of our '),
+        a('design-build projects', '/design-build/'),
+        t(' in Las Vegas.'),
+      ),
+      h('What Is the Design-Build Delivery Method?'),
+      p(
+        t('In design-build, one firm is responsible for both halves of the job. The design team and the construction team sit under the same roof and the same contract, so the people drawing the plans are talking to the people who will actually build them from day one. You sign one agreement, you have one number to call when you have a question, and that firm owns the outcome.'),
+      ),
+      p(
+        t('Compare that to the way most people picture hiring a contractor: you commission a design somewhere, then hand those drawings to a builder to execute. That builder is a general contractor, and general contracting is a perfectly good model. Design-build simply pulls the design and the construction into the same team so nothing gets lost in the handoff between them.'),
+      ),
+      h('How Is Design-Build Different From Design-Bid-Build?'),
+      p(
+        t('The traditional model is called design-bid-build, and the name describes its three separate stages. First you hire a designer or architect to produce a complete set of plans. Then you take those finished plans out to bid, collecting prices from several builders. Then you hire the winning builder to construct what was drawn. Each stage is a separate contract with a separate company.'),
+      ),
+      p(t('The differences that matter to an owner come down to a few things:')),
+      ul(
+        'Contracts: design-bid-build uses two separate contracts (one for design, one for construction), while design-build uses one contract for both.',
+        'Accountability: in design-bid-build, if a problem shows up, the designer and the builder can point at each other, and you are in the middle. In design-build, one firm owns the result.',
+        'Pricing: in design-bid-build you often do not know the real construction cost until the design is finished and the bids come back. In design-build, the builders help price the design as it develops.',
+        'Sequence: design-bid-build is strictly linear, one stage after another, while design-build lets design and construction planning overlap.',
+      ),
+      h('What Are the Benefits of Design-Build?'),
+      p(t('Owners tend to choose design-build for a handful of practical reasons.')),
+      p(
+        t('A single point of contact and clear accountability. You are not refereeing between a designer and a builder. One team answers for the schedule, the budget, and the quality, which removes the finger-pointing that can happen when a design firm and a construction firm are separate companies.'),
+      ),
+      p(
+        t('Potentially faster timelines. Because construction planning can begin while the design is still being refined, the two phases overlap instead of running strictly one after the other. Long-lead materials can be identified and ordered earlier, and permitting and prep can move in parallel with final design.'),
+      ),
+      p(
+        t('Better cost control and fewer change orders. When the people who will build the project are helping shape the design, cost is a live part of the conversation the whole way through rather than a surprise at the end. Problems that would otherwise surface mid-construction as expensive change orders tend to get caught and solved on paper first, when they are far cheaper to fix.'),
+      ),
+      p(
+        t('Real collaboration between design and construction. Constructability, the question of whether something can actually be built the way it was drawn, is baked in from the start because the builders are in the room during design. That is a natural fit for '),
+        a('general contracting', '/general-contracting/'),
+        t(' work and for commercial jobs like '),
+        a('tenant improvements', '/tenant-improvements/'),
+        t(', where a workable schedule and a predictable budget often matter as much as the design itself.'),
+      ),
+      h('What Are the Trade-Offs of Design-Build?'),
+      p(
+        t('Design-build is not automatically the right answer for every project, and it is worth understanding the trade-offs.'),
+      ),
+      ul(
+        'You are placing more trust in one firm. Because design and construction live under the same contract, you do not get the built-in check of an independent designer reviewing the builder, so choosing a firm with a solid track record matters.',
+        'You do not get a stack of competitive construction bids the way you do in design-bid-build. Pricing transparency comes from how the firm works with you, through open budgets and clear allowances, rather than from a bidding war.',
+        'It rewards owners who can engage early. Design-build works best when you are ready to make decisions collaboratively up front rather than handing off a finished, locked plan.',
+      ),
+      p(
+        t('The way a good design-build firm answers these concerns is with transparency: open budgeting, clear allowances, and honest conversations about cost as the design develops, so you always know where the money is going.'),
+      ),
+      h('When Should a Business or Homeowner Choose Design-Build?'),
+      p(
+        t('Design-build tends to be the stronger choice when the schedule and the budget are as important as the design, when the project is complex enough that design and construction really need to talk to each other, or when you simply want one accountable team rather than the job of coordinating separate companies yourself.'),
+      ),
+      p(
+        t('For a business, that often means an office build-out, a retail or restaurant space, or a '),
+        a('commercial remodel', '/commercial-remodeling/'),
+        t(' that has to open on a firm date. For a homeowner, it can mean a room addition or a whole-home remodel where you want a single team steering the design, the budget, and the build instead of juggling a designer and a contractor at the same time.'),
+      ),
+      p(
+        t('The traditional design-bid-build route still makes sense when a project is straightforward, when a design is already fully complete, or when an owner specifically wants multiple competitive construction bids on an identical set of plans. The right method depends on the project and on how involved you want to be.'),
+      ),
+      h('Design-Build in Las Vegas'),
+      p(
+        t('Butler’s Construction offers design-build, general contracting, tenant improvements, and commercial and residential remodeling across the Las Vegas valley. That means we can take a project from the first idea through design, permitting, and construction under one roof, or step in as your general contractor on a plan that is already drawn. If you are weighing which approach fits your project, '),
+        a('contact us', '/contact-us/'),
+        t(' and we will walk you through the options honestly and give you a clear, detailed estimate.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'What is the difference between design-build and hiring a general contractor?',
+        answer:
+          'Design-build is a delivery method where one firm handles both the design and the construction under a single contract. Hiring a general contractor usually refers to the construction half only, where you bring the builder a design that was created separately. Design-build folds the designer and the builder into the same team, so there is one contract and one point of accountability instead of two.',
+      },
+      {
+        question: 'What is design-bid-build?',
+        answer:
+          'Design-bid-build is the traditional three-stage model. First you hire a designer or architect to produce complete plans, then you take those plans out to bid to collect prices from several builders, then you hire the winning builder to construct them. Each stage is a separate company and a separate contract, and the stages happen one after another.',
+      },
+      {
+        question: 'Is design-build cheaper than the traditional approach?',
+        answer:
+          'It is not automatically cheaper, but it often gives you better cost control. Because the builders help price the design as it develops, cost stays part of the conversation the whole way through instead of arriving as a surprise when bids come back. That tends to reduce expensive change orders during construction. Design-bid-build can produce a lower construction bid through competition, but it carries more risk of mid-project cost changes.',
+      },
+      {
+        question: 'Is design-build faster than design-bid-build?',
+        answer:
+          'It often is, because construction planning can begin while the design is still being refined rather than waiting for a finished plan to go out to bid. Overlapping the phases and ordering long-lead materials earlier can shorten the overall timeline, though the actual schedule always depends on the size and complexity of the project.',
+      },
+      {
+        question: 'Who is responsible if something goes wrong in a design-build project?',
+        answer:
+          'The design-build firm is. Because design and construction live under one contract, a single company owns the schedule, the budget, and the quality, which removes the finger-pointing that can happen when a separate designer and builder blame each other. That single point of accountability is one of the main reasons owners choose design-build.',
+      },
+      {
+        question: 'When should I choose design-build over hiring separate designers and builders?',
+        answer:
+          'Design-build tends to be the stronger choice when your schedule and budget matter as much as the design, when a project is complex enough that design and construction really need to coordinate, or when you want one accountable team instead of managing separate companies yourself. If a project is simple, or a design is already fully complete and you want competitive construction bids, the traditional design-bid-build route can still make sense.',
+      },
+    ],
+    seo: {
+      title: "Design-Build vs. Hiring a Contractor | Butler's Construction",
+      description:
+        'Design-build explained: what the delivery method is, how it differs from design-bid-build, its benefits and trade-offs, and when a Las Vegas owner should choose it.',
+      path: '/blog/design-build-vs-hiring-a-contractor/',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'ada-compliant-bathroom',
     title: 'What Makes a Bathroom ADA-Compliant?',
     date: 'September 8, 2026',
