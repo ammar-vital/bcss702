@@ -29,6 +29,35 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
         'Yes. We build to the applicable healthcare and accessibility codes and coordinate the Nevada permits and inspections for your project, so the finished facility passes and is ready for use.',
     },
   ],
+  'countertop-installation': [
+    {
+      question: 'What countertop materials do you install in Las Vegas?',
+      answer:
+        'We fabricate and install granite, quartzite, engineered quartz, and marble for kitchens and bathrooms across the Las Vegas Valley. We help you weigh durability, maintenance, and budget so the surface fits how you use the space.',
+    },
+    {
+      question: 'Do you install commercial countertops?',
+      answer:
+        'Yes. We install commercial countertops for offices, restaurants, and retail spaces, from reception counters and break rooms to restaurant service surfaces, in durable materials built for heavy daily use.',
+    },
+    {
+      question: 'How long does countertop installation take?',
+      answer:
+        'Most projects run from templating to install over a couple of weeks, depending on the material and fabrication time. We give you a realistic timeline with your written estimate.',
+    },
+  ],
+  'vanity-cabinet-installation': [
+    {
+      question: 'Do you install bathroom vanities and cabinets in Las Vegas?',
+      answer:
+        'Yes. We install single and double vanities, floating and wall-mounted units, and fully custom cabinetry across the Las Vegas Valley, sized to your bathroom and matched to your storage needs.',
+    },
+    {
+      question: 'Can you match a new vanity with a new countertop?',
+      answer:
+        'Yes. We install the vanity and its countertop together so the finish, edges, and sink line up cleanly for a coordinated, finished look.',
+    },
+  ],
 };
 
 export function serviceFaqs(serviceName: string, slug?: string): FaqEntry[] {
