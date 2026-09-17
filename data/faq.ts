@@ -6,8 +6,35 @@ import type { FaqEntry } from '@/lib/schema';
  * siteConfig. The first and third questions fold in the service name so each
  * page's FAQ (and its FAQPage schema) is unique rather than 37 identical blocks.
  */
-export function serviceFaqs(serviceName: string): FaqEntry[] {
+/**
+ * Per-slug, service-specific FAQs that target the real search queries a page
+ * ranks for. Prepended to the generic set so each page leads with questions
+ * unique to that service (and its FAQPage schema).
+ */
+const SERVICE_FAQS: Record<string, FaqEntry[]> = {
+  'medical-healthcare-facility-construction': [
+    {
+      question: 'Do you handle medical office remodeling in Las Vegas?',
+      answer:
+        'Yes. We remodel active and vacant medical offices across the Las Vegas Valley, including dental operatories, exam and treatment rooms, urgent care, imaging suites, and med spas, sequencing the work around your patient schedule and keeping the space ADA accessible.',
+    },
+    {
+      question: 'How do you keep a medical office open during construction?',
+      answer:
+        'We phase the work, set up dust and infection-control barriers, protect egress and restrooms, and schedule the disruptive tasks around your hours so your practice can keep seeing patients wherever possible.',
+    },
+    {
+      question: 'Do you manage healthcare code compliance and permits?',
+      answer:
+        'Yes. We build to the applicable healthcare and accessibility codes and coordinate the Nevada permits and inspections for your project, so the finished facility passes and is ready for use.',
+    },
+  ],
+};
+
+export function serviceFaqs(serviceName: string, slug?: string): FaqEntry[] {
+  const custom = slug ? SERVICE_FAQS[slug] ?? [] : [];
   return [
+    ...custom,
     {
       question: `Do you offer free estimates for ${serviceName}?`,
       answer: `Yes. Every ${serviceName} project starts with a free, no-obligation estimate. Call ${siteConfig.phone.display} or request a quote online and we respond within 24 hours.`,

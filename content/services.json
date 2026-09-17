@@ -2724,7 +2724,7 @@
     "category": "Commercial",
     "heroImage": "/images/gallery/gallery-14.jpg",
     "heroBadge": "Licensed Nevada General Contractor",
-    "heroHeading": "Medical & Healthcare Facility Construction in Las Vegas",
+    "heroHeading": "Medical Office Remodeling & Healthcare Facility Construction in Las Vegas",
     "heroSubtitle": "Healthcare facilities must meet strict safety, accessibility, and compliance standards while providing a welcoming atmosphere for patients. Our team has experience constructing clinics, dental offices, urgent care centers, and specialized medical facilities. We handle everything from planning and permitting to construction and finishing, ensuring your facility meets regulations and exceeds expectations.",
     "breadcrumbLabel": "Medical & Healthcare Facility Construction",
     "formSource": "Medical &amp; Healthcare Facility Construction Service Page",
@@ -2740,7 +2740,7 @@
         "content": [
           {
             "type": "text",
-            "text": "At Butler’s Construction & Service Solutions , we deliver "
+            "text": "Butler’s Construction & Service Solutions builds and remodels medical offices and healthcare facilities across Las Vegas, backed by our licensed "
           },
           {
             "type": "link",
@@ -2749,16 +2749,16 @@
           },
           {
             "type": "text",
-            "text": " services designed to meet the demands of growing businesses and evolving industries. Whether you’re developing new retail space, upgrading "
+            "text": " team. Whether you are opening a new clinic, remodeling a dental or urgent care office, or reconfiguring "
           },
           {
             "type": "link",
-            "text": "tenant interiors",
+            "text": "tenant space",
             "href": "/tenant-improvements/"
           },
           {
             "type": "text",
-            "text": ", or expanding industrial facilities, our experienced team provides turnkey solutions with professionalism."
+            "text": " for a medical practice, we deliver code-compliant, patient-ready spaces on schedule."
           }
         ]
       },
@@ -2776,7 +2776,7 @@
         "content": [
           {
             "type": "text",
-            "text": "Compliance guaranteed: built to meet healthcare codes and standards."
+            "text": "Built to meet healthcare codes and accessibility standards, from infection control to ADA access."
           }
         ]
       },
@@ -2795,6 +2795,19 @@
           {
             "type": "text",
             "text": "Enhance patient experience: comfortable, modern facilities build trust."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Medical Office Remodeling in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "Remodeling an active medical office is different from a standard build. We sequence the work around your patient schedule, maintain dust and infection-control barriers where required, and keep exits, restrooms, and treatment rooms ADA accessible throughout. From dental operatories and exam rooms to urgent care, imaging, and med-spa suites, we coordinate the Nevada permitting and inspections for your medical office remodel so your Las Vegas practice reopens on time and up to code."
           }
         ]
       },
@@ -2872,8 +2885,8 @@
       }
     ],
     "seo": {
-      "title": "Healthcare Facility Builds Las Vegas | Butler's Construction",
-      "description": "Build or upgrade Las Vegas medical facilities with expert construction for clinics, dental offices, urgent care centers, and healthcare spaces.",
+      "title": "Medical Office Remodeling Las Vegas | Butler's Construction",
+      "description": "Medical office remodeling and healthcare construction in Las Vegas: clinics, dental offices, and urgent care centers, built to code by a licensed general contractor.",
       "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
       "datePublished": "2026-05-06T12:49:26+00:00",
       "dateModified": "2026-05-12T15:41:55+00:00"

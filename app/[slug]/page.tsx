@@ -43,7 +43,7 @@ export default async function ServicePage({ params }: Params) {
   const service = getService(slug);
   if (!service) notFound();
 
-  const faqs = serviceFaqs(service.name);
+  const faqs = serviceFaqs(service.name, service.slug);
 
   return (
     <InnerPage>
