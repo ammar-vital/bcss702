@@ -58,6 +58,97 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
         'Yes. We install the vanity and its countertop together so the finish, edges, and sink line up cleanly for a coordinated, finished look.',
     },
   ],
+  'accessibility-remodels': [
+    {
+      question: 'Do you do ADA-compliant construction in Las Vegas?',
+      answer:
+        'Yes. We build ADA-compliant and aging-in-place modifications across the Las Vegas Valley, including curbless showers, grab bars, widened doorways, ramps, and comfort-height fixtures, all built to the applicable accessibility standards.',
+    },
+    {
+      question: 'What accessibility modifications can you make to a home?',
+      answer:
+        'Common projects include zero-threshold showers, walk-in tubs, grab bars with proper blocking, wider doorways and hallways, ramps and step-free entries, roll-under vanities, and comfort-height toilets, tailored to how you use the space.',
+    },
+  ],
+  'room-additions-las-vegas': [
+    {
+      question: 'Do you handle the design and permitting for a room addition?',
+      answer:
+        'Yes. We take room additions from design and planning through Clark County permitting and construction, and we match the new rooflines, foundation, and finishes to your existing home so it looks original.',
+    },
+    {
+      question: 'What types of additions do you build?',
+      answer:
+        'Bedroom and primary-suite additions, second-story additions, casitas and guest suites, and commercial additions across the Las Vegas Valley.',
+    },
+  ],
+  'retail-restaurant-build-outs': [
+    {
+      question: 'Do you do restaurant and retail build-outs in Las Vegas?',
+      answer:
+        'Yes. We deliver turnkey build-outs from white-box to open-for-business, including storefronts, restaurant kitchens and hood systems, restrooms, ADA access, and health-department and building-permit coordination.',
+    },
+    {
+      question: 'Can you handle permits and health department requirements?',
+      answer:
+        'Yes. We coordinate the building permits and health-department requirements for retail and restaurant spaces so your opening stays on schedule.',
+    },
+  ],
+  'walk-in-bathtub-las-vegas': [
+    {
+      question: 'Do you install walk-in bathtubs in Las Vegas?',
+      answer:
+        'Yes. We install walk-in bathtubs across the Las Vegas Valley with a low step-in threshold, built-in seating, grab bars, and safe, quick drainage, and we also handle standard bathtub installation and replacement.',
+    },
+    {
+      question: 'Are walk-in tubs a good fit for seniors or limited mobility?',
+      answer:
+        'They can be. A walk-in tub removes the high step over a standard tub wall and adds seating and grab bars, which helps seniors and anyone with limited mobility bathe more safely. We can pair it with other accessibility upgrades.',
+    },
+  ],
+  'water-line-repairs': [
+    {
+      question: 'Do you repair water lines in Las Vegas?',
+      answer:
+        'Yes. Our licensed plumbers repair and replace water lines across Las Vegas, from a leaking supply line to a full main-line replacement, and restore your water quickly with minimal digging.',
+    },
+    {
+      question: 'How do you find a water line leak?',
+      answer:
+        'We use leak detection to pinpoint the leak before digging, then advise whether a spot repair or a repipe is the better call for your situation.',
+    },
+  ],
+  'custom-tile-stonework': [
+    {
+      question: 'What kinds of tile and stonework do you install?',
+      answer:
+        'Kitchen backsplashes, tiled showers and floors, fireplace surrounds, stone accent walls, and outdoor stone features, in natural stone and tile, installed across Las Vegas.',
+    },
+    {
+      question: 'Do you do decorative stone accent walls and fireplaces?',
+      answer:
+        'Yes. Decorative stonework, including accent walls and fireplace surrounds, is one of our specialties, with careful layout and substrate prep so it lasts.',
+    },
+  ],
+  'office-build-outs': [
+    {
+      question: 'Do you do office build-outs for Las Vegas businesses?',
+      answer:
+        'Yes. We build out offices from white-box to move-in ready, including private offices, open workspace, conference and break rooms, and reception, with electrical, data, and HVAC coordination and ADA-compliant access.',
+    },
+  ],
+  'kitchen-flooring': [
+    {
+      question: 'What kitchen flooring do you install in Las Vegas?',
+      answer:
+        'We install tile, porcelain, luxury vinyl plank, and hardwood built for a busy kitchen, with proper subfloor prep, waterproofing, and clean transitions.',
+    },
+    {
+      question: 'Can you install flooring during a kitchen remodel?',
+      answer:
+        'Yes. We coordinate flooring with countertop and cabinet work during a kitchen remodel so the sequence and finishes line up.',
+    },
+  ],
 };
 
 export function serviceFaqs(serviceName: string, slug?: string): FaqEntry[] {

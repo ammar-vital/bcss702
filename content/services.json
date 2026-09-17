@@ -739,6 +739,37 @@
       },
       {
         "type": "heading",
+        "text": "Home and Room Addition Design, Planning, and Permitting"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "As a room addition contractor in Las Vegas, we handle the full addition from design and planning through Clark County permitting and construction: bedroom and primary-suite additions, second-story additions, casitas, and commercial additions. We match the new rooflines, foundation, and finishes to your existing structure so the addition looks original, not bolted on. For larger projects we run it "
+          },
+          {
+            "type": "link",
+            "text": "design-build",
+            "href": "/design-build/"
+          },
+          {
+            "type": "text",
+            "text": ", and our "
+          },
+          {
+            "type": "link",
+            "text": "custom home building",
+            "href": "/custom-home-builders-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " team supports the structural work."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -1025,6 +1056,37 @@
       },
       {
         "type": "heading",
+        "text": "Decorative Stonework and Custom Tile in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We design and install custom tile and decorative stonework throughout Las Vegas homes and businesses: kitchen backsplashes, tiled showers and floors, fireplace surrounds, stone accent walls, and outdoor stone features. Precise layout, proper substrate prep, and waterproofing are what make stone and tile last, and that is where our detail shows. Stonework pairs well with a "
+          },
+          {
+            "type": "link",
+            "text": "kitchen remodel",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": " or "
+          },
+          {
+            "type": "link",
+            "text": "bathroom remodel",
+            "href": "/bathroom-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -1096,7 +1158,11 @@
         ]
       }
     ],
-    "seo": null
+    "seo": {
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "title": "Custom Tile & Stonework Las Vegas | Butler's Construction",
+      "description": "Custom tile and decorative stonework in Las Vegas: backsplashes, showers, floors, fireplaces, and stone accent walls installed by a licensed contractor."
+    }
   },
   {
     "slug": "accessibility-remodels",
@@ -1153,6 +1219,37 @@
       },
       {
         "type": "heading",
+        "text": "ADA-Compliant Construction and Remodeling in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We handle ADA-compliant construction and aging-in-place remodels across Las Vegas: curbless, zero-threshold showers, grab bars with proper wall blocking, widened doorways and hallways, ramps and step-free entries, comfort-height fixtures, and roll-under vanities. Every modification is built to the applicable accessibility standards so a home or business works safely for wheelchairs, walkers, and limited mobility. Pair it with a "
+          },
+          {
+            "type": "link",
+            "text": "walk-in bathtub",
+            "href": "/walk-in-bathtub-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " or a "
+          },
+          {
+            "type": "link",
+            "text": "tub-to-shower conversion",
+            "href": "/shower-tub-conversions/"
+          },
+          {
+            "type": "text",
+            "text": " for a fully accessible bathroom."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -1224,7 +1321,11 @@
         ]
       }
     ],
-    "seo": null
+    "seo": {
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "title": "ADA Accessibility Remodels Las Vegas | Butler's Construction",
+      "description": "ADA-compliant accessibility remodels in Las Vegas: curbless showers, grab bars, wider doorways, and step-free access, built to code by a licensed contractor."
+    }
   },
   {
     "slug": "general-contracting",
@@ -2094,6 +2195,37 @@
       },
       {
         "type": "heading",
+        "text": "Kitchen Flooring Contractor in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "As a kitchen flooring contractor in Las Vegas, we install tile, porcelain, luxury vinyl plank, and hardwood built for a busy kitchen, with proper subfloor prep, waterproofing, and clean transitions to the next room. New flooring pairs naturally with "
+          },
+          {
+            "type": "link",
+            "text": "countertops",
+            "href": "/countertop-installation/"
+          },
+          {
+            "type": "text",
+            "text": " and cabinets during a "
+          },
+          {
+            "type": "link",
+            "text": "kitchen remodel",
+            "href": "/kitchen-remodeling/"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -2553,6 +2685,37 @@
       },
       {
         "type": "heading",
+        "text": "Office Build-Out Contractors in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We build out offices across Las Vegas from white-box to move-in ready: private offices, open workspace, conference and break rooms, reception, and restrooms, with electrical, data, and HVAC coordination and ADA-compliant access. We sequence the work to limit disruption to neighboring tenants and handle the permitting. Office build-outs run with our "
+          },
+          {
+            "type": "link",
+            "text": "tenant improvement",
+            "href": "/tenant-improvements/"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " teams."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -2700,6 +2863,37 @@
           {
             "type": "text",
             "text": "Strengthen brand identity: every detail reflects your business's story."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Retail and Restaurant Build-Outs in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We deliver turnkey retail and restaurant build-outs across Las Vegas, taking a white-box or existing space to a finished, open-for-business interior. That includes storefronts, display and back-of-house areas, restaurant kitchens and hood systems, restrooms and ADA access, and full coordination of health-department and building permits. Build-outs run alongside our "
+          },
+          {
+            "type": "link",
+            "text": "tenant improvement",
+            "href": "/tenant-improvements/"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "link",
+            "text": "commercial contracting",
+            "href": "/commercial-contractor-las-vegas/"
+          },
+          {
+            "type": "text",
+            "text": " work so your opening stays on schedule."
           }
         ]
       },
@@ -3487,6 +3681,37 @@
       },
       {
         "type": "heading",
+        "text": "Walk-In Tub and Bathtub Installation in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We install walk-in bathtubs across the Las Vegas Valley with a low step-in threshold, built-in seating, grab bars, and quick, safe drainage, a strong fit for seniors and anyone with limited mobility. We also handle standard bathtub installation and replacement, and can convert an unused tub as part of an accessible bathroom. It pairs naturally with our "
+          },
+          {
+            "type": "link",
+            "text": "accessibility remodels",
+            "href": "/accessibility-remodels/"
+          },
+          {
+            "type": "text",
+            "text": " and "
+          },
+          {
+            "type": "link",
+            "text": "tub-to-shower conversions",
+            "href": "/shower-tub-conversions/"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "heading",
         "text": "Why Homeowners & Businesses Choose Butler's"
       },
       {
@@ -4103,6 +4328,37 @@
           {
             "type": "text",
             "text": "Foundation shifting or cracking can occur: water can cause the soil to shift, cracking or weakening your foundation."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Water Line Repair and Replacement in Las Vegas"
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "We repair and replace water lines across Las Vegas, from a leaking supply line to a full main-line replacement. Our licensed plumbers pinpoint the problem with "
+          },
+          {
+            "type": "link",
+            "text": "leak detection",
+            "href": "/leak-detection/"
+          },
+          {
+            "type": "text",
+            "text": ", advise whether a spot repair or a repipe makes more sense, and restore your water quickly with minimal digging. It is part of our full "
+          },
+          {
+            "type": "link",
+            "text": "plumbing services",
+            "href": "/plumbing-services/"
+          },
+          {
+            "type": "text",
+            "text": "."
           }
         ]
       },
