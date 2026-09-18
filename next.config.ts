@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
     return [
       // WordPress 301'd the old /about/ slug to the published /about-us/ page.
       { source: '/about', destination: '/about-us/', statusCode: 301 },
+      // Old WordPress URLs (now 404 in GSC) 301'd to the most relevant live page,
+      // so link equity and any lingering rankings transfer instead of dying on a 404.
+      { source: '/construction-project-management-tips', destination: '/general-contracting/', statusCode: 301 },
+      { source: '/home-addition-contractors-save-money', destination: '/room-additions-las-vegas/', statusCode: 301 },
+      { source: '/butlers-construction-las-vegas', destination: '/', statusCode: 301 },
+      { source: '/construction-home-loans', destination: '/new-home-construction/', statusCode: 301 },
+      { source: '/wp-content/:path*', destination: '/', statusCode: 301 },
       // Canonicalise www to the bare apex so link equity consolidates on one host.
       {
         source: '/:path*',
