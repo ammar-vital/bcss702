@@ -96,6 +96,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
   ],
   'walk-in-bathtub-las-vegas': [
     {
+      question: 'Who installs walk-in tubs in Las Vegas?',
+      answer:
+        'Butler’s Construction is a licensed walk-in tub and bathtub installer serving the Las Vegas valley. Our contractors handle the full job, from removing the old tub to plumbing, sealing, and testing the new walk-in tub so it is safe and ready to use.',
+    },
+    {
       question: 'Do you install walk-in bathtubs in Las Vegas?',
       answer:
         'Yes. We install walk-in bathtubs across the Las Vegas Valley with a low step-in threshold, built-in seating, grab bars, and safe, quick drainage, and we also handle standard bathtub installation and replacement.',
