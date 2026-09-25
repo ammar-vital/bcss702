@@ -24,6 +24,116 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'tank-vs-tankless-water-heater-las-vegas',
+    title: 'Tank vs. Tankless Water Heater in Las Vegas: Which Is Right for Your Home?',
+    date: 'September 25, 2026',
+    datePublished: '2026-09-25T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-11.jpg',
+    heroBadge: 'Plumbing & Water Heaters',
+    excerpt:
+      'A tank water heater stores and reheats a fixed supply of hot water and costs less up front, while a tankless unit heats water on demand for endless hot water and a longer life, but needs more upfront work. In Las Vegas, hard water and hot garages change the math. Here is how to choose.',
+    heroSubtitle: 'Upfront cost, hot water supply, lifespan, and hard-water upkeep, compared for Las Vegas homes.',
+    body: [
+      p(
+        t('The core difference is storage. A tank water heater keeps a fixed amount of water, commonly 40 to 50 gallons in a typical home, hot and ready around the clock, so it is simple and costs less to install, but it can run out during back-to-back showers. A tankless water heater has no tank at all. It heats water only when a tap opens, so the hot water does not run out and nothing is kept hot while you sleep, but it costs more up front and often needs gas, venting, or electrical upgrades. Neither is better in every home. The right choice comes down to your budget, how much hot water your household uses at once, how long you plan to stay, and how you will handle Las Vegas hard water.'),
+      ),
+      p(
+        t('Here is a plain-English comparison to help you decide before your next '),
+        a('water heater replacement', '/water-heater-replacement-las-vegas/'),
+        t('.'),
+      ),
+      h('What Is the Difference Between a Tank and a Tankless Water Heater?'),
+      p(
+        t('A tank, or storage, water heater is the familiar cylinder in the garage or closet. It fills with cold water, heats it with a gas burner or electric elements, and keeps it hot until you use it. Because the water sits in the tank, some heat is always lost and the heater cycles on to make up for it, even when no one is home. Once the stored hot water is used up, you wait for the tank to reheat.'),
+      ),
+      p(
+        t('A tankless, or on-demand, water heater is a compact unit that mounts on a wall. When you turn on a hot tap, water flows through a powerful heat exchanger and comes out hot, then the unit shuts off when the tap closes. Its limit is not a tank size but a flow rate: how many fixtures it can serve at the same time. A unit sized correctly for the home delivers continuous hot water, while one that is too small struggles when a shower, the dishwasher, and the washing machine all run at once.'),
+      ),
+      h('Tank vs. Tankless at a Glance'),
+      p(t('A tank water heater is usually the better fit when you:')),
+      ul(
+        'Want the lowest upfront cost and the simplest, fastest replacement.',
+        'Are replacing a working tank setup like for like, with the gas line and venting already in place.',
+        'Have a household that rarely runs out of hot water today.',
+        'May sell the home in the next few years and do not want a large upfront investment.',
+      ),
+      p(t('A tankless water heater is usually the better fit when you:')),
+      ul(
+        'Run out of hot water with back-to-back showers or a large household.',
+        'Plan to stay in the home long enough to benefit from a longer-lasting unit.',
+        'Want to free up the floor space a tank takes in the garage or closet.',
+        'Are already remodeling, so gas, venting, or electrical upgrades can be done at the same time.',
+      ),
+      h('How Does Las Vegas Hard Water Affect Each Type?'),
+      p(
+        t('Las Vegas water is very hard, which means it carries a lot of dissolved calcium and magnesium. When that water is heated, the minerals drop out as scale. In a tank heater, scale settles as sediment on the bottom, which makes the heater work harder, can cause popping or rumbling sounds, and shortens its life. In a tankless heater, scale builds up inside the heat exchanger, which can reduce performance and trigger error codes.'),
+      ),
+      p(
+        t('Both types can handle Las Vegas water with the right maintenance. A tank should be flushed periodically to clear sediment, and its anode rod checked. A tankless unit should be descaled on a regular schedule, usually through service valves installed with it. Many homeowners also add a water softener or scale-reduction system, which protects either type. Skipping this upkeep is the most common reason water heaters fail early in the valley, whichever type you choose. Regular '),
+        a('water heater service', '/water-heater-services/'),
+        t(' keeps either one running longer.'),
+      ),
+      h('What About the Heat in Las Vegas Garages?'),
+      p(
+        t('Most Las Vegas water heaters live in the garage, which can get extremely hot in summer. A tank heater in a hot garage loses less heat to the air than one in a cold space, but the heat is hard on the unit and on any plastic parts nearby. Tankless units free up garage space and can often be mounted on an exterior wall. Whichever you choose, it should be installed to local code with proper venting, clearances, and strapping, and any required permit pulled by a licensed contractor.'),
+      ),
+      h('Which Lasts Longer?'),
+      p(
+        t('Tankless water heaters generally last longer than tank models, often well beyond the typical life of a storage tank, because there is no tank to corrode and fill with sediment. That longer life is a big part of why many homeowners accept the higher upfront cost. In Las Vegas, the real lifespan of either type depends heavily on hard-water maintenance, so a well-maintained tank can outlast a neglected tankless unit.'),
+      ),
+      h('Which Is Right for Your Home?'),
+      p(
+        t('Choose a tank if you want the lowest upfront cost, a quick like-for-like swap, and your household rarely runs out of hot water. Choose tankless if you want continuous hot water, a longer-lasting unit, and more floor space, and you plan to stay long enough for the investment to pay off. If your current heater has already failed and you need hot water today, a tank replacement is usually the fastest path, and '),
+        a('emergency water heater repair', '/emergency-water-heater-repair/'),
+        t(' can get you running again while you weigh a longer-term upgrade.'),
+      ),
+      p(
+        t('Butler’s Construction is a licensed Nevada general contractor and plumbing contractor serving the Las Vegas valley. We install, replace, and service both tank and tankless water heaters and can size the right unit for your home. '),
+        a('Contact us', '/contact-us/'),
+        t(' for a free estimate.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'What is the difference between a tank and a tankless water heater?',
+        answer:
+          'A tank water heater stores a fixed amount of water, often 40 to 50 gallons, and keeps it hot all the time, so it is simple and cheaper to install but can run out during heavy use. A tankless water heater has no storage. It heats water only when a hot tap opens, so it provides continuous hot water and does not keep water hot while you are away, but it costs more up front and may need gas, venting, or electrical upgrades.',
+      },
+      {
+        question: 'Is a tankless water heater worth it in Las Vegas?',
+        answer:
+          'It can be, if you plan to stay in the home for years, your household uses a lot of hot water at once, or you want the floor space back. The higher upfront cost is offset by a longer lifespan and no standby heat loss. It is less likely to be worth it if you are selling soon, your current tank setup works well, or the home would need major gas or electrical upgrades. Hard-water maintenance matters in Las Vegas either way.',
+      },
+      {
+        question: 'How does hard water affect a water heater?',
+        answer:
+          'Hard water leaves mineral scale when it is heated. In a tank heater, the scale settles as sediment that makes the heater less efficient, causes popping or rumbling noises, and shortens its life. In a tankless heater, scale builds up in the heat exchanger and can reduce performance or cause error codes. Flushing a tank, descaling a tankless unit on schedule, and adding a water softener all help.',
+      },
+      {
+        question: 'How often should a water heater be flushed in Las Vegas?',
+        answer:
+          'Because Las Vegas water is very hard, water heaters here benefit from more frequent maintenance than in soft-water areas. Many plumbers suggest flushing a tank heater or descaling a tankless unit at least once a year, and more often if the home has no water softener or the heater is already making noise. A service visit can check the sediment, the anode rod, and the valves and recommend a schedule for your water.',
+      },
+      {
+        question: 'Can I replace my tank water heater with a tankless one?',
+        answer:
+          'Usually, yes, but it is more than a simple swap. A gas tankless unit often needs a larger gas line and new venting, and an electric tankless unit can require significant electrical capacity, sometimes a panel upgrade. The unit also has to be sized to your household’s peak hot water demand. A licensed contractor should assess the gas, venting, and electrical before recommending a model.',
+      },
+      {
+        question: 'Which lasts longer, a tank or tankless water heater?',
+        answer:
+          'Tankless water heaters generally last longer than tank models because there is no tank to corrode or fill with sediment. In Las Vegas, the real-world lifespan of either type depends heavily on hard-water maintenance. A tank that is flushed regularly can outlast a tankless unit that is never descaled.',
+      },
+    ],
+    seo: {
+      title: "Tank vs. Tankless Water Heater Las Vegas | Butler's",
+      description:
+        'Tank vs. tankless water heater in Las Vegas: upfront cost, hot water supply, lifespan, and hard-water upkeep compared to help you choose the right one.',
+      path: '/blog/tank-vs-tankless-water-heater-las-vegas/',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'walk-in-tub-vs-roll-in-shower',
     title: 'Walk-In Tub vs. Roll-In Shower: Which Is Right for Aging in Place?',
     date: 'September 21, 2026',
