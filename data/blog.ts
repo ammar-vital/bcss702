@@ -24,6 +24,107 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'walk-in-tub-vs-roll-in-shower',
+    title: 'Walk-In Tub vs. Roll-In Shower: Which Is Right for Aging in Place?',
+    date: 'September 21, 2026',
+    datePublished: '2026-09-21T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-05.jpg',
+    heroBadge: 'Accessibility Remodeling',
+    excerpt:
+      'A walk-in tub lets you bathe seated behind a watertight door with a low step-in, while a roll-in shower has no threshold at all so a wheelchair or shower chair rolls straight in. Which one fits depends on mobility, who shares the bathroom, space, and whether soaking matters. Here is how to choose.',
+    heroSubtitle: 'The two most common aging-in-place bathing options, compared by mobility, safety, and space.',
+    body: [
+      p(
+        t('The core difference is the doorway and the floor. A walk-in tub has a watertight door and a low step-over sill, so you open the door, step in over a few inches, sit down, and the tub fills around you. A roll-in shower, also called a curbless or zero-threshold shower, has no step at all, so a wheelchair, a rolling shower chair, or unsteady feet move straight in across a level floor. Both are core options in any '),
+        a('accessibility remodel', '/accessibility-remodels/'),
+        t(', and neither is better in every case. The right one comes down to how much a person can still step over, whether they use a wheelchair, who else shares the bathroom, and whether they love to soak.'),
+      ),
+      p(t('Here is a plain-English comparison to help you and your family choose the safer, more livable option.')),
+      h('What Is the Difference Between a Walk-In Tub and a Roll-In Shower?'),
+      p(
+        t('A '),
+        a('walk-in tub', '/walk-in-bathtub-las-vegas/'),
+        t(' is a deep bathtub with a hinged, watertight door built into the side. You enter over a low sill, usually a few inches high, sit on a built-in seat, close the door, and the tub fills. Most include grab bars, a non-slip floor, a handheld sprayer, and often heated or jetted water. The one thing to know: because the door has to seal, you sit inside while the tub fills and again while it drains, so bathing takes longer.'),
+      ),
+      p(
+        t('A roll-in shower removes the barrier entirely. The shower floor is level with the bathroom floor, gently sloped to a drain, with no curb or threshold to cross. It is designed for a wheelchair user to roll in on a waterproof shower chair, or for anyone who cannot safely step over anything, and it pairs with grab bars, a fold-down seat, a handheld sprayer, and a low or offset threshold-free entry.'),
+      ),
+      h('Walk-In Tub vs. Roll-In Shower at a Glance'),
+      p(t('A walk-in tub is usually the better fit when the person:')),
+      ul(
+        'Can still safely step over a low sill of a few inches.',
+        'Wants to soak, and would benefit from warm-water or jetted therapy for sore joints.',
+        'Bathes on their own and is not in a hurry, since the tub fills and drains while they sit.',
+        'Shares the bathroom with others who still want a standard tub experience.',
+      ),
+      p(t('A roll-in shower is usually the better fit when the person:')),
+      ul(
+        'Uses a wheelchair or cannot step over any threshold at all.',
+        'Needs a caregiver to help, since an open, curbless space is far easier to assist in.',
+        'Wants the fastest, simplest, lowest-effort daily routine.',
+        'Is planning for mobility that may decline further, since zero-threshold access works the longest.',
+      ),
+      h('Is a Walk-In Tub or Roll-In Shower Safer?'),
+      p(
+        t('Both are far safer than a standard tub-shower, which is one of the most dangerous places in a home for a fall. The safest choice depends on the person. For someone who can still step over a low sill and bathes independently, a walk-in tub with grab bars, a seat, and a non-slip floor is very safe and adds the comfort of a soak. For a wheelchair user, or anyone who is a serious fall risk stepping over anything, a roll-in shower is safer because it removes the step entirely and gives a caregiver room to help. The deciding factor is honest: can this person reliably and safely step over a few inches, today and a year from now?'),
+      ),
+      h('What About a Tub-to-Shower Conversion?'),
+      p(
+        t('If there is already a standard tub that no one uses safely, a '),
+        a('tub-to-shower conversion', '/shower-tub-conversions/'),
+        t(' is often the most cost-effective path to a low-threshold or roll-in shower. It replaces the old tub with an accessible shower in the same footprint, which is why it is one of the most requested aging-in-place upgrades. Whether it becomes a low-step shower or a fully curbless roll-in depends on the space, the floor structure, and how much barrier-free access is needed.'),
+      ),
+      h('Which Is Right for You?'),
+      p(
+        t('Choose a walk-in tub if the person can step over a low sill, bathes on their own, and would genuinely enjoy soaking, and you want the added comfort of warm-water therapy. Choose a roll-in shower if they use a wheelchair, need a caregiver, want the simplest daily routine, or you are planning for access that lasts as mobility changes. When in doubt, the roll-in shower is the more future-proof choice, because zero-threshold access keeps working the longest. The best next step is a home assessment that looks at the person, the bathroom, and the plumbing before anything is decided.'),
+      ),
+      p(
+        t('Butler’s Construction designs and builds accessible bathrooms across the Las Vegas valley, walk-in tubs, roll-in showers, and tub-to-shower conversions, built to the clearances and grab-bar standards that keep people safe and independent at home. '),
+        a('Contact us', '/contact-us/'),
+        t(' for a free in-home assessment.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'What is the difference between a walk-in tub and a roll-in shower?',
+        answer:
+          'A walk-in tub is a deep bathtub with a watertight door and a low step-over sill of a few inches. You step in, sit down, close the door, and it fills around you, so it is best for someone who can still step over a small sill and wants to soak. A roll-in shower has no threshold at all, the floor is level and sloped to a drain, so a wheelchair or rolling shower chair goes straight in. It is best for wheelchair users or anyone who cannot step over anything.',
+      },
+      {
+        question: 'Is a walk-in tub or a roll-in shower better for a wheelchair user?',
+        answer:
+          'A roll-in shower is almost always better for a wheelchair user. It has zero threshold, so the person can transfer to a waterproof shower chair and roll straight in, and the open, curbless space gives a caregiver room to help. A walk-in tub still requires stepping over a sill and lowering onto a seat, which is difficult or unsafe for many wheelchair users.',
+      },
+      {
+        question: 'Are walk-in tubs safe for seniors?',
+        answer:
+          'Yes, when they are chosen and installed correctly. A walk-in tub adds a low entry, a built-in seat, grab bars, a non-slip floor, and a handheld sprayer, which makes bathing far safer than a standard tub. The main thing to understand is that you sit inside while the tub fills and drains, so the water is cool at the start and end, and the person needs to be comfortable staying seated during that time. For someone who cannot step over the sill, a roll-in shower is the safer option.',
+      },
+      {
+        question: 'What is a roll-in or curbless shower?',
+        answer:
+          'A roll-in shower, also called a curbless or zero-threshold shower, is a shower with no step or lip at the entrance. The shower floor is level with the bathroom floor and gently sloped so water still drains, which lets a wheelchair or rolling shower chair enter without crossing any barrier. It is typically paired with grab bars, a fold-down seat, and a handheld sprayer for a safe, barrier-free bathing space.',
+      },
+      {
+        question: 'Can any bathroom fit a roll-in shower?',
+        answer:
+          'Most can, but it takes planning. A roll-in shower needs enough floor space for the chair and the entry, and the floor has to be built or modified so it slopes to the drain with no curb, which sometimes means adjusting the subfloor. Older or smaller bathrooms may need layout changes to make room. A professional assessment of the space and the plumbing confirms what is possible before any work begins.',
+      },
+      {
+        question: 'Which is more affordable, a walk-in tub or a roll-in shower?',
+        answer:
+          'It depends on the specific unit, the bathroom, and how much work the space needs, so the honest answer is that neither is automatically cheaper and a measured quote is the only reliable comparison. A tub-to-shower conversion in an existing footprint is often the most cost-effective path to accessible bathing. The bigger driver of value is matching the option to the person, since the wrong choice that goes unused is the most expensive outcome of all.',
+      },
+    ],
+    seo: {
+      title: "Walk-In Tub vs. Roll-In Shower | Butler's Construction",
+      description:
+        'Walk-in tub vs. roll-in shower for aging in place: the real differences in mobility, safety, space, and cost, and how to choose the right accessible bathing option in Las Vegas.',
+      path: '/blog/walk-in-tub-vs-roll-in-shower/',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'design-build-vs-hiring-a-contractor',
     title: 'What Is Design-Build, and How Is It Different From Hiring a Contractor?',
     date: 'September 13, 2026',
