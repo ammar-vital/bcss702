@@ -12,6 +12,7 @@ import { blogPosts, getBlogPost } from '@/data/blog';
 import { siteConfig } from '@/data/site';
 import { blogPostingSchema, breadcrumbSchema, faqPageSchema, pageGraph } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
+import { blogTopics } from '@/data/blogTopics';
 
 interface Params {
   params: Promise<{ slug: string }>;
@@ -106,6 +107,7 @@ export default async function BlogPostPage({ params }: Params) {
             path: post.seo.path,
             datePublished: post.datePublished,
             image: post.heroImage,
+            about: blogTopics[post.slug],
           }),
           breadcrumbSchema([
             { name: 'Home', path: '/' },

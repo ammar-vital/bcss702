@@ -54,7 +54,7 @@ export const aboutPage = {
   heroSubtitle: page('about-us').heroSubtitle!,
   breadcrumbLabel: page('about-us').breadcrumbLabel!,
   body: page('about-us').body,
-  seo: seo('about-us', '/about-us/'),
+  seo: seo('about-us', '/about-us/', { schemaType: 'AboutPage' }),
 };
 
 export const galleryPage = {
@@ -62,7 +62,7 @@ export const galleryPage = {
   heroHeading: page('gallery').heroHeading!,
   heroSubtitle: page('gallery').heroSubtitle!,
   breadcrumbLabel: page('gallery').breadcrumbLabel!,
-  seo: seo('gallery', '/gallery/'),
+  seo: seo('gallery', '/gallery/', { schemaType: 'ImageGallery' }),
 };
 
 export const contactPage = {
@@ -72,7 +72,7 @@ export const contactPage = {
   heroSubtitle: page('contact-us').heroSubtitle!,
   breadcrumbLabel: page('contact-us').breadcrumbLabel!,
   formSource: page('contact-us').formSource!,
-  seo: seo('contact-us', '/contact-us/'),
+  seo: seo('contact-us', '/contact-us/', { schemaType: 'ContactPage' }),
 };
 
 export const privacyPage = {

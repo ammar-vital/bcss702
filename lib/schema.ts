@@ -1,5 +1,6 @@
 import { services } from '@/data/services';
 import { absoluteUrl, siteConfig } from '@/data/site';
+import { topicSchema, type Topic } from '@/data/blogTopics';
 import type { PageSeo } from '@/types/seo';
 
 type JsonObject = Record<string, unknown>;
@@ -70,8 +71,30 @@ export function organizationSchema(): JsonObject {
         },
       })),
     },
+    knowsAbout: [
+      'Kitchen remodeling',
+      'Bathroom remodeling',
+      'Accessibility remodeling and ADA-compliant bathrooms',
+      'Room additions',
+      'New home construction',
+      'Design-build',
+      'Commercial tenant improvements',
+      'Plumbing',
+      'Water heater installation and repair',
+      'Water damage restoration',
+    ],
+    hasCredential: siteConfig.licenses.map((license) => ({
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'license',
+      name: license,
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'Nevada State Contractors Board',
+        url: 'https://www.nvcontractorsboard.com/',
+      },
+    })),
     sameAs: [
-      siteConfig.googleBusinessProfile,
+      siteConfig.googleKnowledgeGraphUrl,
       siteConfig.social.facebook,
       siteConfig.social.instagram,
       siteConfig.social.linkedin,
@@ -93,7 +116,7 @@ export function websiteSchema(): JsonObject {
 export function webPageSchema(seo: PageSeo): JsonObject {
   const url = absoluteUrl(seo.path);
   return {
-    '@type': 'WebPage',
+    '@type': seo.schemaType ?? 'WebPage',
     '@id': `${url}#webpage`,
     url,
     name: seo.title,
@@ -153,6 +176,7 @@ export function blogPostingSchema(input: {
   datePublished: string;
   dateModified?: string;
   image: string;
+  about?: Topic[];
 }): JsonObject {
   const url = absoluteUrl(input.path);
   return {
@@ -167,6 +191,7 @@ export function blogPostingSchema(input: {
     mainEntityOfPage: url,
     author: { '@id': ORGANIZATION_ID },
     publisher: { '@id': ORGANIZATION_ID },
+    ...(input.about?.length ? { about: input.about.map(topicSchema) } : {}),
   };
 }
 

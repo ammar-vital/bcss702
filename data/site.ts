@@ -58,6 +58,8 @@ export const siteConfig = {
   foundingYear: '2009',
 
   googleBusinessProfile: 'https://share.google/5Vn1WubALQ4ARLK3U',
+  /** Canonical Google Business Profile entity URL (the share link above resolves to this kgmid). */
+  googleKnowledgeGraphUrl: 'https://www.google.com/search?kgmid=/g/11fjtwf5cm',
   social: {
     facebook: 'https://www.facebook.com/BCSS702/',
     instagram: 'https://www.instagram.com/bcss702',

@@ -13,4 +13,6 @@ export interface PageSeo {
   ogType?: 'website' | 'article';
   /** Set when a page should not be indexed. */
   noindex?: boolean;
+  /** schema.org page type for the WebPage node (defaults to WebPage). */
+  schemaType?: 'WebPage' | 'AboutPage' | 'ContactPage' | 'ImageGallery' | 'CollectionPage';
 }
