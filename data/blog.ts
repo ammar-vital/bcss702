@@ -24,6 +24,139 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'las-vegas-hard-water-water-heaters-pipes',
+    title: 'Las Vegas Hard Water: Effects on Water Heaters and Pipes',
+    date: 'September 28, 2026',
+    datePublished: '2026-09-28T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-07.jpg',
+    heroBadge: 'Plumbing & Water Heaters',
+    excerpt:
+      'Las Vegas hard water leaves mineral scale inside water heaters, pipes, fixtures, and appliances. Here is what that scale does, how to flush and descale your equipment, how softeners and filters compare, and when it is time to call a plumber.',
+    heroSubtitle: 'What mineral scale does to your water heater, pipes, and fixtures, and the simple care that keeps it in check.',
+    body: [
+      p(
+        t('Las Vegas hard water leaves calcium and magnesium scale inside water heaters, pipes, fixtures, and appliances. Over time that scale makes heaters work harder, clogs aerators and showerheads, and shortens equipment life. Regular flushing, descaling, and cleaning keep it under control, and a water softener or scale-reduction system can cut buildup at the source.'),
+      ),
+      p(
+        t('If you are still choosing which kind of heater to buy, our '),
+        a('tank vs. tankless water heater comparison', '/blog/tank-vs-tankless-water-heater-las-vegas/'),
+        t(' covers that decision. This guide picks up after the equipment is in place: what hard water does to it, and how to care for it.'),
+      ),
+      h('Why Is Las Vegas Water So Hard?'),
+      p(
+        t('Most of the valley’s water comes from Lake Mead, which is fed by the Colorado River. On its way, the river picks up dissolved calcium and magnesium from mineral-rich rock and soil. The '),
+        a('Las Vegas Valley Water District', 'https://www.lvvwd.com/water-quality/facts/index.html'),
+        t(' lists its water at 291 parts per million, or 17 grains per gallon, and classifies it as very hard.'),
+      ),
+      p(
+        t('The water district notes that these minerals do not pose a health risk. The trouble is practical: when hard water is heated or left to dry on a surface, the minerals come out of the water and harden into scale, the chalky white crust you may already see on faucets and shower glass.'),
+      ),
+      h('What Does Hard Water Do to a Tank Water Heater?'),
+      p(
+        t('Heat speeds up scale formation, so the water heater takes the hardest hit. In a tank heater, mineral flakes settle to the bottom and build a layer of sediment. That layer sits between the burner or heating element and the water, so the heater burns more energy and takes longer to heat the same tank.'),
+      ),
+      p(
+        t('Water trapped under the sediment can boil in small pockets, which causes the popping, rumbling, or crackling sounds many Las Vegas homeowners hear. Sediment also takes up space that should hold hot water, can clog the drain valve, and lets the bottom of the tank run hotter than it should. In electric heaters, the lower element can become crusted with scale and burn out. All of this tends to shorten the tank’s life.'),
+      ),
+      h('How Does Scale Affect a Tankless Water Heater?'),
+      p(
+        t('A tankless heater has no tank to collect sediment, but it heats water as it flows through narrow passages in a heat exchanger. Scale coats those passages, restricting flow and insulating the metal from the water. The unit has to work harder, water temperature may swing, and flow can drop. Many tankless models display a service or error code when scale builds up. Left alone, heavy scale can damage the heat exchanger, the heart of the unit.'),
+      ),
+      h('What Does Hard Water Do to Pipes, Fixtures, and Appliances?'),
+      p(t('Around the house, scale commonly shows up as:')),
+      ul(
+        'Clogged faucet aerators and showerheads, which cause weak or uneven spray.',
+        'White crust on faucets, drains, and glass shower doors, plus spots on dishes.',
+        'Buildup in dishwashers, washing machines, ice makers, and refrigerator water lines, where scale can foul valves and heating parts.',
+        'Toilet fill valves and flappers that stick or wear, leading to a running toilet.',
+        'Gradual narrowing inside pipes, especially hot water lines and older galvanized steel pipe, which can reduce water flow over time.',
+      ),
+      h('How Do You Flush a Tank Water Heater?'),
+      p(t('Flushing clears sediment from the bottom of the tank. The general process for most tank heaters looks like this:')),
+      ul(
+        'Turn off the power to an electric heater, or set a gas heater’s control to pilot or vacation mode.',
+        'Close the cold water supply valve to the heater and open a hot tap in the house to let air in.',
+        'Attach a garden hose to the drain valve and run it to a floor drain or outdoors where hot water can drain safely.',
+        'Open the drain valve and let the tank drain. Briefly opening the cold supply stirs up remaining sediment. Repeat until the water runs clear.',
+        'Close the drain valve, refill the tank with a hot tap open until water flows steadily, then restore power or gas.',
+      ),
+      p(
+        t('The water can be scalding, so let it cool first and keep children and pets away. Many plumbers suggest flushing at least once a year in Las Vegas. Call a pro if the drain valve is stuck or leaks, the water never runs clear, or the heater is older and has never been flushed, since disturbing heavy sediment can clog or damage an old valve. A technician can also check the anode rod, which helps protect the tank from corrosion.'),
+      ),
+      h('How Do You Descale a Tankless Water Heater?'),
+      p(
+        t('Most tankless heaters are installed with service valves that let a small pump circulate a descaling solution, often white vinegar or a descaler the manufacturer approves, through the heat exchanger. After the solution circulates, the unit is flushed with clean water. Follow the manufacturer’s manual for the schedule and method. If your unit has no service valves, a plumber can add them so future descaling is simple.'),
+      ),
+      h('How Do You Clean Faucet Aerators and Showerheads?'),
+      p(
+        t('Unscrew the aerator from the tip of the faucet, wrapping it in a cloth if you need pliers, and soak it in white vinegar for a few hours. Scrub it with an old toothbrush, rinse, and screw it back on. For a showerhead, remove it and soak it, or tie a plastic bag of vinegar around it. Some specialty finishes can be harmed by acidic cleaners, so check the fixture maker’s care instructions first.'),
+      ),
+      h('Should You Get a Water Softener or a Filter?'),
+      p(
+        t('A water softener removes calcium and magnesium and replaces them with sodium or potassium. Softened water greatly reduces scale throughout the house, which helps protect water heaters and appliances, and it makes soap lather more easily. Things to consider include the upfront cost, ongoing salt purchases, floor space, a nearby drain, and regular upkeep. Softening adds some sodium to the water, so some households keep one unsoftened tap for drinking or use potassium instead.'),
+      ),
+      p(
+        t('Salt-free conditioners, often called scale-reduction systems, change how minerals behave so they are less likely to stick, rather than removing them. They use no salt and need less upkeep, but they do not truly soften water, and results vary by product. Filters such as under-sink reverse osmosis or carbon units mainly improve drinking water taste and do little for whole-house scale. The Southern Nevada Water Authority notes that removing hardness is not needed to protect your health, so any of these is a choice about comfort and equipment care.'),
+      ),
+      h('When Should You Call a Plumber?'),
+      ul(
+        'Popping or rumbling that continues after a flush.',
+        'A leaking tank, or rusty or cloudy hot water.',
+        'Running out of hot water sooner than you used to.',
+        'Tankless error codes that return after descaling, or temperatures that keep swinging.',
+        'Low water pressure throughout the house that cleaning aerators does not fix.',
+        'A drain valve that will not open or will not stop dripping.',
+      ),
+      p(
+        t('Butler’s Construction is a licensed Nevada general contractor and plumbing contractor serving the Las Vegas valley. Our '),
+        a('plumbing services', '/plumbing-services/'),
+        t(' cover the fixtures and lines hard water wears down, and our '),
+        a('water heater services', '/water-heater-services/'),
+        t(' handle repairs and replacements for both tank and tankless units.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'How hard is Las Vegas water?',
+        answer:
+          'The Las Vegas Valley Water District lists its water at 291 parts per million, or 17 grains per gallon, and classifies it as very hard. The hardness comes from calcium and magnesium carried into Lake Mead by the Colorado River. The district notes these minerals are not a health risk, but they do leave scale on fixtures and inside water-using equipment.',
+      },
+      {
+        question: 'Why is my water heater making popping or rumbling noises?',
+        answer:
+          'In a tank water heater, popping or rumbling usually means sediment from hard water has built up on the bottom of the tank. Water trapped under the sediment boils in small pockets as the heater runs. Flushing the tank often helps. If the noise continues after a flush, have a plumber inspect the heater.',
+      },
+      {
+        question: 'How often should I descale a tankless water heater in Las Vegas?',
+        answer:
+          'Follow the schedule in your unit’s manual. Because Las Vegas water is very hard, many plumbers suggest descaling at least once a year, and more often in homes without a water softener or when the unit shows a scale warning or service code.',
+      },
+      {
+        question: 'Can hard water damage pipes?',
+        answer:
+          'Hard water can slowly build scale inside pipes, especially hot water lines and older galvanized steel pipe, which narrows the opening and can reduce flow over time. Scale more often shows up first in faucet aerators, showerheads, valves, and appliances. Low pressure throughout the house is worth having a plumber check.',
+      },
+      {
+        question: 'Do I need a water softener in Las Vegas?',
+        answer:
+          'Not for health. The Southern Nevada Water Authority notes that removing hardness is not needed to protect your health. Many homeowners choose a softener to reduce scale on fixtures, water heaters, and appliances. Weigh the upfront cost, salt, space, and upkeep, or consider a salt-free scale-reduction system, which reduces sticking without truly softening the water.',
+      },
+      {
+        question: 'How do I remove hard water buildup from faucets and showerheads?',
+        answer:
+          'Unscrew the faucet aerator or showerhead and soak it in white vinegar for a few hours, then scrub with an old toothbrush and rinse. For a fixed showerhead, tie a plastic bag of vinegar around it. Check the fixture maker’s care instructions first, since some specialty finishes can be harmed by acidic cleaners.',
+      },
+    ],
+    seo: {
+      title: 'Las Vegas Hard Water: Effects on Water Heaters and Pipes',
+      description:
+        'How Las Vegas hard water affects water heaters, pipes, and fixtures, plus flushing and descaling basics, softener options, and when to call a plumber.',
+      path: '/blog/las-vegas-hard-water-water-heaters-pipes/',
+      datePublished: '2026-09-28T09:00:00-07:00',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'tank-vs-tankless-water-heater-las-vegas',
     title: 'Tank vs. Tankless Water Heater in Las Vegas: Which Is Right for Your Home?',
     date: 'September 25, 2026',
