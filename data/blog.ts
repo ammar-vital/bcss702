@@ -24,6 +24,127 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'running-toilet-causes-fixes',
+    title: 'Running Toilet? Common Causes, Quick Fixes, and When to Replace',
+    date: 'October 6, 2026',
+    datePublished: '2026-10-06T09:00:00-07:00',
+    heroImage: '/images/gallery/gallery-08.jpg',
+    heroBadge: 'Plumbing',
+    excerpt:
+      'A running toilet is almost always a worn flapper, a bad chain, a float set too high, or a failing fill valve. Here is how to spot a silent leak with the food-coloring dye test, the fixes most homeowners can do themselves, and when it is time to call a plumber or replace the toilet.',
+    heroSubtitle: 'Why toilets keep running, the dye test for a silent leak, safe homeowner fixes, and when to call a pro.',
+    body: [
+      p(
+        t('A running toilet almost always comes down to one part inside the tank failing to seal: a worn flapper, a mis-adjusted chain, a float set too high, a worn fill valve, or a cracked overflow tube. Most of these are quick homeowner fixes. If it keeps running, or the tank or bowl is cracked, call a plumber.'),
+      ),
+      p(
+        t('In Las Vegas, hard water minerals speed up wear on these same tank parts. Our guide to '),
+        a('Las Vegas hard water’s effects on water heaters and pipes', '/blog/las-vegas-hard-water-water-heaters-pipes/'),
+        t(' covers what scale does throughout the house, including fill valves and flappers. This guide covers the running toilet itself, whether a quick adjustment will fix it or it is time for toilet repair in Las Vegas from a licensed plumber.'),
+      ),
+      h('Why Does My Toilet Keep Running?'),
+      p(
+        t('A toilet keeps running because water never fully stops moving from the tank into the bowl or down the overflow tube. The usual suspects:'),
+      ),
+      ul(
+        'A worn or warped flapper that no longer forms a tight seal over the flush valve, letting water trickle into the bowl between flushes.',
+        'A flapper chain that is too short, too long, or tangled, holding the flapper open a crack or catching under the valve seat.',
+        'A float set too high, so the fill valve keeps adding water past the point where it should shut off, and the extra spills down the overflow tube.',
+        'A fill valve that is worn out and will not shut off completely, even with the float adjusted correctly.',
+        'A cracked overflow tube, which lets tank water drain into the bowl even when the flapper and fill valve are both working fine.',
+      ),
+      p(
+        t('Any one of these can run up a water bill fast, and more than one often shows up at once in an older toilet that has gone years without service.'),
+      ),
+      h('Is the Toilet Actually Leaking? The Dye Test'),
+      p(
+        t('If the toilet looks fine but you suspect a slow leak, lift the tank lid and add a few drops of food coloring dye to the water inside the tank. Do not flush. Wait 10 to 15 minutes, then check the bowl. If any color has made its way into the bowl, water is leaking past the flapper or through a crack, even though nothing looks wrong on the surface. Butler’s Construction offers '),
+        a('leak detection', '/leak-detection/'),
+        t(' for leaks that are harder to pin down, including ones that show up on the water bill before they show up anywhere you can see.'),
+      ),
+      p(
+        t('That silent leak adds up. The EPA’s '),
+        a('WaterSense program', 'https://www.epa.gov/watersense/fix-leak-week'),
+        t(' notes that an old or worn flapper alone can let a toilet flush on its own or silently leak thousands of gallons of water a year, in a desert valley where every gallon matters.'),
+      ),
+      h('How Do You Stop a Running Toilet? Quick Fixes'),
+      p(
+        t('Several fixes are safe for most homeowners to try before calling a plumber. Toilet tank hardware varies by brand and model, so follow the instructions that came with any replacement part.'),
+      ),
+      ul(
+        'Shut off the water supply valve behind or beside the toilet before opening the tank or touching any part inside it.',
+        'Unhook and re-hook the flapper chain so there is a small amount of slack, not so loose it tangles and not so tight it holds the flapper open.',
+        'Lower the float, using the adjustment screw or clip for your model, so the fill valve shuts off before water reaches the overflow tube.',
+        'Replace a worn flapper with one that matches your toilet’s make and model. Flappers are inexpensive, and the swap rarely takes more than a few minutes once the water is off.',
+      ),
+      p(
+        t('If you adjust the chain or float and the toilet still runs, or you are not comfortable opening the tank, that is a sign to bring in a professional rather than keep guessing at the fix.'),
+      ),
+      h('When Should You Call a Plumber or Replace the Toilet?'),
+      p(
+        t('Some problems are not simple adjustments. Call a plumber, or start thinking about toilet replacement in Las Vegas, when you notice:'),
+      ),
+      ul(
+        'Cracks in the tank or bowl, which cannot be safely patched and will eventually leak or fail outright.',
+        'Running that comes back again and again, even after the flapper, chain, and float have all been checked or replaced.',
+        'A leak at the base of the toilet or a toilet that wobbles, which usually points to a failing wax ring or a damaged flange underneath, not the tank.',
+        'An old high-flow toilet that uses far more water per flush than a current model and keeps needing new parts.',
+      ),
+      p(
+        t('A licensed toilet contractor can tell quickly whether a repair will hold or whether toilet installation in Las Vegas is the better long-term move, especially on an older toilet where hard water has already worn out the fill valve and flapper once before. When repairs keep failing, a licensed plumbing contractor can tell you whether one more toilet repair in Las Vegas NV makes sense or whether a replacement will save you from buying the same parts again and again.'),
+      ),
+      h('Toilet Repair for Las Vegas Offices and Commercial Properties'),
+      p(
+        t('Offices, retail stores, restaurants, and other properties with multiple restrooms put far more cycles on every toilet than a house does, so parts wear out faster and a running toilet in a public restroom can waste water around the clock before anyone notices. Butler’s Construction provides commercial toilet repair in Las Vegas NV for property managers and business owners, along with replacement and new toilet installation when a fixture is beyond repair or an older restroom needs upgrading across multiple stalls at once.'),
+      ),
+      p(
+        t('Butler’s Construction is a licensed Nevada general contractor and C-1 plumbing contractor serving the Las Vegas valley. Our '),
+        a('toilet repair', '/toilet-repair-las-vegas/'),
+        t(' in Las Vegas covers running toilets, leaks, clogs, and full toilet replacement and installation for homes and businesses, with free estimates on every job.'),
+      ),
+    ],
+    faqs: [
+      {
+        question: 'Why does my toilet keep running after I flush?',
+        answer:
+          'Most often a worn flapper, a float set too high, or a fill valve that will not shut off completely. Each lets water keep moving from the tank into the bowl or the overflow tube long after the tank should have stopped filling.',
+      },
+      {
+        question: 'How do I know if my toilet has a silent leak?',
+        answer:
+          'Add a few drops of food coloring to the tank water and wait 10 to 15 minutes without flushing. If color shows up in the bowl, water is leaking past the flapper or through a crack, even if nothing looks wrong on the outside.',
+      },
+      {
+        question: 'Can I fix a running toilet myself?',
+        answer:
+          'Often, yes. Shutting off the supply valve, adjusting the chain or float, and swapping a worn flapper are typical homeowner jobs. Tank hardware varies by brand and model, so follow the instructions for the specific part you are installing.',
+      },
+      {
+        question: 'When should I call a plumber instead of fixing it myself?',
+        answer:
+          'Call a plumber for cracks in the tank or bowl, a leak at the base, a toilet that wobbles, or running that keeps coming back after the flapper, chain, and float have already been checked or replaced.',
+      },
+      {
+        question: 'How much water can a running toilet waste?',
+        answer:
+          'According to EPA WaterSense, an old or worn flapper alone can let a toilet flush on its own or silently leak thousands of gallons of water a year, so a running toilet is worth fixing quickly in a desert valley like Las Vegas.',
+      },
+      {
+        question: 'Does Butler’s Construction repair or replace commercial toilets?',
+        answer:
+          'Yes. We provide commercial toilet repair, replacement, and installation for offices, retail spaces, restaurants, and other Las Vegas properties with multiple restrooms, in addition to residential toilet repair and replacement.',
+      },
+    ],
+    seo: {
+      title: "Running Toilet? Causes and Fixes | Butler's Construction",
+      description:
+        'A running toilet usually means a worn flapper, bad chain, high float, or a failing fill valve. Causes, the dye test, quick fixes, and when to call a pro.',
+      path: '/blog/running-toilet-causes-fixes/',
+      datePublished: '2026-10-06T09:00:00-07:00',
+      ogType: 'article',
+    },
+  },
+  {
     slug: 'las-vegas-hard-water-water-heaters-pipes',
     title: 'Las Vegas Hard Water: Effects on Water Heaters and Pipes',
     date: 'September 28, 2026',

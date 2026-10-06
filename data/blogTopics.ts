@@ -14,6 +14,7 @@ const ACCESSIBILITY = t('Accessibility', 'Q555097', 'Accessibility');
 const GENERAL_CONTRACTOR = t('General contractor', 'Q289612', 'General_contractor');
 
 export const blogTopics: Record<string, Topic[]> = {
+  'running-toilet-causes-fixes': [t('Flush toilet', 'Q268534', 'Flush_toilet'), LAS_VEGAS],
   'las-vegas-hard-water-water-heaters-pipes': [
     t('Hard water', 'Q22988272', 'Hard_water'),
     t('Water heating', 'Q27098513', 'Water_heating'),
