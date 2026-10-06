@@ -55,6 +55,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       answer:
         'Yes. For a countertop remodel we template the space, fabricate the new surface, remove the old tops, and install and seal the new ones, and we can coordinate cabinets, a vanity, or flooring at the same time.',
     },
+    {
+      question: 'Do you repair countertops in Las Vegas?',
+      answer:
+        'Yes. We repair chips and cracks in stone and quartz countertops. If the damage is too extensive for a clean repair, we will tell you and quote a replacement instead.',
+    },
   ],
   'vanity-cabinet-installation': [
     {
@@ -66,6 +71,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       question: 'Can you match a new vanity with a new countertop?',
       answer:
         'Yes. We install the vanity and its countertop together so the finish, edges, and sink line up cleanly for a coordinated, finished look.',
+    },
+    {
+      question: 'Do you refinish bathroom vanities in Las Vegas?',
+      answer:
+        'Yes. If your vanity is structurally sound, we can refinish it for a fresh, updated look instead of replacing it. We will let you know if replacement makes more sense.',
     },
   ],
   'accessibility-remodels': [
