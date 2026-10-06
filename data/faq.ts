@@ -28,6 +28,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       answer:
         'Yes. We build to the applicable healthcare and accessibility codes and coordinate the Nevada permits and inspections for your project, so the finished facility passes and is ready for use.',
     },
+    {
+      question: 'Do you build new medical offices or only remodel them?',
+      answer:
+        'Both. We handle medical office construction in new or vacant tenant space as well as healthcare facility renovation in existing clinics, dental offices, and urgent care centers, built to the applicable codes.',
+    },
   ],
   'countertop-installation': [
     {
@@ -44,6 +49,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       question: 'How long does countertop installation take?',
       answer:
         'Most projects run from templating to install over a couple of weeks, depending on the material and fabrication time. We give you a realistic timeline with your written estimate.',
+    },
+    {
+      question: 'Can you replace my countertops as part of a remodel?',
+      answer:
+        'Yes. For a countertop remodel we template the space, fabricate the new surface, remove the old tops, and install and seal the new ones, and we can coordinate cabinets, a vanity, or flooring at the same time.',
     },
   ],
   'vanity-cabinet-installation': [
@@ -93,6 +103,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       answer:
         'Yes. We coordinate the building permits and health-department requirements for retail and restaurant spaces so your opening stays on schedule.',
     },
+    {
+      question: 'Do you remodel existing restaurants in Las Vegas?',
+      answer:
+        'Yes. Besides new build-outs, we remodel and renovate operating restaurants and stores, including dining rooms, kitchens and back-of-house, restrooms, and storefronts, scheduled around your hours and with permits coordinated.',
+    },
   ],
   'walk-in-bathtub-las-vegas': [
     {
@@ -141,6 +156,11 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       answer:
         'Yes. We build out offices from white-box to move-in ready, including private offices, open workspace, conference and break rooms, and reception, with electrical, data, and HVAC coordination and ADA-compliant access.',
     },
+    {
+      question: 'Do you do office renovations in Las Vegas?',
+      answer:
+        'Yes. Along with new build-outs, we renovate and remodel existing Las Vegas offices, including new layouts, finishes, lighting, break rooms, and restrooms, and we phase the work so your team can keep working where possible.',
+    },
   ],
   'kitchen-flooring': [
     {
@@ -152,6 +172,32 @@ const SERVICE_FAQS: Record<string, FaqEntry[]> = {
       question: 'Can you install flooring during a kitchen remodel?',
       answer:
         'Yes. We coordinate flooring with countertop and cabinet work during a kitchen remodel so the sequence and finishes line up.',
+    },
+  ],
+  'toilet-repair-las-vegas': [
+    {
+      question: 'Do you replace and install toilets in Las Vegas?',
+      answer:
+        'Yes. When a repair no longer makes sense, we remove the old toilet and install a modern, efficient model with a new watertight seal, for homes and commercial restrooms across the Las Vegas Valley.',
+    },
+    {
+      question: 'Do you handle commercial toilet repair?',
+      answer:
+        'Yes. We repair and replace toilets for offices, retail stores, and property managers, from a single unit to multiple restrooms, and schedule the work to keep your facility running.',
+    },
+  ],
+  'tenant-improvements': [
+    {
+      question: 'Do you work for tenants or property owners?',
+      answer:
+        'Both. We handle tenant improvements for tenants, property owners, and managers in Las Vegas, from design and permitting through construction, and we coordinate with the landlord to keep the work compliant.',
+    },
+  ],
+  'fire-smoke-damage-restoration': [
+    {
+      question: 'Do you repair fire and smoke damage or just clean it up?',
+      answer:
+        'Both. We handle debris removal, soot and smoke cleanup, and odor removal, then our licensed general contracting team does the structural and finish repairs to make the home livable again.',
     },
   ],
 };

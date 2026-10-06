@@ -18,6 +18,7 @@ export function organizationSchema(): JsonObject {
     '@id': ORGANIZATION_ID,
     name: siteConfig.name,
     legalName: siteConfig.legalName,
+    alternateName: siteConfig.alternateNames,
     foundingDate: siteConfig.foundingYear,
     url: `${siteConfig.url}/`,
     telephone: siteConfig.phone.e164,

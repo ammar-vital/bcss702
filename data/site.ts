@@ -12,6 +12,7 @@ export const siteConfig = {
   name: "Butler's Construction & Service Solutions",
   shortName: "Butler's Construction",
   legalName: "Butler's Construction and Service Solutions, LLC",
+  alternateNames: ["Butler's Construction", 'BCSS'],
   brandLine: '& Service Solutions',
   url: SITE_URL,
   description:
